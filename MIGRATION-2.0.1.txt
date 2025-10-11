@@ -1,0 +1,5 @@
+Usershop v2.0.1 - 변경사항
+- Maven: JitPack 저장소 추가로 VaultAPI 의존성 해결 (com.github.MilkBowl:VaultAPI:1.7, provided)
+- ItemSerializer: org.bukkit.util.io.BukkitObjectInput/OutputStream 사용하도록 교체 (직렬화 안정성 향상)
+- 버전: 2.0.1 (plugin.yml / pom.xml / GitHub Actions 산출물명 반영)
+- 유저 명령어는 권한 체크 없음(기본 무권한). '설정' 하위만 usershop.admin 필요.
