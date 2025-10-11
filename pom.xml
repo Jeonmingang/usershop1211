@@ -6,67 +6,42 @@
   <groupId>com.minkang.ultimate</groupId>
   <artifactId>usershop</artifactId>
   <version>2.2.2</version>
-  <packaging>jar</packaging>
+  <name>usershop</name>
 
-  <name>UltimateUserShop</name>
   <properties>
-    <maven.compiler.release>21</maven.compiler.release>
-    <maven.compiler.source>21</maven.compiler.source>
-    <maven.compiler.target>21</maven.compiler.target>
+    <java.version>21</java.version>
+    <maven.compiler.source>${java.version}</maven.compiler.source>
+    <maven.compiler.target>${java.version}</maven.compiler.target>
+    <maven.compiler.release>${java.version}</maven.compiler.release>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+  <dependencies>
+    <dependency>
+      <groupId>io.papermc.paper</groupId>
+      <artifactId>paper-api</artifactId>
+      <version>1.21.1-R0.1-SNAPSHOT</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+
   <repositories>
-  <repository>
-      <id>spigotmc-repo</id>
-      <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
-    </repository>
-  <repository>
-      <id>sonatype</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-    </repository>
-  <repository>
-      <id>jitpack.io</id>
-      <url>https://jitpack.io/</url>
-    </repository>
-  <repository>
+    <repository>
       <id>papermc-repo</id>
       <url>https://repo.papermc.io/repository/maven-public/</url>
     </repository>
-</repositories>
-
+  </repositories>
 
   <build>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-jar-plugin</artifactId>
-        <version>3.2.2</version>
-      <scope>provided</scope>
-        <configuration>
-          <archive>
-            <manifestEntries>
-              <Built-By>UltimateUserShop</Built-By>
-            </manifestEntries>
-          </archive>
-          <includes>
-            <include>com/minkang/ultimate/**</include>
-            <include>plugin.yml</include>
-            <include>config.yml</include>
-            <include>translations.yml</include>
-          </includes>
-        </configuration>
-      </plugin>
-    
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.13.0</version>
         <configuration>
-          <source>21</source>
-          <target>21</target>
-          <release>21</release>
-          <encoding>UTF-8</encoding>
+          <release>${java.version}</release>
+          <source>${java.version}</source>
+          <target>${java.version}</target>
         </configuration>
       </plugin>
     </plugins>
