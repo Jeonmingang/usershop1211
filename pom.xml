@@ -17,39 +17,23 @@
   </properties>
 
   <repositories>
-    <repository>
+  <repository>
       <id>spigotmc-repo</id>
       <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
     </repository>
-    <repository>
+  <repository>
       <id>sonatype</id>
       <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
     </repository>
-    <repository>
+  <repository>
       <id>jitpack.io</id>
       <url>https://jitpack.io/</url>
     </repository>
-  </repositories>
-
-  <dependencies>
-    <dependency>
-      <groupId>io.papermc.paper</groupId><artifactId>paper-api</artifactId><version>1.21.1-R0.1-SNAPSHOT</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.github.MilkBowl</groupId>
-      <artifactId>VaultAPI</artifactId>
-      <version>1.7</version>
-      <scope>provided</scope>
-    </dependency>
-  </dependencies>
-
-  <repositories>
-    <repository>
+  <repository>
       <id>papermc-repo</id>
       <url>https://repo.papermc.io/repository/maven-public/</url>
     </repository>
-  </repositories>
+</repositories>
 
 
   <build>
