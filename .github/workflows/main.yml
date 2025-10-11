@@ -1,3 +1,19 @@
+name: Build (Java 21 / Paper 1.21.1)
+
+on:
+  push:
+    branches: [ "main", "master" ]
+    paths:
+      - "pom.xml"
+      - "src/**"
+      - ".github/workflows/**"
+  pull_request:
+    branches: [ "main", "master" ]
+    paths:
+      - "pom.xml"
+      - "src/**"
+  workflow_dispatch: {}
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -8,8 +24,14 @@ jobs:
         uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: '21'
+          java-version: "21"
           cache: maven
 
       - name: Build with Maven
         run: mvn -B -DskipTests clean package
+
+      - name: Upload plugin jar
+        uses: actions/upload-artifact@v4
+        with:
+          name: usershop-jar
+          path: target/*.jar
