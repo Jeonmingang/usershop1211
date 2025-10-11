@@ -5,7 +5,7 @@
 
   <groupId>com.minkang.ultimate</groupId>
   <artifactId>usershop</artifactId>
-  <version>2.2.2</version>
+  <version>2.2.4</version>
   <name>usershop</name>
 
   <properties>
