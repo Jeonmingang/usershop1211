@@ -1,0 +1,14 @@
+name: UltimateUserShop
+main: com.minkang.ultimate.usershop.Main
+version: 2.2.4
+api-version: 1.21
+authors: [Mingang Jeon]
+commands:
+  유저상점:
+    description: 유저상점 명령어 모음
+    aliases: [usershop, user-shop]
+    usage: /유저상점
+permissions:
+  usershop.admin:
+    description: 유저상점 관리자 권한
+    default: op
