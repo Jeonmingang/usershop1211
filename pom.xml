@@ -1,28 +1,26 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-
   <groupId>com.minkang.ultimate</groupId>
-  <artifactId>usershop</artifactId>
-  <version>2.2.4</version>
-  <name>usershop</name>
+  <artifactId>MenuPlugin-ShiftF</artifactId>
+  <version>1.6.2-1.21.1</version>
+  <name>MenuPlugin-ShiftF</name>
+  <description>GUI menu for 1.21.1: /메뉴 + Shift+F + bound item opener</description>
 
   <properties>
-    <java.version>21</java.version>
-    <maven.compiler.source>${java.version}</maven.compiler.source>
-    <maven.compiler.target>${java.version}</maven.compiler.target>
-    <maven.compiler.release>${java.version}</maven.compiler.release>
+    <maven.compiler.release>21</maven.compiler.release>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+  <repositories>
+    <repository>
+      <id>papermc-repo</id>
+      <url>https://repo.papermc.io/repository/maven-public/</url>
+    </repository>
+  </repositories>
+
   <dependencies>
-    <dependency>
-      <groupId>com.github.MilkBowl</groupId>
-      <artifactId>VaultAPI</artifactId>
-      <version>1.7.1</version>
-      <scope>provided</scope>
-    </dependency>
     <dependency>
       <groupId>io.papermc.paper</groupId>
       <artifactId>paper-api</artifactId>
@@ -31,17 +29,6 @@
     </dependency>
   </dependencies>
 
-  <repositories>
-  <repository>
-    <id>jitpack.io</id>
-    <url>https://jitpack.io</url>
-  </repository>
-    <repository>
-      <id>papermc-repo</id>
-      <url>https://repo.papermc.io/repository/maven-public/</url>
-    </repository>
-  </repositories>
-
   <build>
     <plugins>
       <plugin>
@@ -49,11 +36,11 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.13.0</version>
         <configuration>
-          <release>${java.version}</release>
-          <source>${java.version}</source>
-          <target>${java.version}</target>
+          <release>${maven.compiler.release}</release>
+          <encoding>${project.build.sourceEncoding}</encoding>
         </configuration>
       </plugin>
     </plugins>
+    <finalName>MenuPlugin-ShiftF-${project.version}</finalName>
   </build>
 </project>

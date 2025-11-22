@@ -1,14 +1,27 @@
-name: UltimateUserShop
-main: com.minkang.ultimate.usershop.Main
-version: 2.2.4
-api-version: 1.21
-authors: [Mingang Jeon]
+name: MenuPlugin-ShiftF
+main: com.minkang.ultimate.menu.Main
+version: 1.6.2-1.21.1
+api-version: '1.21'
+author: MingangTeam
+description: Open menu GUI by /메뉴, Shift+F, or bound item. Items run commands via config.
 commands:
-  유저상점:
-    description: 유저상점 명령어 모음
-    aliases: [usershop, user-shop]
-    usage: /유저상점
+  메뉴:
+    description: 메뉴 GUI 열기 / 리로드 / 아이템 바인딩
+    usage: "/메뉴 | /메뉴 리로드 | /메뉴 아이템"
+  야생랜덤:
+    description: 설정 범위 내 무작위 야생 텔레포트 (쿨타임/안전지대 탐색)
+    usage: "/야생랜덤"
+    aliases: [랜덤야생]
 permissions:
-  usershop.admin:
-    description: 유저상점 관리자 권한
+  menu.reload:
+    description: 메뉴 설정 리로드 권한
     default: op
+  menu.assign:
+    description: 손에 든 아이템을 메뉴 오프너로 바인딩
+    default: op
+  menu.open:
+    description: 메뉴 열기
+    default: true
+  menu.randomwild:
+    description: /랜덤야생(야생랜덤) 사용 권한
+    default: true
