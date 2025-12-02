@@ -41,23 +41,26 @@ public class SearchResultsGUI implements InventoryHolder {
         String q = ItemUtils.normalize(query);
         java.util.Set<String> needles = new java.util.HashSet<>();
         needles.add(q);
+        // 1) translations.yml (포켓몬/기타 아이템 별칭)
         try {
-            org.bukkit.configuration.file.YamlConfiguration y = org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(new java.io.File(plugin.getDataFolder(), "translations.yml"));
-            org.bukkit.configuration.ConfigurationSection aliases = y.getConfigurationSection("aliases");
-            if (aliases != null) {
-                for (String key : aliases.getKeys(false)) {
-                    String keyN = com.minkang.ultimate.usershop.util.ItemUtils.normalize(key);
-                    java.util.List<String> alts = aliases.getStringList(key);
-                    boolean hit = false;
-                    if (keyN.contains(q) || q.contains(keyN)) hit = true;
-                    for (String a : alts) {
-                        String aN = com.minkang.ultimate.usershop.util.ItemUtils.normalize(a);
-                        if (aN.contains(q) || q.contains(aN)) hit = true;
-                    }
-                    if (hit) {
-                        needles.add(keyN);
-                        for (String a : alts) needles.add(com.minkang.ultimate.usershop.util.ItemUtils.normalize(a));
-                    }
+            java.io.File f = new java.io.File(plugin.getDataFolder(), "translations.yml");
+            if (f.exists()) {
+                org.bukkit.configuration.file.YamlConfiguration y = org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(f);
+                org.bukkit.configuration.ConfigurationSection aliases = y.getConfigurationSection("aliases");
+                if (aliases != null) {
+                    expandAliasesFromSection(aliases, q, needles);
+                }
+            }
+        } catch (Exception ignore) {}
+
+        // 2) vanilla-translations.yml (바닐라 아이템 한글 별칭)
+        try {
+            java.io.File f = new java.io.File(plugin.getDataFolder(), "vanilla-translations.yml");
+            if (f.exists()) {
+                org.bukkit.configuration.file.YamlConfiguration y = org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(f);
+                org.bukkit.configuration.ConfigurationSection aliases = y.getConfigurationSection("aliases");
+                if (aliases != null) {
+                    expandAliasesFromSection(aliases, q, needles);
                 }
             }
         } catch (Exception ignore) {}
@@ -66,8 +69,25 @@ public class SearchResultsGUI implements InventoryHolder {
         for (PlayerShop ps : plugin.getShopManager().allShops()) {
             for (Map.Entry<Integer, Listing> e : ps.getListings().entrySet()) {
                 Listing l = e.getValue();
-                String name = ItemUtils.getPrettyName(l.getItem());
-                String norm = ItemUtils.normalize(name);
+                ItemStack stack = l.getItem();
+                String baseName = ItemUtils.getPrettyName(stack);
+                StringBuilder sb = new StringBuilder();
+                if (baseName != null) sb.append(baseName);
+                if (stack != null) {
+                    sb.append(" ").append(stack.getType().name());
+                    ItemMeta meta = stack.getItemMeta();
+                    if (meta != null) {
+                        if (meta.hasDisplayName()) {
+                            sb.append(" ").append(meta.getDisplayName());
+                        }
+                        if (meta.hasLore()) {
+                            for (String line : meta.getLore()) {
+                                sb.append(" ").append(line);
+                            }
+                        }
+                    }
+                }
+                String norm = ItemUtils.normalize(sb.toString());
                 if (needles.stream().anyMatch(n -> norm.contains(n) || n.contains(norm))) {
                     Result r = new Result();
                     r.owner = ps.getOwner();
@@ -78,6 +98,26 @@ public class SearchResultsGUI implements InventoryHolder {
             }
         }
     }
+
+    private void expandAliasesFromSection(org.bukkit.configuration.ConfigurationSection aliases, String q, java.util.Set<String> needles) {
+        for (String key : aliases.getKeys(false)) {
+            String keyN = ItemUtils.normalize(key);
+            java.util.List<String> alts = aliases.getStringList(key);
+            boolean hit = false;
+            if (keyN.contains(q) || q.contains(keyN)) hit = true;
+            for (String a : alts) {
+                String aN = ItemUtils.normalize(a);
+                if (aN.contains(q) || q.contains(aN)) hit = true;
+            }
+            if (hit) {
+                needles.add(keyN);
+                for (String a : alts) {
+                    needles.add(ItemUtils.normalize(a));
+                }
+            }
+        }
+    }
+
 
     public void open(int page) {
         this.page = page;

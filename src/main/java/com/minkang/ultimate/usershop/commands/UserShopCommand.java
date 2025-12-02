@@ -92,6 +92,29 @@ public class UserShopCommand implements CommandExecutor {
                 p.sendMessage(plugin.msg("no-item-in-hand"));
                 return true;
             }
+
+            // 유저상점 오픈 아이템에 반짝이(발광) 효과 및 이름/로어 자동 설정
+            org.bukkit.inventory.meta.ItemMeta meta = inHand.getItemMeta();
+            if (meta == null) {
+                meta = org.bukkit.Bukkit.getItemFactory().getItemMeta(inHand.getType());
+            }
+            if (meta != null) {
+                // 보기 좋은 이름
+                meta.setDisplayName(com.minkang.ultimate.usershop.Main.color("&a유저상점 &f오픈 아이템"));
+                java.util.List<String> lore = new java.util.ArrayList<>();
+                lore.add(com.minkang.ultimate.usershop.Main.color("&7우클릭 시 &e유저상점 &7메뉴가 열립니다."));
+                lore.add(com.minkang.ultimate.usershop.Main.color("&8- &7유저 거래 전용 아이템입니다."));
+                meta.setLore(lore);
+                // 인챈트 표시는 숨기고, 반짝이 효과만 적용
+                meta.addItemFlags(org.bukkit.inventory.ItemFlag.HIDE_ENCHANTS);
+                inHand.setItemMeta(meta);
+            }
+            // 반짝이 효과를 위한 인챈트 하나 추가
+            try {
+                inHand.addUnsafeEnchantment(org.bukkit.enchantments.Enchantment.DURABILITY, 1);
+            } catch (Throwable ignored) {
+            }
+
             String b64 = ItemSerializer.serializeToBase64(inHand);
             plugin.getConfig().set("items.open-item", b64);
             plugin.saveConfig();

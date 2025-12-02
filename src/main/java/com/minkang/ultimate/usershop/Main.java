@@ -22,6 +22,7 @@ public class Main extends JavaPlugin {
         saveDefaultConfig();
         // legacy translations file
         saveResource("translations.yml", false);
+        saveResource("vanilla-translations.yml", false);
 
         this.vault = new VaultHook(this);
         this.vault.setup();
