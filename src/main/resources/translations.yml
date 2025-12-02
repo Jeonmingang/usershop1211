@@ -1,7 +1,7155 @@
-# 자유롭게 추가할 수 있는 검색 별칭 사전
 aliases:
-  희귀사탕: [ "rare candy", "희귀 사탕", "레어 캔디" ]
-  울트라볼: [ "ultra ball", "울트라 볼" ]
-  마스터볼: [ "master ball", "마스터 볼" ]
-  다이아몬드: [ "diamond", "다이아" ]
-  네더라이트주괴: [ "netherite ingot", "네더라이트", "네더 라이트" ]
+  Chris Geddes - 레이드 배틀:
+  - Chris Geddes - Raid Battle
+  - Chris Geddes - 레이드 배틀
+  Chris Geddes - 야생 배틀:
+  - Chris Geddes - Wild Battle
+  - Chris Geddes - 야생 배틀
+  Chris Geddes - 체육관 배틀:
+  - Chris Geddes - Gym Battle
+  - Chris Geddes - 체육관 배틀
+  Chris Geddes - 포켓센터:
+  - Chris Geddes - Pokecenter
+  - Chris Geddes - 포켓센터
+  GS볼:
+  - GS Ball
+  - GS볼
+  GS볼 뚜껑:
+  - GS Ball Lid
+  - GS볼 뚜껑
+  N-루나라이저:
+  - N-Lunarizer
+  - N-루나라이저
+  N-솔라라이저:
+  - N-Solarizer
+  - N-솔라라이저
+  Oa10712의 낚시 낚싯대:
+  - Oa10712's Fishing Rod
+  - Oa10712의 낚시 낚싯대
+  PP 맥스:
+  - Max Elixir
+  - PP 맥스
+  PP 업:
+  - PP Up
+  - PP 업
+  PP 에이더:
+  - Elixir
+  - PP 에이더
+  PP 에이드:
+  - Ether
+  - PP 에이드
+  PP 회복:
+  - Max Ether
+  - PP 회복
+  'TR00: 칼춤':
+  - 'TR00: Swords Dance'
+  - 'TR00: 칼춤'
+  'TR01: 누르기':
+  - 'TR01: Body Slam'
+  - 'TR01: 누르기'
+  'TR02: 화염방사':
+  - 'TR02: Flamethrower'
+  - 'TR02: 화염방사'
+  'TR03: 하이드로펌프':
+  - 'TR03: Hydro Pump'
+  - 'TR03: 하이드로펌프'
+  'TR04: 파도타기':
+  - 'TR04: Surf'
+  - 'TR04: 파도타기'
+  'TR05: 냉동빔':
+  - 'TR05: Ice Beam'
+  - 'TR05: 냉동빔'
+  'TR06: 눈보라':
+  - 'TR06: Blizzard'
+  - 'TR06: 눈보라'
+  'TR07: 안다리걸기':
+  - 'TR07: Low Kick'
+  - 'TR07: 안다리걸기'
+  'TR08: 10만볼트':
+  - 'TR08: Thunderbolt'
+  - 'TR08: 10만볼트'
+  'TR09: 번개':
+  - 'TR09: Thunder'
+  - 'TR09: 번개'
+  'TR10: 지진':
+  - 'TR10: Earthquake'
+  - 'TR10: 지진'
+  'TR11: 사이코키네시스':
+  - 'TR11: Psychic'
+  - 'TR11: 사이코키네시스'
+  'TR12: 고속이동':
+  - 'TR12: Agility'
+  - 'TR12: 고속이동'
+  'TR13: 기충전':
+  - 'TR13: Focus Energy'
+  - 'TR13: 기충전'
+  'TR14: 손가락흔들기':
+  - 'TR14: Metronome'
+  - 'TR14: 손가락흔들기'
+  'TR15: 불대문자':
+  - 'TR15: Fire Blast'
+  - 'TR15: 불대문자'
+  'TR16: 폭포오르기':
+  - 'TR16: Waterfall'
+  - 'TR16: 폭포오르기'
+  'TR17: 망각술':
+  - 'TR17: Amnesia'
+  - 'TR17: 망각술'
+  'TR18: 흡혈':
+  - 'TR18: Leech Life'
+  - 'TR18: 흡혈'
+  'TR19: 트라이어택':
+  - 'TR19: Tri Attack'
+  - 'TR19: 트라이어택'
+  'TR20: 대타출동':
+  - 'TR20: Substitute'
+  - 'TR20: 대타출동'
+  'TR21: 기사회생':
+  - 'TR21: Reversal'
+  - 'TR21: 기사회생'
+  'TR22: 오물폭탄':
+  - 'TR22: Sludge Bomb'
+  - 'TR22: 오물폭탄'
+  'TR23: 압정뿌리기':
+  - 'TR23: Spikes'
+  - 'TR23: 압정뿌리기'
+  'TR24: 역린':
+  - 'TR24: Outrage'
+  - 'TR24: 역린'
+  'TR25: 사이코쇼크':
+  - 'TR25: Psyshock'
+  - 'TR25: 사이코쇼크'
+  'TR26: 버티기':
+  - 'TR26: Endure'
+  - 'TR26: 버티기'
+  'TR27: 잠꼬대':
+  - 'TR27: Sleep Talk'
+  - 'TR27: 잠꼬대'
+  'TR28: 메가폰':
+  - 'TR28: Megahorn'
+  - 'TR28: 메가폰'
+  'TR29: 바톤터치':
+  - 'TR29: Baton Pass'
+  - 'TR29: 바톤터치'
+  'TR30: 앵콜':
+  - 'TR30: Encore'
+  - 'TR30: 앵콜'
+  'TR31: 아이언테일':
+  - 'TR31: Iron Tail'
+  - 'TR31: 아이언테일'
+  'TR32: 깨물어부수기':
+  - 'TR32: Crunch'
+  - 'TR32: 깨물어부수기'
+  'TR33: 섀도볼':
+  - 'TR33: Shadow Ball'
+  - 'TR33: 섀도볼'
+  'TR34: 미래예지':
+  - 'TR34: Future Sight'
+  - 'TR34: 미래예지'
+  'TR35: 소란피기':
+  - 'TR35: Uproar'
+  - 'TR35: 소란피기'
+  'TR36: 열풍':
+  - 'TR36: Heat Wave'
+  - 'TR36: 열풍'
+  'TR37: 도발':
+  - 'TR37: Taunt'
+  - 'TR37: 도발'
+  'TR38: 트릭':
+  - 'TR38: Trick'
+  - 'TR38: 트릭'
+  'TR39: 엄청난힘':
+  - 'TR39: Superpower'
+  - 'TR39: 엄청난힘'
+  'TR40: 스킬스웹':
+  - 'TR40: Skill Swap'
+  - 'TR40: 스킬스웹'
+  'TR41: 브레이즈킥':
+  - 'TR41: Blaze Kick'
+  - 'TR41: 브레이즈킥'
+  'TR42: 하이퍼보이스':
+  - 'TR42: Hyper Voice'
+  - 'TR42: 하이퍼보이스'
+  'TR43: 오버히트':
+  - 'TR43: Overheat'
+  - 'TR43: 오버히트'
+  'TR44: 코스믹파워':
+  - 'TR44: Cosmic Power'
+  - 'TR44: 코스믹파워'
+  'TR45: 탁류':
+  - 'TR45: Muddy Water'
+  - 'TR45: 탁류'
+  'TR46: 철벽':
+  - 'TR46: Iron Defense'
+  - 'TR46: 철벽'
+  'TR47: 드래곤크루':
+  - 'TR47: Dragon Claw'
+  - 'TR47: 드래곤크루'
+  'TR48: 벌크업':
+  - 'TR48: Bulk Up'
+  - 'TR48: 벌크업'
+  'TR49: 명상':
+  - 'TR49: Calm Mind'
+  - 'TR49: 명상'
+  'TR50: 리프블레이드':
+  - 'TR50: Leaf Blade'
+  - 'TR50: 리프블레이드'
+  'TR51: 용의춤':
+  - 'TR51: Dragon Dance'
+  - 'TR51: 용의춤'
+  'TR52: 자이로볼':
+  - 'TR52: Gyro Ball'
+  - 'TR52: 자이로볼'
+  'TR53: 인파이트':
+  - 'TR53: Close Combat'
+  - 'TR53: 인파이트'
+  'TR54: 독압정':
+  - 'TR54: Toxic Spikes'
+  - 'TR54: 독압정'
+  'TR55: 플레어드라이브':
+  - 'TR55: Flare Blitz'
+  - 'TR55: 플레어드라이브'
+  'TR56: 파동탄':
+  - 'TR56: Aura Sphere'
+  - 'TR56: 파동탄'
+  'TR57: 독찌르기':
+  - 'TR57: Poison Jab'
+  - 'TR57: 독찌르기'
+  'TR58: 악의파동':
+  - 'TR58: Dark Pulse'
+  - 'TR58: 악의파동'
+  'TR59: 씨폭탄':
+  - 'TR59: Seed Bomb'
+  - 'TR59: 씨폭탄'
+  'TR60: 시저크로스':
+  - 'TR60: X-Scissor'
+  - 'TR60: 시저크로스'
+  'TR61: 벌레의야단법석':
+  - 'TR61: Bug Buzz'
+  - 'TR61: 벌레의야단법석'
+  'TR62: 용의파동':
+  - 'TR62: Dragon Pulse'
+  - 'TR62: 용의파동'
+  'TR63: 파워젬':
+  - 'TR63: Power Gem'
+  - 'TR63: 파워젬'
+  'TR64: 기합구슬':
+  - 'TR64: Focus Blast'
+  - 'TR64: 기합구슬'
+  'TR65: 에너지볼':
+  - 'TR65: Energy Ball'
+  - 'TR65: 에너지볼'
+  'TR66: 브레이브버드':
+  - 'TR66: Brave Bird'
+  - 'TR66: 브레이브버드'
+  'TR67: 대지의힘':
+  - 'TR67: Earth Power'
+  - 'TR67: 대지의힘'
+  'TR68: 나쁜음모':
+  - 'TR68: Nasty Plot'
+  - 'TR68: 나쁜음모'
+  'TR69: 사념의박치기':
+  - 'TR69: Zen Headbutt'
+  - 'TR69: 사념의박치기'
+  'TR70: 러스터캐논':
+  - 'TR70: Flash Cannon'
+  - 'TR70: 러스터캐논'
+  'TR71: 리프스톰':
+  - 'TR71: Leaf Storm'
+  - 'TR71: 리프스톰'
+  'TR72: 파워휩':
+  - 'TR72: Power Whip'
+  - 'TR72: 파워휩'
+  'TR73: 더스트슈트':
+  - 'TR73: Gunk Shot'
+  - 'TR73: 더스트슈트'
+  'TR74: 아이언헤드':
+  - 'TR74: Iron Head'
+  - 'TR74: 아이언헤드'
+  'TR75: 스톤에지':
+  - 'TR75: Stone Edge'
+  - 'TR75: 스톤에지'
+  'TR76: 스텔스록':
+  - 'TR76: Stealth Rock'
+  - 'TR76: 스텔스록'
+  'TR77: 풀묶기':
+  - 'TR77: Grass Knot'
+  - 'TR77: 풀묶기'
+  'TR78: 오물웨이브':
+  - 'TR78: Sludge Wave'
+  - 'TR78: 오물웨이브'
+  'TR79: 헤비봄버':
+  - 'TR79: Heavy Slam'
+  - 'TR79: 헤비봄버'
+  'TR80: 일렉트릭볼':
+  - 'TR80: Electro Ball'
+  - 'TR80: 일렉트릭볼'
+  'TR81: 속임수':
+  - 'TR81: Foul Play'
+  - 'TR81: 속임수'
+  'TR82: 어시스트파워':
+  - 'TR82: Stored Power'
+  - 'TR82: 어시스트파워'
+  'TR83: 사이드체인지':
+  - 'TR83: Ally Switch'
+  - 'TR83: 사이드체인지'
+  'TR84: 열탕':
+  - 'TR84: Scald'
+  - 'TR84: 열탕'
+  'TR85: 분발':
+  - 'TR85: Work Up'
+  - 'TR85: 분발'
+  'TR86: 와일드볼트':
+  - 'TR86: Wild Charge'
+  - 'TR86: 와일드볼트'
+  'TR87: 드릴라이너':
+  - 'TR87: Drill Run'
+  - 'TR87: 드릴라이너'
+  'TR88: 히트스탬프':
+  - 'TR88: Heat Crash'
+  - 'TR88: 히트스탬프'
+  'TR89: 폭풍':
+  - 'TR89: Hurricane'
+  - 'TR89: 폭풍'
+  'TR90: 치근거리기':
+  - 'TR90: Play Rough'
+  - 'TR90: 치근거리기'
+  'TR91: 베놈트랩':
+  - 'TR91: Venom Drench'
+  - 'TR91: 베놈트랩'
+  'TR92: 매지컬샤인':
+  - 'TR92: Dazzling Gleam'
+  - 'TR92: 매지컬샤인'
+  'TR93: DD래리어트':
+  - 'TR93: Darkest Lariat'
+  - 'TR93: DD래리어트'
+  'TR94: 10만마력':
+  - 'TR94: High Horsepower'
+  - 'TR94: 10만마력'
+  'TR95: 지옥찌르기':
+  - 'TR95: Throat Chop'
+  - 'TR95: 지옥찌르기'
+  'TR96: 꽃가루경단':
+  - 'TR96: Pollen Puff'
+  - 'TR96: 꽃가루경단'
+  'TR97: 사이코팽':
+  - 'TR97: Psychic Fangs'
+  - 'TR97: 사이코팽'
+  'TR98: 아쿠아브레이크':
+  - 'TR98: Liquidation'
+  - 'TR98: 아쿠아브레이크'
+  'TR99: 바디프레스':
+  - 'TR99: Body Press'
+  - 'TR99: 바디프레스'
+  UI 요소:
+  - UI Element
+  - UI 요소
+  Z링:
+  - Z-Ring
+  - Z링
+  Z파워링:
+  - Z-Power Ring
+  - Z파워링
+  '§7메가 에너지: §c재충전 중':
+  - '§7Mega Energy: §cRecharging'
+  - '§7메가 에너지: §c재충전 중'
+  §a오른쪽 클릭§f으로 NPC를 편집합니다:
+  - §aRight Click§f an NPC to edit it
+  - §a오른쪽 클릭§f으로 NPC를 편집합니다
+  §a우클릭§f하여 Pokémon 팀을 편집하세요:
+  - §aRight Click§f to edit your Pokémon Team
+  - §a우클릭§f하여 Pokémon 팀을 편집하세요
+  §b오른쪽 클릭§f으로 NPC를 생성합니다:
+  - §bRight Click§f a block to create an NPC
+  - §b오른쪽 클릭§f으로 NPC를 생성합니다
+  §b워터듀드의 소원의덩어리:
+  - §bWater's Wishing Piece
+  - §b워터듀드의 소원의덩어리
+  §c왼쪽 클릭§f으로 NPC를 삭제합니다:
+  - §cLeft Click§f an NPC to delete it
+  - §c왼쪽 클릭§f으로 NPC를 삭제합니다
+  §d왼쪽 클릭§f으로 NPC 관리용 블록을 선택합니다:
+  - §dLeft Click§f a block for NPC management
+  - §d왼쪽 클릭§f으로 NPC 관리용 블록을 선택합니다
+  가공되지 않은 검은 텀블스톤:
+  - Raw Black Tumblestone
+  - 가공되지 않은 검은 텀블스톤
+  가공되지 않은 텀블스톤:
+  - Raw Tumblestone
+  - 가공되지 않은 텀블스톤
+  가공되지 않은 하늘 텀블스톤:
+  - Raw Sky Tumblestone
+  - 가공되지 않은 하늘 텀블스톤
+  가느다란 뼈:
+  - Brittle Bones
+  - 가느다란 뼈
+  가디안나이트:
+  - Gardevoirite
+  - 가디안나이트
+  가라두구가지:
+  - Galarica Twig
+  - 가라두구가지
+  가라두구머리장식:
+  - Galarica Wreath
+  - 가라두구머리장식
+  '가라르 기술머신00: 메가톤펀치':
+  - 'Galarian TM00: Mega Punch'
+  - '가라르 기술머신00: 메가톤펀치'
+  '가라르 기술머신01: 메가톤킥':
+  - 'Galarian TM01: Mega Kick'
+  - '가라르 기술머신01: 메가톤킥'
+  '가라르 기술머신02: 고양이돈받기':
+  - 'Galarian TM02: Pay Day'
+  - '가라르 기술머신02: 고양이돈받기'
+  '가라르 기술머신03: 불꽃펀치':
+  - 'Galarian TM03: Fire Punch'
+  - '가라르 기술머신03: 불꽃펀치'
+  '가라르 기술머신04: 냉동펀치':
+  - 'Galarian TM04: Ice Punch'
+  - '가라르 기술머신04: 냉동펀치'
+  '가라르 기술머신05: 번개펀치':
+  - 'Galarian TM05: Thunder Punch'
+  - '가라르 기술머신05: 번개펀치'
+  '가라르 기술머신06: 공중날기':
+  - 'Galarian TM06: Fly'
+  - '가라르 기술머신06: 공중날기'
+  '가라르 기술머신07: 바늘미사일':
+  - 'Galarian TM07: Pin Missile'
+  - '가라르 기술머신07: 바늘미사일'
+  '가라르 기술머신08: 파괴광선':
+  - 'Galarian TM08: Hyper Beam'
+  - '가라르 기술머신08: 파괴광선'
+  '가라르 기술머신09: 기가임팩트':
+  - 'Galarian TM09: Giga Impact'
+  - '가라르 기술머신09: 기가임팩트'
+  '가라르 기술머신10: 메지컬리프':
+  - 'Galarian TM10: Magical Leaf'
+  - '가라르 기술머신10: 메지컬리프'
+  '가라르 기술머신11: 솔라빔':
+  - 'Galarian TM11: Solar Beam'
+  - '가라르 기술머신11: 솔라빔'
+  '가라르 기술머신12: 솔라블레이드':
+  - 'Galarian TM12: Solar Blade'
+  - '가라르 기술머신12: 솔라블레이드'
+  '가라르 기술머신13: 회오리불꽃':
+  - 'Galarian TM13: Fire Spin'
+  - '가라르 기술머신13: 회오리불꽃'
+  '가라르 기술머신14: 전기자석파':
+  - 'Galarian TM14: Thunder Wave'
+  - '가라르 기술머신14: 전기자석파'
+  '가라르 기술머신15: 구멍파기':
+  - 'Galarian TM15: Dig'
+  - '가라르 기술머신15: 구멍파기'
+  '가라르 기술머신16: 싫은소리':
+  - 'Galarian TM16: Screech'
+  - '가라르 기술머신16: 싫은소리'
+  '가라르 기술머신17: 빛의장막':
+  - 'Galarian TM17: Light Screen'
+  - '가라르 기술머신17: 빛의장막'
+  '가라르 기술머신18: 리플렉터':
+  - 'Galarian TM18: Reflect'
+  - '가라르 기술머신18: 리플렉터'
+  '가라르 기술머신19: 신비의부적':
+  - 'Galarian TM19: Safeguard'
+  - '가라르 기술머신19: 신비의부적'
+  '가라르 기술머신20: 자폭':
+  - 'Galarian TM20: Self-Destruct'
+  - '가라르 기술머신20: 자폭'
+  '가라르 기술머신21: 잠자기':
+  - 'Galarian TM21: Rest'
+  - '가라르 기술머신21: 잠자기'
+  '가라르 기술머신22: 스톤샤워':
+  - 'Galarian TM22: Rock Slide'
+  - '가라르 기술머신22: 스톤샤워'
+  '가라르 기술머신23: 도둑질':
+  - 'Galarian TM23: Thief'
+  - '가라르 기술머신23: 도둑질'
+  '가라르 기술머신24: 코골기':
+  - 'Galarian TM24: Snore'
+  - '가라르 기술머신24: 코골기'
+  '가라르 기술머신25: 방어':
+  - 'Galarian TM25: Protect'
+  - '가라르 기술머신25: 방어'
+  '가라르 기술머신26: 겁나는얼굴':
+  - 'Galarian TM26: Scary Face'
+  - '가라르 기술머신26: 겁나는얼굴'
+  '가라르 기술머신27: 얼다바람':
+  - 'Galarian TM27: Icy Wind'
+  - '가라르 기술머신27: 얼다바람'
+  '가라르 기술머신28: 기가드레인':
+  - 'Galarian TM28: Giga Drain'
+  - '가라르 기술머신28: 기가드레인'
+  '가라르 기술머신29: 애교부리기':
+  - 'Galarian TM29: Charm'
+  - '가라르 기술머신29: 애교부리기'
+  '가라르 기술머신30: 강철날개':
+  - 'Galarian TM30: Steel Wing'
+  - '가라르 기술머신30: 강철날개'
+  '가라르 기술머신31: 헤롱헤롱':
+  - 'Galarian TM31: Attract'
+  - '가라르 기술머신31: 헤롱헤롱'
+  '가라르 기술머신32: 모래바람':
+  - 'Galarian TM32: Sandstorm'
+  - '가라르 기술머신32: 모래바람'
+  '가라르 기술머신33: 비바라기':
+  - 'Galarian TM33: Rain Dance'
+  - '가라르 기술머신33: 비바라기'
+  '가라르 기술머신34: 쾌청':
+  - 'Galarian TM34: Sunny Day'
+  - '가라르 기술머신34: 쾌청'
+  '가라르 기술머신35: 싸라기눈':
+  - 'Galarian TM35: Hail'
+  - '가라르 기술머신35: 싸라기눈'
+  '가라르 기술머신36: 바다회오리':
+  - 'Galarian TM36: Whirlpool'
+  - '가라르 기술머신36: 바다회오리'
+  '가라르 기술머신37: 집단구타':
+  - 'Galarian TM37: Beat Up'
+  - '가라르 기술머신37: 집단구타'
+  '가라르 기술머신38: 도깨비불':
+  - 'Galarian TM38: Will-O-Wisp'
+  - '가라르 기술머신38: 도깨비불'
+  '가라르 기술머신39: 객기':
+  - 'Galarian TM39: Facade'
+  - '가라르 기술머신39: 객기'
+  '가라르 기술머신40: 스피드스타':
+  - 'Galarian TM40: Swift'
+  - '가라르 기술머신40: 스피드스타'
+  '가라르 기술머신41: 도우미':
+  - 'Galarian TM41: Helping Hand'
+  - '가라르 기술머신41: 도우미'
+  '가라르 기술머신42: 리벤지':
+  - 'Galarian TM42: Revenge'
+  - '가라르 기술머신42: 리벤지'
+  '가라르 기술머신43: 깨트리다':
+  - 'Galarian TM43: Brick Break'
+  - '가라르 기술머신43: 깨트리다'
+  '가라르 기술머신44: 봉인':
+  - 'Galarian TM44: Imprison'
+  - '가라르 기술머신44: 봉인'
+  '가라르 기술머신45: 다이빙':
+  - 'Galarian TM45: Dive'
+  - '가라르 기술머신45: 다이빙'
+  '가라르 기술머신46: 웨더볼':
+  - 'Galarian TM46: Weather Ball'
+  - '가라르 기술머신46: 웨더볼'
+  '가라르 기술머신47: 거짓울음':
+  - 'Galarian TM47: Fake Tears'
+  - '가라르 기술머신47: 거짓울음'
+  '가라르 기술머신48: 암석봉인':
+  - 'Galarian TM48: Rock Tomb'
+  - '가라르 기술머신48: 암석봉인'
+  '가라르 기술머신49: 모래지옥':
+  - 'Galarian TM49: Sand Tomb'
+  - '가라르 기술머신49: 모래지옥'
+  '가라르 기술머신50: 기관총':
+  - 'Galarian TM50: Bullet Seed'
+  - '가라르 기술머신50: 기관총'
+  '가라르 기술머신51: 고드름침':
+  - 'Galarian TM51: Icicle Spear'
+  - '가라르 기술머신51: 고드름침'
+  '가라르 기술머신52: 뛰어오르다':
+  - 'Galarian TM52: Bounce'
+  - '가라르 기술머신52: 뛰어오르다'
+  '가라르 기술머신53: 머드숏':
+  - 'Galarian TM53: Mud Shot'
+  - '가라르 기술머신53: 머드숏'
+  '가라르 기술머신54: 락블레스트':
+  - 'Galarian TM54: Rock Blast'
+  - '가라르 기술머신54: 락블레스트'
+  '가라르 기술머신55: 소금물':
+  - 'Galarian TM55: Brine'
+  - '가라르 기술머신55: 소금물'
+  '가라르 기술머신56: 유턴':
+  - 'Galarian TM56: U-turn'
+  - '가라르 기술머신56: 유턴'
+  '가라르 기술머신57: 보복':
+  - 'Galarian TM57: Payback'
+  - '가라르 기술머신57: 보복'
+  '가라르 기술머신58: 승부굳히기':
+  - 'Galarian TM58: Assurance'
+  - '가라르 기술머신58: 승부굳히기'
+  '가라르 기술머신59: 내던지기':
+  - 'Galarian TM59: Fling'
+  - '가라르 기술머신59: 내던지기'
+  '가라르 기술머신60: 파워스웹':
+  - 'Galarian TM60: Power Swap'
+  - '가라르 기술머신60: 파워스웹'
+  '가라르 기술머신61: 가드스웹':
+  - 'Galarian TM61: Guard Swap'
+  - '가라르 기술머신61: 가드스웹'
+  '가라르 기술머신62: 스피드스웹':
+  - 'Galarian TM62: Speed Swap'
+  - '가라르 기술머신62: 스피드스웹'
+  '가라르 기술머신63: 드레인펀치':
+  - 'Galarian TM63: Drain Punch'
+  - '가라르 기술머신63: 드레인펀치'
+  '가라르 기술머신64: 눈사태':
+  - 'Galarian TM64: Avalanche'
+  - '가라르 기술머신64: 눈사태'
+  '가라르 기술머신65: 섀도크루':
+  - 'Galarian TM65: Shadow Claw'
+  - '가라르 기술머신65: 섀도크루'
+  '가라르 기술머신66: 번개엄니':
+  - 'Galarian TM66: Thunder Fang'
+  - '가라르 기술머신66: 번개엄니'
+  '가라르 기술머신67: 얼음엄니':
+  - 'Galarian TM67: Ice Fang'
+  - '가라르 기술머신67: 얼음엄니'
+  '가라르 기술머신68: 불꽃엄니':
+  - 'Galarian TM68: Fire Fang'
+  - '가라르 기술머신68: 불꽃엄니'
+  '가라르 기술머신69: 사이코커터':
+  - 'Galarian TM69: Psycho Cut'
+  - '가라르 기술머신69: 사이코커터'
+  '가라르 기술머신70: 트릭룸':
+  - 'Galarian TM70: Trick Room'
+  - '가라르 기술머신70: 트릭룸'
+  '가라르 기술머신71: 원더룸':
+  - 'Galarian TM71: Wonder Room'
+  - '가라르 기술머신71: 원더룸'
+  '가라르 기술머신72: 매직룸':
+  - 'Galarian TM72: Magic Room'
+  - '가라르 기술머신72: 매직룸'
+  '가라르 기술머신73: 크로스포이즌':
+  - 'Galarian TM73: Cross Poison'
+  - '가라르 기술머신73: 크로스포이즌'
+  '가라르 기술머신74: 베놈쇼크':
+  - 'Galarian TM74: Venoshock'
+  - '가라르 기술머신74: 베놈쇼크'
+  '가라르 기술머신75: 로킥':
+  - 'Galarian TM75: Low Sweep'
+  - '가라르 기술머신75: 로킥'
+  '가라르 기술머신76: 돌림노래':
+  - 'Galarian TM76: Round'
+  - '가라르 기술머신76: 돌림노래'
+  '가라르 기술머신77: 병상첨병':
+  - 'Galarian TM77: Hex'
+  - '가라르 기술머신77: 병상첨병'
+  '가라르 기술머신78: 애크러뱃':
+  - 'Galarian TM78: Acrobatics'
+  - '가라르 기술머신78: 애크러뱃'
+  '가라르 기술머신79: 원수갚기':
+  - 'Galarian TM79: Retaliate'
+  - '가라르 기술머신79: 원수갚기'
+  '가라르 기술머신80: 볼트체인지':
+  - 'Galarian TM80: Volt Switch'
+  - '가라르 기술머신80: 볼트체인지'
+  '가라르 기술머신81: 땅고르기':
+  - 'Galarian TM81: Bulldoze'
+  - '가라르 기술머신81: 땅고르기'
+  '가라르 기술머신82: 일렉트릭네트':
+  - 'Galarian TM82: Electroweb'
+  - '가라르 기술머신82: 일렉트릭네트'
+  '가라르 기술머신83: 셸블레이드':
+  - 'Galarian TM83: Razor Shell'
+  - '가라르 기술머신83: 셸블레이드'
+  '가라르 기술머신84: 스위프뺨치기':
+  - 'Galarian TM84: Tail Slap'
+  - '가라르 기술머신84: 스위프뺨치기'
+  '가라르 기술머신85: 바크아웃':
+  - 'Galarian TM85: Snarl'
+  - '가라르 기술머신85: 바크아웃'
+  '가라르 기술머신86: 고스트다이브':
+  - 'Galarian TM86: Phantom Force'
+  - '가라르 기술머신86: 고스트다이브'
+  '가라르 기술머신87: 드레인키스':
+  - 'Galarian TM87: Draining Kiss'
+  - '가라르 기술머신87: 드레인키스'
+  '가라르 기술머신88: 그래스필드':
+  - 'Galarian TM88: Grassy Terrain'
+  - '가라르 기술머신88: 그래스필드'
+  '가라르 기술머신89: 미스트필드':
+  - 'Galarian TM89: Misty Terrain'
+  - '가라르 기술머신89: 미스트필드'
+  '가라르 기술머신90: 일렉트릭필드':
+  - 'Galarian TM90: Electric Terrain'
+  - '가라르 기술머신90: 일렉트릭필드'
+  '가라르 기술머신91: 사이코필드':
+  - 'Galarian TM91: Psychic Terrain'
+  - '가라르 기술머신91: 사이코필드'
+  '가라르 기술머신92: 매지컬플레임':
+  - 'Galarian TM92: Mystical Fire'
+  - '가라르 기술머신92: 매지컬플레임'
+  '가라르 기술머신93: 괴전파':
+  - 'Galarian TM93: Eerie Impulse'
+  - '가라르 기술머신93: 괴전파'
+  '가라르 기술머신94: 칼등치기':
+  - 'Galarian TM94: False Swipe'
+  - '가라르 기술머신94: 칼등치기'
+  '가라르 기술머신95: 에어슬래시':
+  - 'Galarian TM95: Air Slash'
+  - '가라르 기술머신95: 에어슬래시'
+  '가라르 기술머신96: 스마트호른':
+  - 'Galarian TM96: Smart Strike'
+  - '가라르 기술머신96: 스마트호른'
+  '가라르 기술머신97: 세차게휘두르기':
+  - 'Galarian TM97: Brutal Swing'
+  - '가라르 기술머신97: 세차게휘두르기'
+  '가라르 기술머신98: 분함의발구르기':
+  - 'Galarian TM98: Stomping Tantrum'
+  - '가라르 기술머신98: 분함의발구르기'
+  '가라르 기술머신99: 와이드브레이커':
+  - 'Galarian TM99: Breaking Swipe'
+  - '가라르 기술머신99: 와이드브레이커'
+  가벼운돌:
+  - Float Stone
+  - 가벼운돌
+  가시배지:
+  - Spikeshell Badge
+  - 가시배지
+  가지지열매:
+  - Eggant Berry
+  - 가지지열매
+  각성의 돌:
+  - Dawn Stone
+  - 각성의 돌
+  각성의 돌 각반:
+  - Dawn Stone Leggings
+  - 각성의 돌 각반
+  각성의 돌 검:
+  - Dawn Stone Sword
+  - 각성의 돌 검
+  각성의 돌 곡괭이:
+  - Dawn Stone Pickaxe
+  - 각성의 돌 곡괭이
+  각성의 돌 괭이:
+  - Dawn Stone Hoe
+  - 각성의 돌 괭이
+  각성의 돌 도끼:
+  - Dawn Stone Axe
+  - 각성의 돌 도끼
+  각성의 돌 부츠:
+  - Dawn Stone Boots
+  - 각성의 돌 부츠
+  각성의 돌 삽:
+  - Dawn Stone Shovel
+  - 각성의 돌 삽
+  각성의 돌 조각:
+  - Dawn Stone Shard
+  - 각성의 돌 조각
+  각성의 돌 투구:
+  - Dawn Stone Helmet
+  - 각성의 돌 투구
+  각성의 돌 해머:
+  - Dawn Stone Hammer
+  - 각성의 돌 해머
+  각성의 돌 흉갑:
+  - Dawn Stone Chestplate
+  - 각성의 돌 흉갑
+  갈색 포켓 가방:
+  - Brown Poké Bag
+  - 갈색 포켓 가방
+  감사메일:
+  - Thanks Mail
+  - 감사메일
+  감정의 루비:
+  - Ruby of Emotion
+  - 감정의 루비
+  갑옷광석:
+  - Armorite Ore
+  - 갑옷광석
+  갑옷패스:
+  - Armor Pass
+  - 갑옷패스
+  강철Z:
+  - Steelium Z
+  - 강철Z
+  강철주얼:
+  - Steel Gem
+  - 강철주얼
+  강철톤나이트:
+  - Steelixite
+  - 강철톤나이트
+  강철플레이트:
+  - Iron Plate
+  - 강철플레이트
+  강한 강철 루어:
+  - Strong Steel Lure
+  - 강한 강철 루어
+  강한 격투 루어:
+  - Strong Fighting Lure
+  - 강한 격투 루어
+  강한 고스트 루어:
+  - Strong Ghost Lure
+  - 강한 고스트 루어
+  강한 노말 루어:
+  - Strong Normal Lure
+  - 강한 노말 루어
+  강한 독 루어:
+  - Strong Poison Lure
+  - 강한 독 루어
+  강한 드래곤 루어:
+  - Strong Dragon Lure
+  - 강한 드래곤 루어
+  강한 땅 루어:
+  - Strong Ground Lure
+  - 강한 땅 루어
+  강한 물 루어:
+  - Strong Water Lure
+  - 강한 물 루어
+  강한 바위 루어:
+  - Strong Rock Lure
+  - 강한 바위 루어
+  강한 벌레 루어:
+  - Strong Bug Lure
+  - 강한 벌레 루어
+  강한 불 루어:
+  - Strong Fire Lure
+  - 강한 불 루어
+  강한 비행 루어:
+  - Strong Flying Lure
+  - 강한 비행 루어
+  강한 숨겨진 특성 루어:
+  - Strong Hidden Ability Lure
+  - 강한 숨겨진 특성 루어
+  강한 악 루어:
+  - Strong Dark Lure
+  - 강한 악 루어
+  강한 얼음 루어:
+  - Strong Ice Lure
+  - 강한 얼음 루어
+  강한 에스퍼 루어:
+  - Strong Psychic Lure
+  - 강한 에스퍼 루어
+  강한 이로치 루어:
+  - Strong Shiny Lure
+  - 강한 이로치 루어
+  강한 전기 루어:
+  - Strong Electric Lure
+  - 강한 전기 루어
+  강한 페어리 루어:
+  - Strong Fairy Lure
+  - 강한 페어리 루어
+  강한 풀 루어:
+  - Strong Grass Lure
+  - 강한 풀 루어
+  개구쟁이 민트:
+  - Naughty Mint
+  - 개구쟁이 민트
+  갤럭시단 모자:
+  - Galactic Swag
+  - 갤럭시단 모자
+  갤럭시단 바지:
+  - Galactic Leggings
+  - 갤럭시단 바지
+  갤럭시단 배지:
+  - Team Galactic Badge
+  - 갤럭시단 배지
+  갤럭시단 장화:
+  - Galactic Boots
+  - 갤럭시단 장화
+  갤럭시단 조끼:
+  - Galactic Chestplate
+  - 갤럭시단 조끼
+  갸라도스나이트:
+  - Gyaradosite
+  - 갸라도스나이트
+  거다이맥스 카레:
+  - Gigantamax Curry
+  - 거다이맥스 카레
+  거대파우더:
+  - Gigantamix
+  - 거대파우더
+  거북왕나이트:
+  - Blastoisinite
+  - 거북왕나이트
+  건방 민트:
+  - Sassy Mint
+  - 건방 민트
+  검은 규토리:
+  - Black Apricorn
+  - 검은 규토리
+  검은 텀블스톤:
+  - Black Tumblestone
+  - 검은 텀블스톤
+  검은갈기:
+  - Black Mane Hair
+  - 검은갈기
+  검은당근:
+  - Shade Root Carrot
+  - 검은당근
+  검은띠:
+  - Black Belt
+  - 검은띠
+  검은색 배지케이스:
+  - Black Badgecase
+  - 검은색 배지케이스
+  검은색 포켓 가방:
+  - Black Poké Bag
+  - 검은색 포켓 가방
+  검은안경:
+  - Black Glasses
+  - 검은안경
+  검은진흙:
+  - Black Sludge
+  - 검은진흙
+  검은철구:
+  - Iron Ball
+  - 검은철구
+  검은휘석:
+  - Black Augurite
+  - 검은휘석
+  검정비드로:
+  - Black Flute
+  - 검정비드로
+  검정조각:
+  - Black Shard
+  - 검정조각
+  겁쟁이 민트:
+  - Timid Mint
+  - 겁쟁이 민트
+  게이볼그:
+  - Gáe Bolg
+  - 게이볼그
+  겨냥표적:
+  - Ring Target
+  - 겨냥표적
+  격투Z:
+  - Fightinium Z
+  - 격투Z
+  격투배지:
+  - Fight Badge
+  - 격투배지
+  격투주얼:
+  - Fighting Gem
+  - 격투주얼
+  경단진주:
+  - Pearl String
+  - 경단진주
+  경험부적:
+  - Exp. Charm
+  - 경험부적
+  경험사탕L:
+  - Exp. Candy L
+  - 경험사탕L
+  경험사탕M:
+  - Exp. Candy M
+  - 경험사탕M
+  경험사탕S:
+  - Exp. Candy S
+  - 경험사탕S
+  경험사탕XL:
+  - Exp. Candy XL
+  - 경험사탕XL
+  경험사탕XS:
+  - Exp. Candy XS
+  - 경험사탕XS
+  고급 상처약:
+  - Hyper Potion
+  - 고급 상처약
+  고대의 몬스터볼 뚜껑:
+  - Ancient Poké Ball Lid
+  - 고대의 몬스터볼 뚜껑
+  고대의 수퍼볼 뚜껑:
+  - Ancient Great Ball Lid
+  - 고대의 수퍼볼 뚜껑
+  고대의 하이퍼볼 뚜껑:
+  - Ancient Ultra Ball Lid
+  - 고대의 하이퍼볼 뚜껑
+  고대의 헤비볼:
+  - Ancient Heavy Ball
+  - 고대의 헤비볼
+  고대의 헤비볼 뚜껑:
+  - Ancient Heavy Ball Lid
+  - 고대의 헤비볼 뚜껑
+  고대의금화:
+  - Relic Gold
+  - 고대의금화
+  고대의동화:
+  - Relic Copper
+  - 고대의동화
+  고대의은화:
+  - Relic Silver
+  - 고대의은화
+  고드름플레이트:
+  - Icicle Plate
+  - 고드름플레이트
+  고라파덕물뿌리개:
+  - Spray Duck
+  - 고라파덕물뿌리개
+  고래왕자물뿌리개:
+  - Wailmer Pail
+  - 고래왕자물뿌리개
+  고스트Z:
+  - Ghostium Z
+  - 고스트Z
+  고스트메모리:
+  - Ghost Memory
+  - 고스트메모리
+  고스트배지:
+  - Ghost Badge
+  - 고스트배지
+  - Gosuto Badge
+  고스트주얼:
+  - Ghost Gem
+  - 고스트주얼
+  고스티열매:
+  - Magost Berry
+  - 고스티열매
+  고운날개:
+  - Pretty Feather
+  - 고운날개
+  - Pretty Wing
+  고운모래:
+  - Soft Sand
+  - 고운모래
+  고운비늘:
+  - Prism Scale
+  - 고운비늘
+  고집 민트:
+  - Adamant Mint
+  - 고집 민트
+  고초열매:
+  - Touga Berry
+  - 고초열매
+  골드 루어 케이스:
+  - Gold Lure Casing
+  - 골드 루어 케이스
+  골드배지:
+  - Marsh Badge
+  - 골드배지
+  골드스프레이[30분]:
+  - Max Repel
+  - 골드스프레이[30분]
+  공포플레이트:
+  - Dread Plate
+  - 공포플레이트
+  과사열매:
+  - Leppa Berry
+  - 과사열매
+  '관동 기술머신10: 이판사판태클':
+  - 'Kanto TM10: Double-Edge'
+  - '관동 기술머신10: 이판사판태클'
+  '관동 기술머신11: 거품광선':
+  - 'Kanto TM11: Bubble Beam'
+  - '관동 기술머신11: 거품광선'
+  '관동 기술머신12: 물대포':
+  - 'Kanto TM12: Water Gun'
+  - '관동 기술머신12: 물대포'
+  '관동 기술머신13: 냉동빔':
+  - 'Kanto TM13: Ice Beam'
+  - '관동 기술머신13: 냉동빔'
+  '관동 기술머신14: 눈보라':
+  - 'Kanto TM14: Blizzard'
+  - '관동 기술머신14: 눈보라'
+  '관동 기술머신15: 파괴광선':
+  - 'Kanto TM15: Hyper Beam'
+  - '관동 기술머신15: 파괴광선'
+  '관동 기술머신16: 고양이돈받기':
+  - 'Kanto TM16: Pay Day'
+  - '관동 기술머신16: 고양이돈받기'
+  '관동 기술머신17: 지옥의바퀴':
+  - 'Kanto TM17: Submission'
+  - '관동 기술머신17: 지옥의바퀴'
+  '관동 기술머신18: 카운터':
+  - 'Kanto TM18: Counter'
+  - '관동 기술머신18: 카운터'
+  '관동 기술머신19: 지구던지기':
+  - 'Kanto TM19: Seismic Toss'
+  - '관동 기술머신19: 지구던지기'
+  '관동 기술머신1: 메가톤펀치':
+  - 'Kanto TM1: Mega Punch'
+  - '관동 기술머신1: 메가톤펀치'
+  '관동 기술머신20: 분노':
+  - 'Kanto TM20: Rage'
+  - '관동 기술머신20: 분노'
+  '관동 기술머신21: 메가드레인':
+  - 'Kanto TM21: Mega Drain'
+  - '관동 기술머신21: 메가드레인'
+  '관동 기술머신22: 솔라빔':
+  - 'Kanto TM22: Solar Beam'
+  - '관동 기술머신22: 솔라빔'
+  '관동 기술머신23: 용의분노':
+  - 'Kanto TM23: Dragon Rage'
+  - '관동 기술머신23: 용의분노'
+  '관동 기술머신24: 10만볼트':
+  - 'Kanto TM24: Thunderbolt'
+  - '관동 기술머신24: 10만볼트'
+  '관동 기술머신25: 번개':
+  - 'Kanto TM25: Thunder'
+  - '관동 기술머신25: 번개'
+  '관동 기술머신26: 지진':
+  - 'Kanto TM26: Earthquake'
+  - '관동 기술머신26: 지진'
+  '관동 기술머신27: 땅가르기':
+  - 'Kanto TM27: Fissure'
+  - '관동 기술머신27: 땅가르기'
+  '관동 기술머신28: 구멍파기':
+  - 'Kanto TM28: Dig'
+  - '관동 기술머신28: 구멍파기'
+  '관동 기술머신29: 사이코키네시스':
+  - 'Kanto TM29: Psychic'
+  - '관동 기술머신29: 사이코키네시스'
+  '관동 기술머신2: 칼바람':
+  - 'Kanto TM2: Razor Wind'
+  - '관동 기술머신2: 칼바람'
+  '관동 기술머신30: 순간이동':
+  - 'Kanto TM30: Teleport'
+  - '관동 기술머신30: 순간이동'
+  '관동 기술머신31: 흉내내기':
+  - 'Kanto TM31: Mimic'
+  - '관동 기술머신31: 흉내내기'
+  '관동 기술머신32: 그림자분신':
+  - 'Kanto TM32: Double Team'
+  - '관동 기술머신32: 그림자분신'
+  '관동 기술머신33: 리플렉터':
+  - 'Kanto TM33: Reflect'
+  - '관동 기술머신33: 리플렉터'
+  '관동 기술머신34: 참기':
+  - 'Kanto TM34: Bide'
+  - '관동 기술머신34: 참기'
+  '관동 기술머신35: 손가락흔들기':
+  - 'Kanto TM35: Metronome'
+  - '관동 기술머신35: 손가락흔들기'
+  '관동 기술머신36: 자폭':
+  - 'Kanto TM36: Self-Destruct'
+  - '관동 기술머신36: 자폭'
+  '관동 기술머신37: 알폭탄':
+  - 'Kanto TM37: Egg Bomb'
+  - '관동 기술머신37: 알폭탄'
+  '관동 기술머신38: 불대문자':
+  - 'Kanto TM38: Fire Blast'
+  - '관동 기술머신38: 불대문자'
+  '관동 기술머신39: 스피드스타':
+  - 'Kanto TM39: Swift'
+  - '관동 기술머신39: 스피드스타'
+  '관동 기술머신3: 칼춤':
+  - 'Kanto TM3: Swords Dance'
+  - '관동 기술머신3: 칼춤'
+  '관동 기술머신40: 로케트박치기':
+  - 'Kanto TM40: Skull Bash'
+  - '관동 기술머신40: 로케트박치기'
+  '관동 기술머신41: 알낳기':
+  - 'Kanto TM41: Soft-Boiled'
+  - '관동 기술머신41: 알낳기'
+  '관동 기술머신42: 꿈먹기':
+  - 'Kanto TM42: Dream Eater'
+  - '관동 기술머신42: 꿈먹기'
+  '관동 기술머신43: 불새':
+  - 'Kanto TM43: Sky Attack'
+  - '관동 기술머신43: 불새'
+  '관동 기술머신44: 잠자기':
+  - 'Kanto TM44: Rest'
+  - '관동 기술머신44: 잠자기'
+  '관동 기술머신45: 전기자석파':
+  - 'Kanto TM45: Thunder Wave'
+  - '관동 기술머신45: 전기자석파'
+  '관동 기술머신46: 사이코웨이브':
+  - 'Kanto TM46: Psywave'
+  - '관동 기술머신46: 사이코웨이브'
+  '관동 기술머신47: 대폭발':
+  - 'Kanto TM47: Explosion'
+  - '관동 기술머신47: 대폭발'
+  '관동 기술머신48: 스톤샤워':
+  - 'Kanto TM48: Rock Slide'
+  - '관동 기술머신48: 스톤샤워'
+  '관동 기술머신49: 트라이어택':
+  - 'Kanto TM49: Tri Attack'
+  - '관동 기술머신49: 트라이어택'
+  '관동 기술머신4: 날려버리기':
+  - 'Kanto TM4: Whirlwind'
+  - '관동 기술머신4: 날려버리기'
+  '관동 기술머신50: 대타출동':
+  - 'Kanto TM50: Substitute'
+  - '관동 기술머신50: 대타출동'
+  '관동 기술머신5: 메가톤킥':
+  - 'Kanto TM5: Mega Kick'
+  - '관동 기술머신5: 메가톤킥'
+  '관동 기술머신6: 맹독':
+  - 'Kanto TM6: Toxic'
+  - '관동 기술머신6: 맹독'
+  '관동 기술머신7: 뿔드릴':
+  - 'Kanto TM7: Horn Drill'
+  - '관동 기술머신7: 뿔드릴'
+  '관동 기술머신8: 누르기':
+  - 'Kanto TM8: Body Slam'
+  - '관동 기술머신8: 누르기'
+  '관동 기술머신9: 돌진':
+  - 'Kanto TM9: Take Down'
+  - '관동 기술머신9: 돌진'
+  광각렌즈:
+  - Wide Lens
+  - 광각렌즈
+  괴상한패치:
+  - Dubious Disc
+  - 괴상한패치
+  굉장한 낡은 낚싯대:
+  - Great Old Rod
+  - 굉장한 낡은 낚싯대
+  굉장한 대단한 낚싯대:
+  - Great Super Rod
+  - 굉장한 대단한 낚싯대
+  굉장한 좋은 낚싯대:
+  - Great Good Rod
+  - 굉장한 좋은 낚싯대
+  교정깁스:
+  - Macho Brace
+  - 교정깁스
+  교환기계 모니터:
+  - Trade Monitor
+  - 교환기계 모니터
+  교환기계 몸체:
+  - Trade Panel
+  - 교환기계 몸체
+  교환기계 오른쪽 장치:
+  - Trade Holder Right
+  - 교환기계 오른쪽 장치
+  교환기계 왼쪽 장치:
+  - Trade Holder Left
+  - 교환기계 왼쪽 장치
+  구근:
+  - Absorb Bulb
+  - 구근
+  구름아이스:
+  - Casteliacone
+  - 구름아이스
+  구슬:
+  - Orb
+  - 구슬
+  구애머리띠:
+  - Choice Band
+  - 구애머리띠
+  구애스카프:
+  - Choice Scarf
+  - 구애스카프
+  구애안경:
+  - Choice Specs
+  - 구애안경
+  굴레의항아리:
+  - Prison Bottle
+  - 굴레의항아리
+  굵은뼈:
+  - Thick Club
+  - 굵은뼈
+  굿즈케이스:
+  - Prop Case
+  - 굿즈케이스
+  권유메일:
+  - RSVP Mail
+  - 권유메일
+  귀중한뼈:
+  - Rare Bone
+  - 귀중한뼈
+  규살열매:
+  - Apicot Berry
+  - 규살열매
+  규토리케이스:
+  - Apricorn Box
+  - 규토리케이스
+  그라시데아꽃:
+  - Gracidea
+  - 그라시데아꽃
+  그라운드메모리:
+  - Ground Memory
+  - 그라운드메모리
+  그라운드코트:
+  - Terrain Extender
+  - 그라운드코트
+  그랑블루마운틴:
+  - Komala Coffee
+  - 그랑블루마운틴
+  그래스메모리:
+  - Grass Memory
+  - 그래스메모리
+  그래스시드:
+  - Grassy Seed
+  - 그래스시드
+  그린배지:
+  - Earth Badge
+  - 그린배지
+  그린베리 보트(상자 포함):
+  - Green Berry Boat with Chest
+  - 그린베리 보트(상자 포함)
+  그린쥬스:
+  - Green Juice
+  - 그린쥬스
+  그림자메일:
+  - Shadow Mail
+  - 그림자메일
+  근력 날개:
+  - Muscle Wing
+  - 근력 날개
+  근력날개:
+  - Muscle Feather
+  - 근력날개
+  근육 모치:
+  - Muscle Mochi
+  - 근육 모치
+  글레이셔배지:
+  - Icicle Badge
+  - 글레이셔배지
+  금 잎:
+  - Gold Leaf
+  - 금 잎
+  금 해머:
+  - Gold Hammer
+  - 금 해머
+  금강옥:
+  - Adamant Orb
+  - 금강옥
+  금구슬:
+  - Nugget
+  - 금구슬
+  금빛 근성의 증표:
+  - Gold Guts Symbol
+  - 금빛 근성의 증표
+  금빛 능력의 증표:
+  - Gold Ability Symbol
+  - 금빛 능력의 증표
+  금빛 용기의 증표:
+  - Gold Brave Symbol
+  - 금빛 용기의 증표
+  금빛 전술의 증표:
+  - Gold Tactics Symbol
+  - 금빛 전술의 증표
+  금빛 정신력의 증표:
+  - Gold Spirits Symbol
+  - 금빛 정신력의 증표
+  금빛 지식의 증표:
+  - Gold Knowledge Symbol
+  - 금빛 지식의 증표
+  금빛 행운의 증표:
+  - Gold Luck Symbol
+  - 금빛 행운의 증표
+  금속코트:
+  - Metal Coat
+  - 금속코트
+  금속파우더:
+  - Metal Powder
+  - 금속파우더
+  금왕관:
+  - Gold Bottle Cap
+  - 금왕관
+  금틀니:
+  - Gold Teeth
+  - 금틀니
+  기가톤 뚜껑:
+  - Gigaton Ball Lid
+  - 기가톤 뚜껑
+  기가톤볼:
+  - Gigaton Ball
+  - 기가톤볼
+  기력의덩어리:
+  - Max Revive
+  - 기력의덩어리
+  기력의조각:
+  - Revive
+  - 기력의조각
+  기믹골 동전:
+  - Gimmighoul Coin
+  - 기믹골 동전
+  기술머신케이스:
+  - TM Case
+  - 기술머신케이스
+  기적의씨:
+  - Miracle Seed
+  - 기적의씨
+  기절초풍비료:
+  - Amaze Mulch
+  - 기절초풍비료
+  기합의띠:
+  - Focus Sash
+  - 기합의띠
+  기합의머리띠:
+  - Focus Band
+  - 기합의머리띠
+  깜까미나이트:
+  - Sablenite
+  - 깜까미나이트
+  깜놀비료:
+  - Surprise Mulch
+  - 깜놀비료
+  깨진포트:
+  - Cracked Pot
+  - 깨진포트
+  껍질화석:
+  - Dome Fossil
+  - 껍질화석
+  꼬리훈제:
+  - Smoke-Poke Tail
+  - 꼬리훈제
+  꼬부기물뿌리개:
+  - Squirt Bottle
+  - 꼬부기물뿌리개
+  꼬시개열매:
+  - Passho Berry
+  - 꼬시개열매
+  꽃사탕공예:
+  - Flower Sweet
+  - 꽃사탕공예
+  꽃향로:
+  - Rose Incense
+  - 꽃향로
+  꿀:
+  - Honey
+  - 꿀
+  꿀맛사과:
+  - Syrupy Apple
+  - 꿀맛사과
+  꿈의메일:
+  - Dream Mail
+  - 꿈의메일
+  끈기갈고리손톱:
+  - Grip Claw
+  - 끈기갈고리손톱
+  끈적끈적바늘:
+  - Sticky Barb
+  - 끈적끈적바늘
+  끈적끈적비료:
+  - Gooey Mulch
+  - 끈적끈적비료
+  나나열매:
+  - Nanab Berry
+  - 나나열매
+  나무 베이스:
+  - Wooden Base
+  - 나무 베이스
+  나무 해머:
+  - Wood Hammer
+  - 나무 해머
+  나무메일:
+  - Wood Mail
+  - 나무메일
+  나무열매쥬스:
+  - Berry Juice
+  - 나무열매쥬스
+  나무열매플랜터:
+  - Berry Pot
+  - 나무열매플랜터
+  나무킹나이트:
+  - Sceptilite
+  - 나무킹나이트
+  낚시 로그:
+  - Fishing Log
+  - 낚시 로그
+  날개화석:
+  - Plume Fossil
+  - 날개화석
+  낡은 낚싯대:
+  - Old Rod
+  - 낡은 낚싯대
+  냉정 민트:
+  - Quiet Mint
+  - 냉정 민트
+  너클배지:
+  - Knuckle Badge
+  - 너클배지
+  네더라이트 해머:
+  - Netherite Hammer
+  - 네더라이트 해머
+  네더라이트주괴:
+  - netherite ingot
+  - 네더라이트
+  - 네더 라이트
+  네스트볼:
+  - Nest Ball
+  - 네스트볼
+  네스트볼 뚜껑:
+  - Nest Ball Lid
+  - 네스트볼 뚜껑
+  네오 플라스마단 장화:
+  - Neo Plasma Boots
+  - 네오 플라스마단 장화
+  네오플라스마단 모자:
+  - Neo Plasma Helmet
+  - 네오플라스마단 모자
+  네오플라스마단 바지:
+  - Neo Plasma Leggings
+  - 네오플라스마단 바지
+  네오플라스마단 조끼:
+  - Neo Plasma Chestplate
+  - 네오플라스마단 조끼
+  네잎사탕공예:
+  - Clover Sweet
+  - 네잎사탕공예
+  넷트볼:
+  - Net Ball
+  - 넷트볼
+  넷트볼 뚜껑:
+  - Net Ball Lid
+  - 넷트볼 뚜껑
+  노란 베리 보트 (상자 포함):
+  - Yellow Berry Boat with Chest
+  - 노란 베리 보트 (상자 포함)
+  노란색 배지케이스:
+  - Yellow Badgecase
+  - 노란색 배지케이스
+  노란색 포켓 가방:
+  - Yellow Poké Bag
+  - 노란색 포켓 가방
+  노란열매 나무 보트:
+  - Yellow Berry Boat
+  - 노란열매 나무 보트
+  노랑 규토리:
+  - Yellow Apricorn
+  - 노랑 규토리
+  노랑꽃잎:
+  - Yellow Petal
+  - 노랑꽃잎
+  노랑비드로:
+  - Yellow Flute
+  - 노랑비드로
+  노랑조각:
+  - Yellow Shard
+  - 노랑조각
+  노력 민트:
+  - Hardy Mint
+  - 노력 민트
+  노력치 초기화:
+  - Reset the EVs
+  - 노력치 초기화
+  노말Z:
+  - Normalium Z
+  - 노말Z
+  노말배지:
+  - Nomaru Badge
+  - 노말배지
+  노말주얼:
+  - Normal Gem
+  - 노말주얼
+  노멜열매:
+  - Nomel Berry
+  - 노멜열매
+  녹색 탱크:
+  - Green Tank
+  - 녹색 탱크
+  녹슨검:
+  - Rusted Sword
+  - 녹슨검
+  녹슨방패:
+  - Rusted Shield
+  - 녹슨방패
+  녹지않는얼음:
+  - Never-Melt Ice
+  - 녹지않는얼음
+  누리레느Z:
+  - Primarium Z
+  - 누리레느Z
+  눈덩이:
+  - Snowball
+  - 눈덩이
+  눈설왕나이트:
+  - Abomasite
+  - 눈설왕나이트
+  느림보꼬리:
+  - Lagging Tail
+  - 느림보꼬리
+  다니엘 해머:
+  - Daniel N's Hammer
+  - 다니엘 해머
+  다부니나이트:
+  - Audinite
+  - 다부니나이트
+  다우징머신:
+  - Item Finder
+  - 다우징머신
+  다이 수프:
+  - Max Soup
+  - 다이 수프
+  다이꿀:
+  - Max Honey
+  - 다이꿀
+  다이나모배지:
+  - Dynamo Badge
+  - 다이나모배지
+  다이맥스사탕:
+  - Dynamax Candy
+  - 다이맥스사탕
+  다이버섯:
+  - Max Mushrooms
+  - 다이버섯
+  다이브볼:
+  - Dive Ball
+  - 다이브볼
+  다이브볼 뚜껑:
+  - Dive Ball Lid
+  - 다이브볼 뚜껑
+  다이아 해머:
+  - Diamond Hammer
+  - 다이아 해머
+  다이아몬드:
+  - diamond
+  - 다이아
+  다크메모리:
+  - Dark Memory
+  - 다크메모리
+  다크배지:
+  - Dark Badge
+  - 다크배지
+  다크볼:
+  - Dusk Ball
+  - 다크볼
+  다크볼 뚜껑:
+  - Dusk Ball Lid
+  - 다크볼 뚜껑
+  다크스톤:
+  - Dark Stone
+  - 다크스톤
+  다크펫나이트:
+  - Banettite
+  - 다크펫나이트
+  다홍꿀:
+  - Red Nectar
+  - 다홍꿀
+  달의 돌:
+  - Moon Stone
+  - 달의 돌
+  달의 돌 각반:
+  - Moon Stone Leggings
+  - 달의 돌 각반
+  달의 돌 검:
+  - Moon Stone Sword
+  - 달의 돌 검
+  달의 돌 곡괭이:
+  - Moon Stone Pickaxe
+  - 달의 돌 곡괭이
+  달의 돌 괭이:
+  - Moon Stone Hoe
+  - 달의 돌 괭이
+  달의 돌 도끼:
+  - Moon Stone Axe
+  - 달의 돌 도끼
+  달의 돌 부츠:
+  - Moon Stone Boots
+  - 달의 돌 부츠
+  달의 돌 삽:
+  - Moon Stone Shovel
+  - 달의 돌 삽
+  달의 돌 조각:
+  - Moon Stone Shard
+  - 달의 돌 조각
+  달의 돌 투구:
+  - Moon Stone Helmet
+  - 달의 돌 투구
+  달의 돌 해머:
+  - Moon Stone Hammer
+  - 달의 돌 해머
+  달의 돌 흉갑:
+  - Moon Stone Chestplate
+  - 달의 돌 흉갑
+  달의피리:
+  - Moon Flute
+  - 달의피리
+  달인의띠:
+  - Expert Belt
+  - 달인의띠
+  달콤한사과:
+  - Sweet Apple
+  - 달콤한사과
+  담홍 규토리:
+  - Pink Apricorn
+  - 담홍 규토리
+  담홍꽃잎:
+  - Pink Petal
+  - 담홍꽃잎
+  답장메일:
+  - Reply Mail
+  - 답장메일
+  당근씨앗:
+  - Carrot Seed
+  - 당근씨앗
+  대단한 낚싯대:
+  - Super Rod
+  - 대단한 낚싯대
+  대단한귀마개:
+  - Hi-tech Earbuds
+  - 대단한귀마개
+  대단할듯한돌:
+  - Intriguing Stone
+  - 대단할듯한돌
+  대담 민트:
+  - Bold Mint
+  - 대담 민트
+  대장의징표:
+  - Leader's Crest
+  - 대장의징표
+  대지플레이트:
+  - Earth Plate
+  - 대지플레이트
+  대짱이나이트:
+  - Swampertite
+  - 대짱이나이트
+  대파:
+  - Large Leek
+  - 대파
+  - Leek
+  더트자전거:
+  - Acro Bike
+  - 더트자전거
+  더트자전거 프레임:
+  - Acro Bike Frame
+  - 더트자전거 프레임
+  덜렁 민트:
+  - Rash Mint
+  - 덜렁 민트
+  덮개화석:
+  - Cover Fossil
+  - 덮개화석
+  데봉봄베:
+  - Devon Scuba Gear
+  - 데봉봄베
+  데봉스코프:
+  - Devon Scope
+  - 데봉스코프
+  데인저스프:
+  - Perilous Soup
+  - 데인저스프
+  덴도배지:
+  - Dendo Badge
+  - 덴도배지
+  독Z:
+  - Poisonium Z
+  - 독Z
+  독바늘:
+  - Poison Barb
+  - 독바늘
+  독배지:
+  - Doku Badge
+  - 독배지
+  독주얼:
+  - Poison Gem
+  - 독주얼
+  독침붕나이트:
+  - Beedrillite
+  - 독침붕나이트
+  돌 해머:
+  - Stone Hammer
+  - 돌 해머
+  돌격조끼:
+  - Assault Vest
+  - 돌격조끼
+  동굴탈출로프:
+  - Escape Rope
+  - 동굴탈출로프
+  동글동글돌:
+  - Oval Stone
+  - 동글동글돌
+  동상 치료제:
+  - Ice Heal
+  - 동상 치료제
+  동전케이스:
+  - Coin Case
+  - 동전케이스
+  두개화석:
+  - Skull Fossil
+  - 두개화석
+  두리열매:
+  - Durin Berry
+  - 두리열매
+  둥근부적:
+  - Oval Charm
+  - 둥근부적
+  드래곤Z:
+  - Dragonium Z
+  - 드래곤Z
+  드래곤메모리:
+  - Dragon Memory
+  - 드래곤메모리
+  드래곤배지:
+  - Dragon Badge
+  - 드래곤배지
+  드래곤의뼈:
+  - Dragon Skull
+  - 드래곤의뼈
+  드래곤주얼:
+  - Dragon Gem
+  - 드래곤주얼
+  드림볼:
+  - Dream Ball
+  - 드림볼
+  드림볼 뚜껑:
+  - Dream Ball Lid
+  - 드림볼 뚜껑
+  디안시나이트:
+  - Diancite
+  - 디안시나이트
+  디펜드업:
+  - X Defense
+  - 디펜드업
+  따라큐Z:
+  - Mimikium Z
+  - 따라큐Z
+  딱딱한돌:
+  - Hard Stone
+  - 딱딱한돌
+  딸기사탕공예:
+  - Strawberry Sweet
+  - 딸기사탕공예
+  땅Z:
+  - Groundium Z
+  - 땅Z
+  땅배지:
+  - Jimen Badge
+  - 땅배지
+  땅주얼:
+  - Ground Gem
+  - 땅주얼
+  또뽀열매:
+  - Grepa Berry
+  - 또뽀열매
+  뜨거운바위:
+  - Heat Rock
+  - 뜨거운바위
+  라부탐열매:
+  - Rabuta Berry
+  - 라부탐열매
+  라이드기어:
+  - Ride Pager
+  - 라이드기어
+  라이징배지:
+  - Rising Badge
+  - 라이징배지
+  라이트스톤:
+  - Light Stone
+  - 라이트스톤
+  라즈열매:
+  - Razz Berry
+  - 라즈열매
+  라티아스나이트:
+  - Latiasite
+  - 라티아스나이트
+  라티오스나이트:
+  - Latiosite
+  - 라티오스나이트
+  락메모리:
+  - Rock Memory
+  - 락메모리
+  랑사열매:
+  - Lansat Berry
+  - 랑사열매
+  러브러브메일:
+  - Heart Mail
+  - 러브러브메일
+  러브러브볼:
+  - Love Ball
+  - 러브러브볼
+  러브러브볼 뚜껑:
+  - Love Ball Lid
+  - 러브러브볼 뚜껑
+  럭셔리볼:
+  - Luxury Ball
+  - 럭셔리볼
+  럭셔리볼 뚜껑:
+  - Luxury Ball Lid
+  - 럭셔리볼 뚜껑
+  럭키펀치:
+  - Lucky Punch
+  - 럭키펀치
+  레귤러배지:
+  - Plain Badge
+  - 레귤러배지
+  레드베리 상자 보트:
+  - Red Berry Boat with Chest
+  - 레드베리 상자 보트
+  레드쥬스:
+  - Red Juice
+  - 레드쥬스
+  레드카드:
+  - Red Card
+  - 레드카드
+  레릭배지:
+  - Relic Badge
+  - 레릭배지
+  레벨볼:
+  - Level Ball
+  - 레벨볼
+  레벨볼 뚜껑:
+  - Level Ball Lid
+  - 레벨볼 뚜껑
+  레인배지:
+  - Rain Badge
+  - 레인배지
+  레인보우패스:
+  - Rainbow Pass
+  - 레인보우패스
+  레전드배지:
+  - Legend Badge
+  - 레전드배지
+  레전드플레이트:
+  - Legend Plate
+  - 레전드플레이트
+  레토르트면:
+  - Instant Noodles
+  - 레토르트면
+  레토르트카레:
+  - Packaged Curry
+  - 레토르트카레
+  레토르트햄버그:
+  - Precooked Burger
+  - 레토르트햄버그
+  로매열매:
+  - Hondew Berry
+  - 로매열매
+  로셀열매:
+  - Roseli Berry
+  - 로셀열매
+  로즈레이티:
+  - Roserade Tea
+  - 로즈레이티
+  로켓단 모자:
+  - Rocket Helmet
+  - 로켓단 모자
+  로켓단 바지:
+  - Rocket Leggings
+  - 로켓단 바지
+  로켓단 장화:
+  - Rocket Boots
+  - 로켓단 장화
+  로켓단 조끼:
+  - Rocket Chestplate
+  - 로켓단 조끼
+  로플열매:
+  - Chople Berry
+  - 로플열매
+  루가루암Z:
+  - Lycanium Z
+  - 루가루암Z
+  루기아의 눈:
+  - Eye of Lugia
+  - 루기아의 눈
+  루나아라Z:
+  - Lunalium Z
+  - 루나아라Z
+  루미열매:
+  - Charti Berry
+  - 루미열매
+  루베열매:
+  - Belue Berry
+  - 루베열매
+  루비:
+  - Ruby
+  - 루비
+  루비 검:
+  - Ruby Sword
+  - 루비 검
+  루비 곡괭이:
+  - Ruby Pickaxe
+  - 루비 곡괭이
+  루비 괭이:
+  - Ruby Hoe
+  - 루비 괭이
+  루비 도끼:
+  - Ruby Axe
+  - 루비 도끼
+  루비 삽:
+  - Ruby Shovel
+  - 루비 삽
+  루비 해머:
+  - Ruby Hammer
+  - 루비 해머
+  루어볼:
+  - Lure Ball
+  - 루어볼
+  루어볼 뚜껑:
+  - Lure Ball Lid
+  - 루어볼 뚜껑
+  루카리오나이트:
+  - Lucarionite
+  - 루카리오나이트
+  룸서비스:
+  - Room Service
+  - 룸서비스
+  리버티티켓:
+  - Liberty Pass
+  - 리버티티켓
+  리보플라빈:
+  - Calcium
+  - 리보플라빈
+  리본사탕공예:
+  - Ribbon Sweet
+  - 리본사탕공예
+  리샘열매:
+  - Lum Berry
+  - 리샘열매
+  리자몽나이트X:
+  - Charizardite X
+  - 리자몽나이트X
+  리자몽나이트Y:
+  - Charizardite Y
+  - 리자몽나이트Y
+  리체열매:
+  - Tanga Berry
+  - 리체열매
+  리프의 돌:
+  - Leaf Stone
+  - 리프의 돌
+  리프의 돌 각반:
+  - Leaf Stone Leggings
+  - 리프의 돌 각반
+  리프의 돌 검:
+  - Leaf Stone Sword
+  - 리프의 돌 검
+  리프의 돌 곡괭이:
+  - Leaf Stone Pickaxe
+  - 리프의 돌 곡괭이
+  리프의 돌 괭이:
+  - Leaf Stone Hoe
+  - 리프의 돌 괭이
+  리프의 돌 도끼:
+  - Leaf Stone Axe
+  - 리프의 돌 도끼
+  리프의 돌 부츠:
+  - Leaf Stone Boots
+  - 리프의 돌 부츠
+  리프의 돌 삽:
+  - Leaf Stone Shovel
+  - 리프의 돌 삽
+  리프의 돌 조각:
+  - Leaf Stone Shard
+  - 리프의 돌 조각
+  리프의 돌 투구:
+  - Leaf Stone Helmet
+  - 리프의 돌 투구
+  리프의 돌 해머:
+  - Leaf Stone Hammer
+  - 리프의 돌 해머
+  리프의 돌 흉갑:
+  - Leaf Stone Chestplate
+  - 리프의 돌 흉갑
+  리피드볼:
+  - Repeat Ball
+  - 리피드볼
+  리피드볼 뚜껑:
+  - Repeat Ball Lid
+  - 리피드볼 뚜껑
+  린드열매:
+  - Rindo Berry
+  - 린드열매
+  링킹코드:
+  - Linking Cord
+  - 링킹코드
+  마고열매:
+  - Mago Berry
+  - 마고열매
+  마그마단 모자:
+  - Magma Helmet
+  - 마그마단 모자
+  마그마단 바지:
+  - Magma Leggings
+  - 마그마단 바지
+  마그마단 장화:
+  - Magma Boots
+  - 마그마단 장화
+  마그마단 조끼:
+  - Magma Chestplate
+  - 마그마단 조끼
+  마그마부스터:
+  - Magmarizer
+  - 마그마부스터
+  마기라스나이트:
+  - Tyranitarite
+  - 마기라스나이트
+  마늘열매:
+  - Niniku Berry
+  - 마늘열매
+  마비 치료제:
+  - Paralyze Heal
+  - 마비 치료제
+  마샤도Z:
+  - Marshadium Z
+  - 마샤도Z
+  마스터 학습장치:
+  - Exp. All
+  - 마스터 학습장치
+  마스터볼:
+  - master ball
+  - 마스터 볼
+  마스터볼 뚜껑:
+  - Master Ball Lid
+  - 마스터볼 뚜껑
+  마음의물방울:
+  - Soul Dew
+  - 마음의물방울
+  마인드배지:
+  - Mind Badge
+  - 마인드배지
+  마인배지:
+  - Mine Badge
+  - 마인배지
+  마코열매:
+  - Colbur Berry
+  - 마코열매
+  마하자전거:
+  - Mach Bike
+  - 마하자전거
+  마하자전거 프레임:
+  - Mach Bike Frame
+  - 마하자전거 프레임
+  만능가루:
+  - Heal Powder
+  - 만능가루
+  만능우산:
+  - Utility Umbrella
+  - 만능우산
+  만병통치제:
+  - Full Heal
+  - 만병통치제
+  만복향로:
+  - Full Incense
+  - 만복향로
+  맛있는꼬리:
+  - Slowpoke Tail
+  - 맛있는꼬리
+  맛있는물:
+  - Fresh Water
+  - 맛있는물
+  맥스 레이드 굴 스포너:
+  - Max Raid Den Spawner
+  - 맥스 레이드 굴 스포너
+  맥스광석:
+  - Dynite Ore
+  - 맥스광석
+  맥스업:
+  - HP Up
+  - 맥스업
+  맹독구슬:
+  - Toxic Orb
+  - 맹독구슬
+  맹독플레이트:
+  - Toxic Plate
+  - 맹독플레이트
+  먹다남은음식:
+  - Leftovers
+  - 먹다남은음식
+  멋쟁이카드:
+  - Style Card
+  - 멋쟁이카드
+  메가톤볼:
+  - Leaden Ball
+  - 메가톤볼
+  메가톤볼 뚜껑:
+  - Leaden Ball Lid
+  - 메가톤볼 뚜껑
+  메카니컬메일:
+  - Mech Mail
+  - 메카니컬메일
+  메타그로스나이트:
+  - Metagrossite
+  - 메타그로스나이트
+  메트로놈:
+  - Metronome
+  - 메트로놈
+  메호키열매:
+  - Spelon Berry
+  - 메호키열매
+  멘탈허브:
+  - Mental Herb
+  - 멘탈허브
+  멤버스카드:
+  - Member Card
+  - 멤버스카드
+  명랑 민트:
+  - Jolly Mint
+  - 명랑 민트
+  모둠튀김:
+  - Fried Food
+  - 모둠튀김
+  모자이크메일:
+  - Mosaic Mail
+  - 모자이크메일
+  모크나이퍼Z:
+  - Decidium Z
+  - 모크나이퍼Z
+  목각왕관:
+  - Wooden Crown
+  - 목각왕관
+  목스프레이:
+  - Throat Spray
+  - 목스프레이
+  목탄:
+  - Charcoal
+  - 목탄
+  몬스터볼:
+  - Ancient Poké Ball
+  - 몬스터볼
+  - Poké Ball
+  무럭무럭비료:
+  - Growth Mulch
+  - 무럭무럭비료
+  무사태평 민트:
+  - Relaxed Mint
+  - 무사태평 민트
+  무사태평향로:
+  - Lax Incense
+  - 무사태평향로
+  무순열매:
+  - Drash Berry
+  - 무순열매
+  무지개 날개:
+  - Rainbow Wing
+  - 무지개 날개
+  무지개꽃:
+  - Rainbow Flower
+  - 무지개꽃
+  무지개배지:
+  - Rainbow Badge
+  - 무지개배지
+  무한의피리:
+  - Eon Flute
+  - 무한의피리
+  무한티켓:
+  - Eon Ticket
+  - 무한티켓
+  무화열매:
+  - Figy Berry
+  - 무화열매
+  문볼:
+  - Moon Ball
+  - 문볼
+  문볼 뚜껑:
+  - Moon Ball Lid
+  - 문볼 뚜껑
+  물Z:
+  - Waterium Z
+  - 물Z
+  물가허브팩:
+  - Pungent Root
+  - 물가허브팩
+  물방울플레이트:
+  - Splash Plate
+  - 물방울플레이트
+  물배지:
+  - Mizu Badge
+  - 물배지
+  - Water Badge
+  물의 돌:
+  - Water Stone
+  - 물의 돌
+  물의 돌 각반:
+  - Water Stone Leggings
+  - 물의 돌 각반
+  물의 돌 검:
+  - Water Stone Sword
+  - 물의 돌 검
+  물의 돌 곡괭이:
+  - Water Stone Pickaxe
+  - 물의 돌 곡괭이
+  물의 돌 괭이:
+  - Water Stone Hoe
+  - 물의 돌 괭이
+  물의 돌 도끼:
+  - Water Stone Axe
+  - 물의 돌 도끼
+  물의 돌 부츠:
+  - Water Stone Boots
+  - 물의 돌 부츠
+  물의 돌 삽:
+  - Water Stone Shovel
+  - 물의 돌 삽
+  물의 돌 조각:
+  - Water Stone Shard
+  - 물의 돌 조각
+  물의 돌 투구:
+  - Water Stone Helmet
+  - 물의 돌 투구
+  물의 돌 해머:
+  - Water Stone Hammer
+  - 물의 돌 해머
+  물의 돌 흉갑:
+  - Water Stone Chestplate
+  - 물의 돌 흉갑
+  물의 족자:
+  - Scroll of Waters
+  - 물의 족자
+  물주얼:
+  - Water Gem
+  - 물주얼
+  뮤Z:
+  - Mewnium Z
+  - 뮤Z
+  뮤직 디스크:
+  - Music Disc
+  - 뮤직 디스크
+  뮤츠나이트X:
+  - Mewtwonite X
+  - 뮤츠나이트X
+  뮤츠나이트Y:
+  - Mewtwonite Y
+  - 뮤츠나이트Y
+  미네랄사이다:
+  - Soda Pop
+  - 미네랄사이다
+  미라클메일:
+  - Fab Mail
+  - 미라클메일
+  미라클사이다:
+  - Rare Soda
+  - 미라클사이다
+  미르갈레트:
+  - Lumiose Galette
+  - 미르갈레트
+  미스터리 던전지도:
+  - Mystery Dungeon Map
+  - 미스터리 던전지도
+  미스트시드:
+  - Misty Seed
+  - 미스트시드
+  미클열매:
+  - Mickle Berry
+  - 미클열매
+  - Micle Berry
+  민트 씨앗:
+  - Mint Cutting
+  - 민트 씨앗
+  바겐세일티켓:
+  - Discount Coupon
+  - 바겐세일티켓
+  바닷물향로:
+  - Sea Incense
+  - 바닷물향로
+  바리비열매:
+  - Babiri Berry
+  - 바리비열매
+  바위Z:
+  - Rockium Z
+  - 바위Z
+  바위배지:
+  - Iwa Badge
+  - 바위배지
+  - Rock Badge
+  바위주얼:
+  - Rock Gem
+  - 바위주얼
+  바코열매:
+  - Coba Berry
+  - 바코열매
+  바퀴:
+  - Wheel
+  - 바퀴
+  바크의 통조림:
+  - Bach's Tin
+  - 바크의 통조림
+  박사의복면:
+  - Professor's Mask
+  - 박사의복면
+  박식안경:
+  - Wise Glasses
+  - 박식안경
+  반짝가루:
+  - Bright Powder
+  - 반짝가루
+  반짝메일:
+  - Glitter Mail
+  - 반짝메일
+  발톱화석:
+  - Claw Fossil
+  - 발톱화석
+  밝은회색 포켓 가방:
+  - Light Gray Poké Bag
+  - 밝은회색 포켓 가방
+  밥의 통조림:
+  - Bob's Tin
+  - 밥의 통조림
+  방진고글:
+  - Safety Goggles
+  - 방진고글
+  방패화석:
+  - Armor Fossil
+  - 방패화석
+  방호패드:
+  - Protective Pads
+  - 방호패드
+  배리열매:
+  - Aspear Berry
+  - 배리열매
+  백금 검:
+  - Platinum Sword
+  - 백금 검
+  백금 곡괭이:
+  - Platinum Pickaxe
+  - 백금 곡괭이
+  백금 괭이:
+  - Platinum Hoe
+  - 백금 괭이
+  백금 도끼:
+  - Platinum Axe
+  - 백금 도끼
+  백금 디스크:
+  - Platinum Disc
+  - 백금 디스크
+  백금 레깅스:
+  - Platinum Leggings
+  - 백금 레깅스
+  백금 베이스:
+  - Platinum Base
+  - 백금 베이스
+  백금 부츠:
+  - Platinum Boots
+  - 백금 부츠
+  백금 삽:
+  - Platinum Shovel
+  - 백금 삽
+  백금 주괴:
+  - Platinum Ingot
+  - 백금 주괴
+  백금 투구:
+  - Platinum Helmet
+  - 백금 투구
+  백금 흉갑:
+  - Platinum Chestplate
+  - 백금 흉갑
+  백금옥:
+  - Griseous Orb
+  - 백금옥
+  백옥:
+  - Lustrous Orb
+  - 백옥
+  밸런스배지:
+  - Balance Badge
+  - 밸런스배지
+  버그메모리:
+  - Bug Memory
+  - 버그메모리
+  버그배지:
+  - Bug Badge
+  - 버그배지
+  버섯팩:
+  - Mixed Mushrooms
+  - 버섯팩
+  버치열매:
+  - Cheri Berry
+  - 버치열매
+  번개카세트:
+  - Shock Drive
+  - 번개카세트
+  번치코나이트:
+  - Blazikenite
+  - 번치코나이트
+  벌레Z:
+  - Buginium Z
+  - 벌레Z
+  벌레배지:
+  - Bagu Badge
+  - 벌레배지
+  벌레주얼:
+  - Bug Gem
+  - 벌레주얼
+  벌레회피스프레이[5분]:
+  - Repel
+  - 벌레회피스프레이[5분]
+  베리사탕공예:
+  - Berry Sweet
+  - 베리사탕공예
+  베이직배지:
+  - Basic Badge
+  - 베이직배지
+  벽돌메일:
+  - Brick Mail
+  - 벽돌메일
+  변덕 민트:
+  - Quirky Mint
+  - 변덕 민트
+  변함없는돌:
+  - Everstone
+  - 변함없는돌
+  별의모래:
+  - Stardust
+  - 별의모래
+  별의조각:
+  - Star Piece
+  - 별의조각
+  보라꽃잎:
+  - Purple Petal
+  - 보라꽃잎
+  보라꿀:
+  - Purple Nectar
+  - 보라꿀
+  보라색 포켓 가방:
+  - Purple Poké Bag
+  - 보라색 포켓 가방
+  보라색열매 나무 보트:
+  - Purple Berry Boat
+  - 보라색열매 나무 보트
+  보만다나이트:
+  - Salamencite
+  - 보만다나이트
+  보송보송바위:
+  - Smooth Rock
+  - 보송보송바위
+  보스로라나이트:
+  - Aggronite
+  - 보스로라나이트
+  복고풍메일:
+  - Retro Mail
+  - 복고풍메일
+  복분열매:
+  - Rawst Berry
+  - 복분열매
+  복슝열매:
+  - Pecha Berry
+  - 복슝열매
+  복제머신 연결기:
+  - Cloner Cord
+  - 복제머신 연결기
+  복합금속:
+  - Metal Alloy
+  - 복합금속
+  볼트배지:
+  - Bolt Badge
+  - 볼트배지
+  볼티지배지:
+  - Voltage Badge
+  - 볼티지배지
+  봉인된 기계 메일:
+  - Sealed Mech Mail
+  - 봉인된 기계 메일
+  봉인된 답장 메일:
+  - Sealed Reply Mail
+  - 봉인된 답장 메일
+  봉인된 드림메일:
+  - Sealed Dream Mail
+  - 봉인된 드림메일
+  봉인된 땡스 메일:
+  - Sealed Thanks Mail
+  - 봉인된 땡스 메일
+  봉인된 레트로 메일:
+  - Sealed Retro Mail
+  - 봉인된 레트로 메일
+  봉인된 모자이크 메일:
+  - Sealed Mosaic Mail
+  - 봉인된 모자이크 메일
+  봉인된 문의 메일:
+  - Sealed Inquiry Mail
+  - 봉인된 문의 메일
+  봉인된 반짝이 메일:
+  - Sealed Glitter Mail
+  - 봉인된 반짝이 메일
+  봉인된 버블메일:
+  - Sealed Bubble Mail
+  - 봉인된 버블메일
+  봉인된 불꽃 메일:
+  - Sealed Flame Mail
+  - 봉인된 불꽃 메일
+  봉인된 브리지메일 D:
+  - Sealed BridgeMail D
+  - 봉인된 브리지메일 D
+  봉인된 브리지메일 M:
+  - Sealed BridgeMail M
+  - 봉인된 브리지메일 M
+  봉인된 브리지메일 S:
+  - Sealed BridgeMail S
+  - 봉인된 브리지메일 S
+  봉인된 브리지메일 T:
+  - Sealed BridgeMail T
+  - 봉인된 브리지메일 T
+  봉인된 브리지메일 V:
+  - Sealed BridgeMail V
+  - 봉인된 브리지메일 V
+  봉인된 브릭 메일:
+  - Sealed Brick Mail
+  - 봉인된 브릭 메일
+  봉인된 블룸 메일:
+  - Sealed Bloom Mail
+  - 봉인된 블룸 메일
+  봉인된 섀도우 메일:
+  - Sealed Shadow Mail
+  - 봉인된 섀도우 메일
+  봉인된 스노우 메일:
+  - Sealed Snow Mail
+  - 봉인된 스노우 메일
+  봉인된 스틸 메일:
+  - Sealed Steel Mail
+  - 봉인된 스틸 메일
+  봉인된 스페이스 메일:
+  - Sealed Space Mail
+  - 봉인된 스페이스 메일
+  봉인된 에어 메일:
+  - Sealed Air Mail
+  - 봉인된 에어 메일
+  봉인된 오렌지 메일:
+  - Sealed Orange Mail
+  - 봉인된 오렌지 메일
+  봉인된 우드 메일:
+  - Sealed Wood Mail
+  - 봉인된 우드 메일
+  봉인된 웨이브 메일:
+  - Sealed Wave Mail
+  - 봉인된 웨이브 메일
+  봉인된 인기 메일:
+  - Sealed Favored Mail
+  - 봉인된 인기 메일
+  봉인된 인사 메일:
+  - Sealed Greet Mail
+  - 봉인된 인사 메일
+  봉인된 좋아요 메일:
+  - Sealed Like Mail
+  - 봉인된 좋아요 메일
+  봉인된 터널 메일:
+  - Sealed Tunnel Mail
+  - 봉인된 터널 메일
+  봉인된 트로픽 메일:
+  - Sealed Tropic Mail
+  - 봉인된 트로픽 메일
+  봉인된 팹메일:
+  - Sealed Fab Mail
+  - 봉인된 팹메일
+  봉인된 풀 메일:
+  - Sealed Grass Mail
+  - 봉인된 풀 메일
+  봉인된 하트 메일:
+  - Sealed Heart Mail
+  - 봉인된 하트 메일
+  봉인된 항구 메일:
+  - Sealed Harbor Mail
+  - 봉인된 항구 메일
+  봉인된 회신 요청 메일:
+  - Sealed RSVP Mail
+  - 봉인된 회신 요청 메일
+  부스트에너지:
+  - Booster Energy
+  - 부스트에너지
+  부적금화:
+  - Amulet Coin
+  - 부적금화
+  부쩍부쩍비료:
+  - Boost Mulch
+  - 부쩍부쩍비료
+  부활초:
+  - Revival Herb
+  - 부활초
+  분노의호두과자:
+  - Rage Candy Bar
+  - 분노의호두과자
+  분홍색 배지케이스:
+  - Pink Badgecase
+  - 분홍색 배지케이스
+  분홍색 포켓 가방:
+  - Pink Poké Bag
+  - 분홍색 포켓 가방
+  분홍열매 나무 보트:
+  - Pink Berry Boat
+  - 분홍열매 나무 보트
+  불구슬플레이트:
+  - Flame Plate
+  - 불구슬플레이트
+  불꽃Z:
+  - Firium Z
+  - 불꽃Z
+  불꽃배지:
+  - Fire Badge
+  - 불꽃배지
+  - Kasai Badge
+  불꽃의 돌:
+  - Fire Stone
+  - 불꽃의 돌
+  불꽃의 돌 검:
+  - Fire Stone Sword
+  - 불꽃의 돌 검
+  불꽃의 돌 곡괭이:
+  - Fire Stone Pickaxe
+  - 불꽃의 돌 곡괭이
+  불꽃의 돌 괭이:
+  - Fire Stone Hoe
+  - 불꽃의 돌 괭이
+  불꽃의 돌 도끼:
+  - Fire Stone Axe
+  - 불꽃의 돌 도끼
+  불꽃의 돌 삽:
+  - Fire Stone Shovel
+  - 불꽃의 돌 삽
+  불꽃의 돌 해머:
+  - Fire Stone Hammer
+  - 불꽃의 돌 해머
+  불꽃주얼:
+  - Fire Gem
+  - 불꽃주얼
+  불의 돌 각반:
+  - Fire Stone Leggings
+  - 불의 돌 각반
+  불의 돌 부츠:
+  - Fire Stone Boots
+  - 불의 돌 부츠
+  불의 돌 조각:
+  - Fire Stone Shard
+  - 불의 돌 조각
+  불의 돌 투구:
+  - Fire Stone Helmet
+  - 불의 돌 투구
+  불의 돌 흉갑:
+  - Fire Stone Chestplate
+  - 불의 돌 흉갑
+  불타는 영혼의 보주:
+  - Orb of Fiery Souls
+  - 불타는 영혼의 보주
+  브릿지메일D:
+  - BridgeMail D
+  - 브릿지메일D
+  브릿지메일M:
+  - BridgeMail M
+  - 브릿지메일M
+  브릿지메일S:
+  - BridgeMail S
+  - 브릿지메일S
+  브릿지메일T:
+  - BridgeMail T
+  - 브릿지메일T
+  브릿지메일V:
+  - BridgeMail V
+  - 브릿지메일V
+  블레이즈카세트:
+  - Burn Drive
+  - 블레이즈카세트
+  블루메일:
+  - Bubble Mail
+  - 블루메일
+  블루배지:
+  - Cascade Badge
+  - 블루배지
+  블루베리 보트(상자 포함):
+  - Blue Berry Boat with Chest
+  - 블루베리 보트(상자 포함)
+  블루쥬스:
+  - Blue Juice
+  - 블루쥬스
+  블룸메일:
+  - Bloom Mail
+  - 블룸메일
+  블리열매:
+  - Bluk Berry
+  - 블리열매
+  블리자드메일:
+  - Snow Mail
+  - 블리자드메일
+  비단벌레플레이트:
+  - Insect Plate
+  - 비단벌레플레이트
+  비료:
+  - Rich Mulch
+  - 비료
+  비밀의열쇠:
+  - Secret Key
+  - 비밀의열쇠
+  비밀의호박:
+  - Old Amber
+  - 비밀의호박
+  '비전머신01: 풀베기':
+  - 'HM01: Cut'
+  - '비전머신01: 풀베기'
+  '비전머신02: 공중날기':
+  - 'HM02: Fly'
+  - '비전머신02: 공중날기'
+  '비전머신03: 파도타기':
+  - 'HM03: Surf'
+  - '비전머신03: 파도타기'
+  '비전머신04: 괴력':
+  - 'HM04: Strength'
+  - '비전머신04: 괴력'
+  '비전머신05: 안개제거':
+  - 'HM05: Defog'
+  - '비전머신05: 안개제거'
+  '비전머신06: 바위깨기':
+  - 'HM06: Rock Smash'
+  - '비전머신06: 바위깨기'
+  '비전머신07: 폭포오르기':
+  - 'HM07: Waterfall'
+  - '비전머신07: 폭포오르기'
+  '비전머신08: 락클라임':
+  - 'HM08: Rock Climb'
+  - '비전머신08: 락클라임'
+  '비전머신09: 바다회오리':
+  - 'HM09: Whirlpool'
+  - '비전머신09: 바다회오리'
+  '비전머신10: 다이빙':
+  - 'HM10: Dive'
+  - '비전머신10: 다이빙'
+  비추는거울:
+  - Reveal Glass
+  - 비추는거울
+  비콘배지:
+  - Beacon Badge
+  - 비콘배지
+  비틀배지:
+  - Insect Badge
+  - 비틀배지
+  비행Z:
+  - Flyinium Z
+  - 비행Z
+  비행배지:
+  - Tobu Badge
+  - 비행배지
+  비행주얼:
+  - Flying Gem
+  - 비행주얼
+  빈 TR:
+  - Blank TR
+  - 빈 TR
+  빈 가라르 기술머신:
+  - Blank Galarian TM
+  - 빈 가라르 기술머신
+  빈 관동 기술머신:
+  - Blank Kanto TM
+  - 빈 관동 기술머신
+  빈 성도 기술머신:
+  - Blank Johto TM
+  - 빈 성도 기술머신
+  빈 신오 기술머신:
+  - Blank Sinnoh TM
+  - 빈 신오 기술머신
+  빈 알로라 기술머신:
+  - Blank Alola TM
+  - 빈 알로라 기술머신
+  빈 칼로스 기술머신:
+  - Blank Kalos TM
+  - 빈 칼로스 기술머신
+  빈 팔데아 기술머신:
+  - Blank Paldean TM
+  - 빈 팔데아 기술머신
+  빈 하나 기술머신:
+  - Blank Unova TM
+  - 빈 하나 기술머신
+  빈 호연 기술머신:
+  - Blank Hoenn TM
+  - 빈 호연 기술머신
+  빛나는꽃잎:
+  - Radiant Petal
+  - 빛나는꽃잎
+  빛나는돌:
+  - Sparkling Stone
+  - 빛나는돌
+  빛나는부적:
+  - Shiny Charm
+  - 빛나는부적
+  빛의 돌:
+  - Shiny Stone
+  - 빛의 돌
+  빛의 돌 조각:
+  - Shiny Stone Shard
+  - 빛의 돌 조각
+  빛의점토:
+  - Light Clay
+  - 빛의점토
+  빛이끼:
+  - Luminous Moss
+  - 빛이끼
+  빨간 규토리:
+  - Red Apricorn
+  - 빨간 규토리
+  빨간비늘:
+  - Red Scale
+  - 빨간비늘
+  빨간색 배지케이스:
+  - Red Badgecase
+  - 빨간색 배지케이스
+  빨간색 포켓 가방:
+  - Red Poké Bag
+  - 빨간색 포켓 가방
+  빨간쇠사슬:
+  - Red Chain
+  - 빨간쇠사슬
+  빨간쇠사슬 조각:
+  - Red Chain Shard
+  - 빨간쇠사슬 조각
+  빨간실:
+  - Destiny Knot
+  - 빨간실
+  빨간열매 나무 보트:
+  - Red Berry Boat
+  - 빨간열매 나무 보트
+  빨간조각:
+  - Red Shard
+  - 빨간조각
+  빨강꽃잎:
+  - Red Petal
+  - 빨강꽃잎
+  빨강비드로:
+  - Red Flute
+  - 빨강비드로
+  빨강조각:
+  - Omega Shard
+  - 빨강조각
+  뿌리화석:
+  - Root Fossil
+  - 뿌리화석
+  쁘사이저나이트:
+  - Pinsirite
+  - 쁘사이저나이트
+  사라사블레:
+  - Shalour Sable
+  - 사라사블레
+  사이코시드:
+  - Psychic Seed
+  - 사이코시드
+  사이킥메모리:
+  - Psychic Memory
+  - 사이킥메모리
+  사이킥배지:
+  - Psychic Badge
+  - 사이킥배지
+  사진:
+  - Photo
+  - 사진
+  사진배지:
+  - Suchiru Badge
+  - 사진배지
+  사파리볼:
+  - Safari Ball
+  - 사파리볼
+  사파리볼 뚜껑:
+  - Safari Ball Lid
+  - 사파리볼 뚜껑
+  사파이어:
+  - Sapphire
+  - 사파이어
+  사파이어 검:
+  - Sapphire Sword
+  - 사파이어 검
+  사파이어 곡괭이:
+  - Sapphire Pickaxe
+  - 사파이어 곡괭이
+  사파이어 괭이:
+  - Sapphire Hoe
+  - 사파이어 괭이
+  사파이어 도끼:
+  - Sapphire Axe
+  - 사파이어 도끼
+  사파이어 삽:
+  - Sapphire Shovel
+  - 사파이어 삽
+  사파이어 해머:
+  - Sapphire Hammer
+  - 사파이어 해머
+  사포닌:
+  - Iron
+  - 사포닌
+  산호눈배지:
+  - Coraleye Badge
+  - 산호눈배지
+  삶은알:
+  - Boiled Egg
+  - 삶은알
+  상처약:
+  - Potion
+  - 상처약
+  새 러닝슈즈:
+  - New Running Boots
+  - 새 러닝슈즈
+  새출발 모치:
+  - Fresh-Start Mochi
+  - 새출발 모치
+  새콤한사과:
+  - Tart Apple
+  - 새콤한사과
+  생명의구슬:
+  - Life Orb
+  - 생명의구슬
+  샤크니아나이트:
+  - Sharpedonite
+  - 샤크니아나이트
+  서배열매:
+  - Wepear Berry
+  - 서배열매
+  선물상자:
+  - Gift Box
+  - 선물상자
+  선제공격손톱:
+  - Quick Claw
+  - 선제공격손톱
+  성급 민트:
+  - Hasty Mint
+  - 성급 민트
+  '성도 기술머신10: 잠재파워':
+  - 'Johto TM10: Hidden Power'
+  - '성도 기술머신10: 잠재파워'
+  '성도 기술머신11: 쾌청':
+  - 'Johto TM11: Sunny Day'
+  - '성도 기술머신11: 쾌청'
+  '성도 기술머신12: 달콤한향기':
+  - 'Johto TM12: Sweet Scent'
+  - '성도 기술머신12: 달콤한향기'
+  '성도 기술머신13: 코골기':
+  - 'Johto TM13: Snore'
+  - '성도 기술머신13: 코골기'
+  '성도 기술머신14: 눈보라':
+  - 'Johto TM14: Blizzard'
+  - '성도 기술머신14: 눈보라'
+  '성도 기술머신15: 파괴광선':
+  - 'Johto TM15: Hyper Beam'
+  - '성도 기술머신15: 파괴광선'
+  '성도 기술머신16: 얼다바람':
+  - 'Johto TM16: Icy Wind'
+  - '성도 기술머신16: 얼다바람'
+  '성도 기술머신17: 방어':
+  - 'Johto TM17: Protect'
+  - '성도 기술머신17: 방어'
+  '성도 기술머신18: 비바라기':
+  - 'Johto TM18: Rain Dance'
+  - '성도 기술머신18: 비바라기'
+  '성도 기술머신19: 기가드레인':
+  - 'Johto TM19: Giga Drain'
+  - '성도 기술머신19: 기가드레인'
+  '성도 기술머신1: 폭발펀치':
+  - 'Johto TM1: Dynamic Punch'
+  - '성도 기술머신1: 폭발펀치'
+  '성도 기술머신20: 버티기':
+  - 'Johto TM20: Endure'
+  - '성도 기술머신20: 버티기'
+  '성도 기술머신21: 화풀이':
+  - 'Johto TM21: Frustration'
+  - '성도 기술머신21: 화풀이'
+  '성도 기술머신22: 솔라빔':
+  - 'Johto TM22: Solar Beam'
+  - '성도 기술머신22: 솔라빔'
+  '성도 기술머신23: 아이언테일':
+  - 'Johto TM23: Iron Tail'
+  - '성도 기술머신23: 아이언테일'
+  '성도 기술머신24: 용의숨결':
+  - 'Johto TM24: Dragon Breath'
+  - '성도 기술머신24: 용의숨결'
+  '성도 기술머신25: 번개':
+  - 'Johto TM25: Thunder'
+  - '성도 기술머신25: 번개'
+  '성도 기술머신26: 지진':
+  - 'Johto TM26: Earthquake'
+  - '성도 기술머신26: 지진'
+  '성도 기술머신27: 은혜갚기':
+  - 'Johto TM27: Return'
+  - '성도 기술머신27: 은혜갚기'
+  '성도 기술머신28: 구멍파기':
+  - 'Johto TM28: Dig'
+  - '성도 기술머신28: 구멍파기'
+  '성도 기술머신29: 사이코키네시스':
+  - 'Johto TM29: Psychic'
+  - '성도 기술머신29: 사이코키네시스'
+  '성도 기술머신2: 박치기':
+  - 'Johto TM2: Headbutt'
+  - '성도 기술머신2: 박치기'
+  '성도 기술머신30: 섀도볼':
+  - 'Johto TM30: Shadow Ball'
+  - '성도 기술머신30: 섀도볼'
+  '성도 기술머신31: 진흙뿌리기':
+  - 'Johto TM31: Mud-Slap'
+  - '성도 기술머신31: 진흙뿌리기'
+  '성도 기술머신32: 그림자분신':
+  - 'Johto TM32: Double Team'
+  - '성도 기술머신32: 그림자분신'
+  '성도 기술머신33: 냉동펀치':
+  - 'Johto TM33: Ice Punch'
+  - '성도 기술머신33: 냉동펀치'
+  '성도 기술머신34: 뽐내기':
+  - 'Johto TM34: Swagger'
+  - '성도 기술머신34: 뽐내기'
+  '성도 기술머신35: 잠꼬대':
+  - 'Johto TM35: Sleep Talk'
+  - '성도 기술머신35: 잠꼬대'
+  '성도 기술머신36: 오물폭탄':
+  - 'Johto TM36: Sludge Bomb'
+  - '성도 기술머신36: 오물폭탄'
+  '성도 기술머신37: 모래바람':
+  - 'Johto TM37: Sandstorm'
+  - '성도 기술머신37: 모래바람'
+  '성도 기술머신38: 불대문자':
+  - 'Johto TM38: Fire Blast'
+  - '성도 기술머신38: 불대문자'
+  '성도 기술머신39: 스피드스타':
+  - 'Johto TM39: Swift'
+  - '성도 기술머신39: 스피드스타'
+  '성도 기술머신3: 저주':
+  - 'Johto TM3: Curse'
+  - '성도 기술머신3: 저주'
+  '성도 기술머신40: 웅크리기':
+  - 'Johto TM40: Defense Curl'
+  - '성도 기술머신40: 웅크리기'
+  '성도 기술머신41: 번개펀치':
+  - 'Johto TM41: Thunder Punch'
+  - '성도 기술머신41: 번개펀치'
+  '성도 기술머신42: 꿈먹기':
+  - 'Johto TM42: Dream Eater'
+  - '성도 기술머신42: 꿈먹기'
+  '성도 기술머신43: 판별':
+  - 'Johto TM43: Detect'
+  - '성도 기술머신43: 판별'
+  '성도 기술머신44: 잠자기':
+  - 'Johto TM44: Rest'
+  - '성도 기술머신44: 잠자기'
+  '성도 기술머신45: 헤롱헤롱':
+  - 'Johto TM45: Attract'
+  - '성도 기술머신45: 헤롱헤롱'
+  '성도 기술머신46: 도둑질':
+  - 'Johto TM46: Thief'
+  - '성도 기술머신46: 도둑질'
+  '성도 기술머신47: 강철날개':
+  - 'Johto TM47: Steel Wing'
+  - '성도 기술머신47: 강철날개'
+  '성도 기술머신48: 불꽃펀치':
+  - 'Johto TM48: Fire Punch'
+  - '성도 기술머신48: 불꽃펀치'
+  '성도 기술머신49: 연속자르기':
+  - 'Johto TM49: Fury Cutter'
+  - '성도 기술머신49: 연속자르기'
+  '성도 기술머신4: 구르기':
+  - 'Johto TM4: Rollout'
+  - '성도 기술머신4: 구르기'
+  '성도 기술머신50: 악몽':
+  - 'Johto TM50: Nightmare'
+  - '성도 기술머신50: 악몽'
+  '성도 기술머신5: 울부짖기':
+  - 'Johto TM5: Roar'
+  - '성도 기술머신5: 울부짖기'
+  '성도 기술머신6: 맹독':
+  - 'Johto TM6: Toxic'
+  - '성도 기술머신6: 맹독'
+  '성도 기술머신7: 전자포':
+  - 'Johto TM7: Zap Cannon'
+  - '성도 기술머신7: 전자포'
+  '성도 기술머신8: 바위깨기':
+  - 'Johto TM8: Rock Smash'
+  - '성도 기술머신8: 바위깨기'
+  '성도 기술머신9: 자기암시':
+  - 'Johto TM9: Psych Up'
+  - '성도 기술머신9: 자기암시'
+  성스러운분말:
+  - Sacred Ash
+  - 성스러운분말
+  성실 민트:
+  - Serious Mint
+  - 성실 민트
+  센토배지:
+  - Sento Badge
+  - 센토배지
+  소니아의책:
+  - Sonia's Book
+  - 소니아의책
+  소원의덩어리:
+  - Wishing Piece
+  - 소원의덩어리
+  소원의별:
+  - Wishing Star
+  - 소원의별
+  속임수주사위:
+  - Loaded Dice
+  - 속임수주사위
+  솔가레오Z:
+  - Solganium Z
+  - 솔가레오Z
+  송이팩:
+  - Fruit Bunch
+  - 송이팩
+  쇼크배지:
+  - Storm Badge
+  - 쇼크배지
+  수불열매:
+  - Kasib Berry
+  - 수불열매
+  수수께끼의수정:
+  - Enigma Stone
+  - 수수께끼의수정
+  수숙열매:
+  - Cornn Berry
+  - 수숙열매
+  수줍음 민트:
+  - Bashful Mint
+  - 수줍음 민트
+  수퍼볼:
+  - Ancient Great Ball
+  - 수퍼볼
+  - Great Ball
+  수퍼볼 뚜껑:
+  - Great Ball Lid
+  - 수퍼볼 뚜껑
+  순결의부적:
+  - Cleanse Tag
+  - 순결의부적
+  순결의향로:
+  - Pure Incense
+  - 순결의향로
+  순발력 날개:
+  - Swift Wing
+  - 순발력 날개
+  순발력날개:
+  - Swift Feather
+  - 순발력날개
+  순백플레이트:
+  - Blank Plate
+  - 순백플레이트
+  숨겨진 나무 문:
+  - Hidden Wooden Door
+  - 숨겨진 나무 문
+  숨겨진 철 문:
+  - Hidden Iron Door
+  - 숨겨진 철 문
+  숲의양갱:
+  - Old Gateau
+  - 숲의양갱
+  슈박열매:
+  - Watmel Berry
+  - 슈박열매
+  슈캐열매:
+  - Shuca Berry
+  - 슈캐열매
+  스위프트 모치:
+  - Swift Mochi
+  - 스위프트 모치
+  스타사탕공예:
+  - Star Sweet
+  - 스타사탕공예
+  스타열매:
+  - Starf Berry
+  - 스타열매
+  스톤배지:
+  - Stone Badge
+  - 스톤배지
+  스트레인지볼:
+  - Strange Ball
+  - 스트레인지볼
+  스트레인지볼 뚜껑:
+  - Strange Ball Lid
+  - 스트레인지볼 뚜껑
+  스틸메모리:
+  - Steel Memory
+  - 스틸메모리
+  스틸메일:
+  - Steel Mail
+  - 스틸메일
+  스틸배지:
+  - Mineral Badge
+  - 스틸배지
+  스파이스 세트:
+  - Spice Mix
+  - 스파이스 세트
+  스페셜가드:
+  - X Sp. Def
+  - 스페셜가드
+  스페셜업:
+  - X Sp. Atk
+  - 스페셜업
+  스페이스메일:
+  - Space Mail
+  - 스페이스메일
+  스프레이 효과가 끝났다.:
+  - Repel has expired.
+  - 스프레이 효과가 끝났다.
+  스프레이를 사용했다!  당분간 포켓몬이 다가오지 않을 것 같다.:
+  - Repel applied! Pokémon will stay away.
+  - 스프레이를 사용했다!  당분간 포켓몬이 다가오지 않을 것 같다.
+  스피드볼:
+  - Fast Ball
+  - 스피드볼
+  스피드볼 뚜껑:
+  - Fast Ball Lid
+  - 스피드볼 뚜껑
+  스피드업:
+  - X Speed
+  - 스피드업
+  스피드파우더:
+  - Quick Powder
+  - 스피드파우더
+  승선티켓:
+  - SS Ticket
+  - 승선티켓
+  시마열매:
+  - Kelpsy Berry
+  - 시마열매
+  시몬열매:
+  - Persim Berry
+  - 시몬열매
+  시아루배지:
+  - Searuby Badge
+  - 시아루배지
+  식빵:
+  - Toast
+  - 식빵
+  신비의물방울:
+  - Mystic Water
+  - 신비의물방울
+  신비티켓:
+  - Mystic Ticket
+  - 신비티켓
+  신선한크림:
+  - Fresh Cream
+  - 신선한크림
+  신성한 강철주얼:
+  - Hallowed Steel Gem
+  - 신성한 강철주얼
+  신성한 격투주얼:
+  - Hallowed Fighting Gem
+  - 신성한 격투주얼
+  신성한 고스트주얼:
+  - Hallowed Ghost Gem
+  - 신성한 고스트주얼
+  신성한 노말주얼:
+  - Hallowed Normal Gem
+  - 신성한 노말주얼
+  신성한 독주얼:
+  - Hallowed Poison Gem
+  - 신성한 독주얼
+  신성한 드래곤주얼:
+  - Hallowed Dragon Gem
+  - 신성한 드래곤주얼
+  신성한 땅주얼:
+  - Hallowed Ground Gem
+  - 신성한 땅주얼
+  신성한 물주얼:
+  - Hallowed Water Gem
+  - 신성한 물주얼
+  신성한 바위주얼:
+  - Hallowed Rock Gem
+  - 신성한 바위주얼
+  신성한 벌레주얼:
+  - Hallowed Bug Gem
+  - 신성한 벌레주얼
+  신성한 불꽃주얼:
+  - Hallowed Fire Gem
+  - 신성한 불꽃주얼
+  신성한 비행주얼:
+  - Hallowed Flying Gem
+  - 신성한 비행주얼
+  신성한 악주얼:
+  - Hallowed Dark Gem
+  - 신성한 악주얼
+  신성한 얼음주얼:
+  - Hallowed Ice Gem
+  - 신성한 얼음주얼
+  신성한 에스퍼주얼:
+  - Hallowed Psychic Gem
+  - 신성한 에스퍼주얼
+  신성한 전기주얼:
+  - Hallowed Electric Gem
+  - 신성한 전기주얼
+  신성한 페어리주얼:
+  - Hallowed Fairy Gem
+  - 신성한 페어리주얼
+  신성한 풀주얼:
+  - Hallowed Grass Gem
+  - 신성한 풀주얼
+  '신오 기술머신10: 잠재파워':
+  - 'Sinnoh TM10: Hidden Power'
+  - '신오 기술머신10: 잠재파워'
+  '신오 기술머신11: 쾌청':
+  - 'Sinnoh TM11: Sunny Day'
+  - '신오 기술머신11: 쾌청'
+  '신오 기술머신12: 도발':
+  - 'Sinnoh TM12: Taunt'
+  - '신오 기술머신12: 도발'
+  '신오 기술머신13: 냉동빔':
+  - 'Sinnoh TM13: Ice Beam'
+  - '신오 기술머신13: 냉동빔'
+  '신오 기술머신14: 눈보라':
+  - 'Sinnoh TM14: Blizzard'
+  - '신오 기술머신14: 눈보라'
+  '신오 기술머신15: 파괴광선':
+  - 'Sinnoh TM15: Hyper Beam'
+  - '신오 기술머신15: 파괴광선'
+  '신오 기술머신16: 빛의장막':
+  - 'Sinnoh TM16: Light Screen'
+  - '신오 기술머신16: 빛의장막'
+  '신오 기술머신17: 방어':
+  - 'Sinnoh TM17: Protect'
+  - '신오 기술머신17: 방어'
+  '신오 기술머신18: 비바라기':
+  - 'Sinnoh TM18: Rain Dance'
+  - '신오 기술머신18: 비바라기'
+  '신오 기술머신19: 기가드레인':
+  - 'Sinnoh TM19: Giga Drain'
+  - '신오 기술머신19: 기가드레인'
+  '신오 기술머신1: 힘껏펀치':
+  - 'Sinnoh TM1: Focus Punch'
+  - '신오 기술머신1: 힘껏펀치'
+  '신오 기술머신20: 신비의부적':
+  - 'Sinnoh TM20: Safeguard'
+  - '신오 기술머신20: 신비의부적'
+  '신오 기술머신21: 화풀이':
+  - 'Sinnoh TM21: Frustration'
+  - '신오 기술머신21: 화풀이'
+  '신오 기술머신22: 솔라빔':
+  - 'Sinnoh TM22: Solar Beam'
+  - '신오 기술머신22: 솔라빔'
+  '신오 기술머신23: 아이언테일':
+  - 'Sinnoh TM23: Iron Tail'
+  - '신오 기술머신23: 아이언테일'
+  '신오 기술머신24: 10만볼트':
+  - 'Sinnoh TM24: Thunderbolt'
+  - '신오 기술머신24: 10만볼트'
+  '신오 기술머신25: 번개':
+  - 'Sinnoh TM25: Thunder'
+  - '신오 기술머신25: 번개'
+  '신오 기술머신26: 지진':
+  - 'Sinnoh TM26: Earthquake'
+  - '신오 기술머신26: 지진'
+  '신오 기술머신27: 은혜갚기':
+  - 'Sinnoh TM27: Return'
+  - '신오 기술머신27: 은혜갚기'
+  '신오 기술머신28: 구멍파기':
+  - 'Sinnoh TM28: Dig'
+  - '신오 기술머신28: 구멍파기'
+  '신오 기술머신29: 사이코키네시스':
+  - 'Sinnoh TM29: Psychic'
+  - '신오 기술머신29: 사이코키네시스'
+  '신오 기술머신2: 드래곤크루':
+  - 'Sinnoh TM2: Dragon Claw'
+  - '신오 기술머신2: 드래곤크루'
+  '신오 기술머신30: 섀도볼':
+  - 'Sinnoh TM30: Shadow Ball'
+  - '신오 기술머신30: 섀도볼'
+  '신오 기술머신31: 깨트리다':
+  - 'Sinnoh TM31: Brick Break'
+  - '신오 기술머신31: 깨트리다'
+  '신오 기술머신32: 그림자분신':
+  - 'Sinnoh TM32: Double Team'
+  - '신오 기술머신32: 그림자분신'
+  '신오 기술머신33: 리플렉터':
+  - 'Sinnoh TM33: Reflect'
+  - '신오 기술머신33: 리플렉터'
+  '신오 기술머신34: 전격파':
+  - 'Sinnoh TM34: Shock Wave'
+  - '신오 기술머신34: 전격파'
+  '신오 기술머신35: 화염방사':
+  - 'Sinnoh TM35: Flamethrower'
+  - '신오 기술머신35: 화염방사'
+  '신오 기술머신36: 오물폭탄':
+  - 'Sinnoh TM36: Sludge Bomb'
+  - '신오 기술머신36: 오물폭탄'
+  '신오 기술머신37: 모래바람':
+  - 'Sinnoh TM37: Sandstorm'
+  - '신오 기술머신37: 모래바람'
+  '신오 기술머신38: 불대문자':
+  - 'Sinnoh TM38: Fire Blast'
+  - '신오 기술머신38: 불대문자'
+  '신오 기술머신39: 암석봉인':
+  - 'Sinnoh TM39: Rock Tomb'
+  - '신오 기술머신39: 암석봉인'
+  '신오 기술머신3: 물의파동':
+  - 'Sinnoh TM3: Water Pulse'
+  - '신오 기술머신3: 물의파동'
+  '신오 기술머신40: 제비반환':
+  - 'Sinnoh TM40: Aerial Ace'
+  - '신오 기술머신40: 제비반환'
+  '신오 기술머신41: 트집':
+  - 'Sinnoh TM41: Torment'
+  - '신오 기술머신41: 트집'
+  '신오 기술머신42: 객기':
+  - 'Sinnoh TM42: Facade'
+  - '신오 기술머신42: 객기'
+  '신오 기술머신43: 비밀의힘':
+  - 'Sinnoh TM43: Secret Power'
+  - '신오 기술머신43: 비밀의힘'
+  '신오 기술머신44: 잠자기':
+  - 'Sinnoh TM44: Rest'
+  - '신오 기술머신44: 잠자기'
+  '신오 기술머신45: 헤롱헤롱':
+  - 'Sinnoh TM45: Attract'
+  - '신오 기술머신45: 헤롱헤롱'
+  '신오 기술머신46: 도둑질':
+  - 'Sinnoh TM46: Thief'
+  - '신오 기술머신46: 도둑질'
+  '신오 기술머신47: 강철날개':
+  - 'Sinnoh TM47: Steel Wing'
+  - '신오 기술머신47: 강철날개'
+  '신오 기술머신48: 스킬스웹':
+  - 'Sinnoh TM48: Skill Swap'
+  - '신오 기술머신48: 스킬스웹'
+  '신오 기술머신49: 가로챔':
+  - 'Sinnoh TM49: Snatch'
+  - '신오 기술머신49: 가로챔'
+  '신오 기술머신4: 명상':
+  - 'Sinnoh TM4: Calm Mind'
+  - '신오 기술머신4: 명상'
+  '신오 기술머신50: 오버히트':
+  - 'Sinnoh TM50: Overheat'
+  - '신오 기술머신50: 오버히트'
+  '신오 기술머신51: 날개쉬기':
+  - 'Sinnoh TM51: Roost'
+  - '신오 기술머신51: 날개쉬기'
+  '신오 기술머신52: 기합구슬':
+  - 'Sinnoh TM52: Focus Blast'
+  - '신오 기술머신52: 기합구슬'
+  '신오 기술머신53: 에너지볼':
+  - 'Sinnoh TM53: Energy Ball'
+  - '신오 기술머신53: 에너지볼'
+  '신오 기술머신54: 칼등치기':
+  - 'Sinnoh TM54: False Swipe'
+  - '신오 기술머신54: 칼등치기'
+  '신오 기술머신55: 소금물':
+  - 'Sinnoh TM55: Brine'
+  - '신오 기술머신55: 소금물'
+  '신오 기술머신56: 내던지기':
+  - 'Sinnoh TM56: Fling'
+  - '신오 기술머신56: 내던지기'
+  '신오 기술머신57: 차지빔':
+  - 'Sinnoh TM57: Charge Beam'
+  - '신오 기술머신57: 차지빔'
+  '신오 기술머신58: 버티기':
+  - 'Sinnoh TM58: Endure'
+  - '신오 기술머신58: 버티기'
+  '신오 기술머신59: 용의파동':
+  - 'Sinnoh TM59: Dragon Pulse'
+  - '신오 기술머신59: 용의파동'
+  '신오 기술머신5: 울부짖기':
+  - 'Sinnoh TM5: Roar'
+  - '신오 기술머신5: 울부짖기'
+  '신오 기술머신60: 드레인펀치':
+  - 'Sinnoh TM60: Drain Punch'
+  - '신오 기술머신60: 드레인펀치'
+  '신오 기술머신61: 도깨비불':
+  - 'Sinnoh TM61: Will-O-Wisp'
+  - '신오 기술머신61: 도깨비불'
+  '신오 기술머신62: 은빛바람':
+  - 'Sinnoh TM62: Silver Wind'
+  - '신오 기술머신62: 은빛바람'
+  '신오 기술머신63: 금제':
+  - 'Sinnoh TM63: Embargo'
+  - '신오 기술머신63: 금제'
+  '신오 기술머신64: 대폭발':
+  - 'Sinnoh TM64: Explosion'
+  - '신오 기술머신64: 대폭발'
+  '신오 기술머신65: 섀도크루':
+  - 'Sinnoh TM65: Shadow Claw'
+  - '신오 기술머신65: 섀도크루'
+  '신오 기술머신66: 보복':
+  - 'Sinnoh TM66: Payback'
+  - '신오 기술머신66: 보복'
+  '신오 기술머신67: 리사이클':
+  - 'Sinnoh TM67: Recycle'
+  - '신오 기술머신67: 리사이클'
+  '신오 기술머신68: 기가임팩트':
+  - 'Sinnoh TM68: Giga Impact'
+  - '신오 기술머신68: 기가임팩트'
+  '신오 기술머신69: 록커트':
+  - 'Sinnoh TM69: Rock Polish'
+  - '신오 기술머신69: 록커트'
+  '신오 기술머신6: 맹독':
+  - 'Sinnoh TM6: Toxic'
+  - '신오 기술머신6: 맹독'
+  '신오 기술머신70: 플래시':
+  - 'Sinnoh TM70: Flash'
+  - '신오 기술머신70: 플래시'
+  '신오 기술머신71: 스톤에지':
+  - 'Sinnoh TM71: Stone Edge'
+  - '신오 기술머신71: 스톤에지'
+  '신오 기술머신72: 눈사태':
+  - 'Sinnoh TM72: Avalanche'
+  - '신오 기술머신72: 눈사태'
+  '신오 기술머신73: 전기자석파':
+  - 'Sinnoh TM73: Thunder Wave'
+  - '신오 기술머신73: 전기자석파'
+  '신오 기술머신74: 자이로볼':
+  - 'Sinnoh TM74: Gyro Ball'
+  - '신오 기술머신74: 자이로볼'
+  '신오 기술머신75: 칼춤':
+  - 'Sinnoh TM75: Swords Dance'
+  - '신오 기술머신75: 칼춤'
+  '신오 기술머신76: 스텔스록':
+  - 'Sinnoh TM76: Stealth Rock'
+  - '신오 기술머신76: 스텔스록'
+  '신오 기술머신77: 자기암시':
+  - 'Sinnoh TM77: Psych Up'
+  - '신오 기술머신77: 자기암시'
+  '신오 기술머신78: 유혹':
+  - 'Sinnoh TM78: Captivate'
+  - '신오 기술머신78: 유혹'
+  '신오 기술머신79: 악의파동':
+  - 'Sinnoh TM79: Dark Pulse'
+  - '신오 기술머신79: 악의파동'
+  '신오 기술머신7: 싸라기눈':
+  - 'Sinnoh TM7: Hail'
+  - '신오 기술머신7: 싸라기눈'
+  '신오 기술머신80: 스톤샤워':
+  - 'Sinnoh TM80: Rock Slide'
+  - '신오 기술머신80: 스톤샤워'
+  '신오 기술머신81: 시저크로스':
+  - 'Sinnoh TM81: X-Scissor'
+  - '신오 기술머신81: 시저크로스'
+  '신오 기술머신82: 잠꼬대':
+  - 'Sinnoh TM82: Sleep Talk'
+  - '신오 기술머신82: 잠꼬대'
+  '신오 기술머신83: 자연의은혜':
+  - 'Sinnoh TM83: Natural Gift'
+  - '신오 기술머신83: 자연의은혜'
+  '신오 기술머신84: 독찌르기':
+  - 'Sinnoh TM84: Poison Jab'
+  - '신오 기술머신84: 독찌르기'
+  '신오 기술머신85: 꿈먹기':
+  - 'Sinnoh TM85: Dream Eater'
+  - '신오 기술머신85: 꿈먹기'
+  '신오 기술머신86: 풀묶기':
+  - 'Sinnoh TM86: Grass Knot'
+  - '신오 기술머신86: 풀묶기'
+  '신오 기술머신87: 뽐내기':
+  - 'Sinnoh TM87: Swagger'
+  - '신오 기술머신87: 뽐내기'
+  '신오 기술머신88: 쪼아대기':
+  - 'Sinnoh TM88: Pluck'
+  - '신오 기술머신88: 쪼아대기'
+  '신오 기술머신89: 유턴':
+  - 'Sinnoh TM89: U-turn'
+  - '신오 기술머신89: 유턴'
+  '신오 기술머신8: 벌크업':
+  - 'Sinnoh TM8: Bulk Up'
+  - '신오 기술머신8: 벌크업'
+  '신오 기술머신90: 대타출동':
+  - 'Sinnoh TM90: Substitute'
+  - '신오 기술머신90: 대타출동'
+  '신오 기술머신91: 러스터캐논':
+  - 'Sinnoh TM91: Flash Cannon'
+  - '신오 기술머신91: 러스터캐논'
+  '신오 기술머신92: 트릭룸':
+  - 'Sinnoh TM92: Trick Room'
+  - '신오 기술머신92: 트릭룸'
+  '신오 기술머신9: 기관총':
+  - 'Sinnoh TM9: Bullet Seed'
+  - '신오 기술머신9: 기관총'
+  신중 민트:
+  - Careful Mint
+  - 신중 민트
+  실리콘:
+  - Silicon
+  - 실리콘
+  실버스프레이[15분]:
+  - Super Repel
+  - 실버스프레이[15분]
+  실상자:
+  - Seal Case
+  - 실상자
+  실크스카프:
+  - Silk Scarf
+  - 실크스카프
+  실프스코프:
+  - Silph Scope
+  - 실프스코프
+  심해의비늘:
+  - Deep Sea Scale
+  - 심해의비늘
+  심해의이빨:
+  - Deep Sea Tooth
+  - 심해의이빨
+  썬더볼트나이트:
+  - Manectite
+  - 썬더볼트나이트
+  쓸만한 낡은 낚싯대:
+  - So-So Old Rod
+  - 쓸만한 낡은 낚싯대
+  쓸만한 대단한 낚싯대:
+  - So-So Super Rod
+  - 쓸만한 대단한 낚싯대
+  쓸만한 좋은 낚싯대:
+  - So-So Good Rod
+  - 쓸만한 좋은 낚싯대
+  아름다운 허물:
+  - Shed Shell
+  - 아름다운 허물
+  아바열매:
+  - Aguav Berry
+  - 아바열매
+  아이스메모리:
+  - Ice Memory
+  - 아이스메모리
+  아이스배지:
+  - Glacier Badge
+  - 아이스배지
+  아이스버그배지:
+  - Iceberg Badge
+  - 아이스버그배지
+  아이시클배지:
+  - Freeze Badge
+  - 아이시클배지
+  아쿠아단 모자:
+  - Aqua Helmet
+  - 아쿠아단 모자
+  아쿠아단 바지:
+  - Aqua Leggings
+  - 아쿠아단 바지
+  아쿠아단 장화:
+  - Aqua Boots
+  - 아쿠아단 장화
+  아쿠아단 조끼:
+  - Aqua Chestplate
+  - 아쿠아단 조끼
+  아쿠아카세트:
+  - Douse Drive
+  - 아쿠아카세트
+  악Z:
+  - Darkinium Z
+  - 악Z
+  악배지:
+  - Kurai Badge
+  - 악배지
+  악의 족자:
+  - Scroll of Darkness
+  - 악의 족자
+  악주얼:
+  - Dark Gem
+  - 악주얼
+  악키열매:
+  - Kee Berry
+  - 악키열매
+  안두열매:
+  - Strib Berry
+  - 안두열매
+  알 수 없는 화석:
+  - Covered Fossil
+  - 알 수 없는 화석
+  '알로라 기술머신100: 비밀이야기':
+  - 'Alolan TM100: Confide'
+  - '알로라 기술머신100: 비밀이야기'
+  '알로라 기술머신10: 잠재파워':
+  - 'Alolan TM10: Hidden Power'
+  - '알로라 기술머신10: 잠재파워'
+  '알로라 기술머신11: 쾌청':
+  - 'Alolan TM11: Sunny Day'
+  - '알로라 기술머신11: 쾌청'
+  '알로라 기술머신12: 도발':
+  - 'Alolan TM12: Taunt'
+  - '알로라 기술머신12: 도발'
+  '알로라 기술머신13: 냉동빔':
+  - 'Alolan TM13: Ice Beam'
+  - '알로라 기술머신13: 냉동빔'
+  '알로라 기술머신14: 눈보라':
+  - 'Alolan TM14: Blizzard'
+  - '알로라 기술머신14: 눈보라'
+  '알로라 기술머신15: 파괴광선':
+  - 'Alolan TM15: Hyper Beam'
+  - '알로라 기술머신15: 파괴광선'
+  '알로라 기술머신16: 빛의장막':
+  - 'Alolan TM16: Light Screen'
+  - '알로라 기술머신16: 빛의장막'
+  '알로라 기술머신17: 방어':
+  - 'Alolan TM17: Protect'
+  - '알로라 기술머신17: 방어'
+  '알로라 기술머신18: 비바라기':
+  - 'Alolan TM18: Rain Dance'
+  - '알로라 기술머신18: 비바라기'
+  '알로라 기술머신19: 날개쉬기':
+  - 'Alolan TM19: Roost'
+  - '알로라 기술머신19: 날개쉬기'
+  '알로라 기술머신1: 분발':
+  - 'Alolan TM1: Work Up'
+  - '알로라 기술머신1: 분발'
+  '알로라 기술머신20: 신비의부적':
+  - 'Alolan TM20: Safeguard'
+  - '알로라 기술머신20: 신비의부적'
+  '알로라 기술머신21: 화풀이':
+  - 'Alolan TM21: Frustration'
+  - '알로라 기술머신21: 화풀이'
+  '알로라 기술머신22: 솔라빔':
+  - 'Alolan TM22: Solar Beam'
+  - '알로라 기술머신22: 솔라빔'
+  '알로라 기술머신23: 떨어뜨리기':
+  - 'Alolan TM23: Smack Down'
+  - '알로라 기술머신23: 떨어뜨리기'
+  '알로라 기술머신24: 10만볼트':
+  - 'Alolan TM24: Thunderbolt'
+  - '알로라 기술머신24: 10만볼트'
+  '알로라 기술머신25: 번개':
+  - 'Alolan TM25: Thunder'
+  - '알로라 기술머신25: 번개'
+  '알로라 기술머신26: 지진':
+  - 'Alolan TM26: Earthquake'
+  - '알로라 기술머신26: 지진'
+  '알로라 기술머신27: 은혜갚기':
+  - 'Alolan TM27: Return'
+  - '알로라 기술머신27: 은혜갚기'
+  '알로라 기술머신28: 흡혈':
+  - 'Alolan TM28: Leech Life'
+  - '알로라 기술머신28: 흡혈'
+  '알로라 기술머신29: 사이코키네시스':
+  - 'Alolan TM29: Psychic'
+  - '알로라 기술머신29: 사이코키네시스'
+  '알로라 기술머신2: 드래곤크루':
+  - 'Alolan TM2: Dragon Claw'
+  - '알로라 기술머신2: 드래곤크루'
+  '알로라 기술머신30: 섀도볼':
+  - 'Alolan TM30: Shadow Ball'
+  - '알로라 기술머신30: 섀도볼'
+  '알로라 기술머신31: 깨트리다':
+  - 'Alolan TM31: Brick Break'
+  - '알로라 기술머신31: 깨트리다'
+  '알로라 기술머신32: 그림자분신':
+  - 'Alolan TM32: Double Team'
+  - '알로라 기술머신32: 그림자분신'
+  '알로라 기술머신33: 리플렉터':
+  - 'Alolan TM33: Reflect'
+  - '알로라 기술머신33: 리플렉터'
+  '알로라 기술머신34: 오물웨이브':
+  - 'Alolan TM34: Sludge Wave'
+  - '알로라 기술머신34: 오물웨이브'
+  '알로라 기술머신35: 화염방사':
+  - 'Alolan TM35: Flamethrower'
+  - '알로라 기술머신35: 화염방사'
+  '알로라 기술머신36: 오물폭탄':
+  - 'Alolan TM36: Sludge Bomb'
+  - '알로라 기술머신36: 오물폭탄'
+  '알로라 기술머신37: 모래바람':
+  - 'Alolan TM37: Sandstorm'
+  - '알로라 기술머신37: 모래바람'
+  '알로라 기술머신38: 불대문자':
+  - 'Alolan TM38: Fire Blast'
+  - '알로라 기술머신38: 불대문자'
+  '알로라 기술머신39: 암석봉인':
+  - 'Alolan TM39: Rock Tomb'
+  - '알로라 기술머신39: 암석봉인'
+  '알로라 기술머신3: 사이코쇼크':
+  - 'Alolan TM3: Psyshock'
+  - '알로라 기술머신3: 사이코쇼크'
+  '알로라 기술머신40: 제비반환':
+  - 'Alolan TM40: Aerial Ace'
+  - '알로라 기술머신40: 제비반환'
+  '알로라 기술머신41: 트집':
+  - 'Alolan TM41: Torment'
+  - '알로라 기술머신41: 트집'
+  '알로라 기술머신42: 객기':
+  - 'Alolan TM42: Facade'
+  - '알로라 기술머신42: 객기'
+  '알로라 기술머신43: 니트로차지':
+  - 'Alolan TM43: Flame Charge'
+  - '알로라 기술머신43: 니트로차지'
+  '알로라 기술머신44: 잠자기':
+  - 'Alolan TM44: Rest'
+  - '알로라 기술머신44: 잠자기'
+  '알로라 기술머신45: 헤롱헤롱':
+  - 'Alolan TM45: Attract'
+  - '알로라 기술머신45: 헤롱헤롱'
+  '알로라 기술머신46: 도둑질':
+  - 'Alolan TM46: Thief'
+  - '알로라 기술머신46: 도둑질'
+  '알로라 기술머신47: 로킥':
+  - 'Alolan TM47: Low Sweep'
+  - '알로라 기술머신47: 로킥'
+  '알로라 기술머신48: 돌림노래':
+  - 'Alolan TM48: Round'
+  - '알로라 기술머신48: 돌림노래'
+  '알로라 기술머신49: 에코보이스':
+  - 'Alolan TM49: Echoed Voice'
+  - '알로라 기술머신49: 에코보이스'
+  '알로라 기술머신4: 명상':
+  - 'Alolan TM4: Calm Mind'
+  - '알로라 기술머신4: 명상'
+  '알로라 기술머신50: 오버히트':
+  - 'Alolan TM50: Overheat'
+  - '알로라 기술머신50: 오버히트'
+  '알로라 기술머신51: 강철날개':
+  - 'Alolan TM51: Steel Wing'
+  - '알로라 기술머신51: 강철날개'
+  '알로라 기술머신52: 기합구슬':
+  - 'Alolan TM52: Focus Blast'
+  - '알로라 기술머신52: 기합구슬'
+  '알로라 기술머신53: 에너지볼':
+  - 'Alolan TM53: Energy Ball'
+  - '알로라 기술머신53: 에너지볼'
+  '알로라 기술머신54: 칼등치기':
+  - 'Alolan TM54: False Swipe'
+  - '알로라 기술머신54: 칼등치기'
+  '알로라 기술머신55: 열탕':
+  - 'Alolan TM55: Scald'
+  - '알로라 기술머신55: 열탕'
+  '알로라 기술머신56: 내던지기':
+  - 'Alolan TM56: Fling'
+  - '알로라 기술머신56: 내던지기'
+  '알로라 기술머신57: 차지빔':
+  - 'Alolan TM57: Charge Beam'
+  - '알로라 기술머신57: 차지빔'
+  '알로라 기술머신58: 프리폴':
+  - 'Alolan TM58: Sky Drop'
+  - '알로라 기술머신58: 프리폴'
+  '알로라 기술머신59: 세차게휘두르기':
+  - 'Alolan TM59: Brutal Swing'
+  - '알로라 기술머신59: 세차게휘두르기'
+  '알로라 기술머신5: 울부짖기':
+  - 'Alolan TM5: Roar'
+  - '알로라 기술머신5: 울부짖기'
+  '알로라 기술머신60: 순서미루기':
+  - 'Alolan TM60: Quash'
+  - '알로라 기술머신60: 순서미루기'
+  '알로라 기술머신61: 도깨비불':
+  - 'Alolan TM61: Will-O-Wisp'
+  - '알로라 기술머신61: 도깨비불'
+  '알로라 기술머신62: 애크러뱃':
+  - 'Alolan TM62: Acrobatics'
+  - '알로라 기술머신62: 애크러뱃'
+  '알로라 기술머신63: 금제':
+  - 'Alolan TM63: Embargo'
+  - '알로라 기술머신63: 금제'
+  '알로라 기술머신64: 대폭발':
+  - 'Alolan TM64: Explosion'
+  - '알로라 기술머신64: 대폭발'
+  '알로라 기술머신65: 섀도크루':
+  - 'Alolan TM65: Shadow Claw'
+  - '알로라 기술머신65: 섀도크루'
+  '알로라 기술머신66: 보복':
+  - 'Alolan TM66: Payback'
+  - '알로라 기술머신66: 보복'
+  '알로라 기술머신67: 스마트호른':
+  - 'Alolan TM67: Smart Strike'
+  - '알로라 기술머신67: 스마트호른'
+  '알로라 기술머신68: 기가임팩트':
+  - 'Alolan TM68: Giga Impact'
+  - '알로라 기술머신68: 기가임팩트'
+  '알로라 기술머신69: 록커트':
+  - 'Alolan TM69: Rock Polish'
+  - '알로라 기술머신69: 록커트'
+  '알로라 기술머신6: 맹독':
+  - 'Alolan TM6: Toxic'
+  - '알로라 기술머신6: 맹독'
+  '알로라 기술머신70: 오로라베일':
+  - 'Alolan TM70: Aurora Veil'
+  - '알로라 기술머신70: 오로라베일'
+  '알로라 기술머신71: 스톤에지':
+  - 'Alolan TM71: Stone Edge'
+  - '알로라 기술머신71: 스톤에지'
+  '알로라 기술머신72: 볼트체인지':
+  - 'Alolan TM72: Volt Switch'
+  - '알로라 기술머신72: 볼트체인지'
+  '알로라 기술머신73: 전기자석파':
+  - 'Alolan TM73: Thunder Wave'
+  - '알로라 기술머신73: 전기자석파'
+  '알로라 기술머신74: 자이로볼':
+  - 'Alolan TM74: Gyro Ball'
+  - '알로라 기술머신74: 자이로볼'
+  '알로라 기술머신75: 칼춤':
+  - 'Alolan TM75: Swords Dance'
+  - '알로라 기술머신75: 칼춤'
+  '알로라 기술머신76: 공중날기':
+  - 'Alolan TM76: Fly'
+  - '알로라 기술머신76: 공중날기'
+  '알로라 기술머신77: 자기암시':
+  - 'Alolan TM77: Psych Up'
+  - '알로라 기술머신77: 자기암시'
+  '알로라 기술머신78: 땅고르기':
+  - 'Alolan TM78: Bulldoze'
+  - '알로라 기술머신78: 땅고르기'
+  '알로라 기술머신79: 얼음숨결':
+  - 'Alolan TM79: Frost Breath'
+  - '알로라 기술머신79: 얼음숨결'
+  '알로라 기술머신7: 싸라기눈':
+  - 'Alolan TM7: Hail'
+  - '알로라 기술머신7: 싸라기눈'
+  '알로라 기술머신80: 스톤샤워':
+  - 'Alolan TM80: Rock Slide'
+  - '알로라 기술머신80: 스톤샤워'
+  '알로라 기술머신81: 시저크로스':
+  - 'Alolan TM81: X-Scissor'
+  - '알로라 기술머신81: 시저크로스'
+  '알로라 기술머신82: 드래곤테일':
+  - 'Alolan TM82: Dragon Tail'
+  - '알로라 기술머신82: 드래곤테일'
+  '알로라 기술머신83: 엉겨붙기':
+  - 'Alolan TM83: Infestation'
+  - '알로라 기술머신83: 엉겨붙기'
+  '알로라 기술머신84: 독찌르기':
+  - 'Alolan TM84: Poison Jab'
+  - '알로라 기술머신84: 독찌르기'
+  '알로라 기술머신85: 꿈먹기':
+  - 'Alolan TM85: Dream Eater'
+  - '알로라 기술머신85: 꿈먹기'
+  '알로라 기술머신86: 풀묶기':
+  - 'Alolan TM86: Grass Knot'
+  - '알로라 기술머신86: 풀묶기'
+  '알로라 기술머신87: 뽐내기':
+  - 'Alolan TM87: Swagger'
+  - '알로라 기술머신87: 뽐내기'
+  '알로라 기술머신88: 잠꼬대':
+  - 'Alolan TM88: Sleep Talk'
+  - '알로라 기술머신88: 잠꼬대'
+  '알로라 기술머신89: 유턴':
+  - 'Alolan TM89: U-turn'
+  - '알로라 기술머신89: 유턴'
+  '알로라 기술머신8: 벌크업':
+  - 'Alolan TM8: Bulk Up'
+  - '알로라 기술머신8: 벌크업'
+  '알로라 기술머신90: 대타출동':
+  - 'Alolan TM90: Substitute'
+  - '알로라 기술머신90: 대타출동'
+  '알로라 기술머신91: 러스터캐논':
+  - 'Alolan TM91: Flash Cannon'
+  - '알로라 기술머신91: 러스터캐논'
+  '알로라 기술머신92: 트릭룸':
+  - 'Alolan TM92: Trick Room'
+  - '알로라 기술머신92: 트릭룸'
+  '알로라 기술머신93: 와일드볼트':
+  - 'Alolan TM93: Wild Charge'
+  - '알로라 기술머신93: 와일드볼트'
+  '알로라 기술머신94: 파도타기':
+  - 'Alolan TM94: Surf'
+  - '알로라 기술머신94: 파도타기'
+  '알로라 기술머신95: 바크아웃':
+  - 'Alolan TM95: Snarl'
+  - '알로라 기술머신95: 바크아웃'
+  '알로라 기술머신96: 자연의힘':
+  - 'Alolan TM96: Nature Power'
+  - '알로라 기술머신96: 자연의힘'
+  '알로라 기술머신97: 악의파동':
+  - 'Alolan TM97: Dark Pulse'
+  - '알로라 기술머신97: 악의파동'
+  '알로라 기술머신98: 폭포오르기':
+  - 'Alolan TM98: Waterfall'
+  - '알로라 기술머신98: 폭포오르기'
+  '알로라 기술머신99: 매지컬샤인':
+  - 'Alolan TM99: Dazzling Gleam'
+  - '알로라 기술머신99: 매지컬샤인'
+  '알로라 기술머신9: 베놈쇼크':
+  - 'Alolan TM9: Venoshock'
+  - '알로라 기술머신9: 베놈쇼크'
+  알로라이Z:
+  - Aloraichium Z
+  - 알로라이Z
+  알루미늄 갑옷:
+  - Aluminum Chestplate
+  - 알루미늄 갑옷
+  알루미늄 곡괭이:
+  - Aluminum Pickaxe
+  - 알루미늄 곡괭이
+  알루미늄 괭이:
+  - Aluminum Hoe
+  - 알루미늄 괭이
+  알루미늄 도끼:
+  - Aluminum Axe
+  - 알루미늄 도끼
+  알루미늄 디스크:
+  - Aluminum Disc
+  - 알루미늄 디스크
+  알루미늄 바지:
+  - Aluminum Leggings
+  - 알루미늄 바지
+  알루미늄 베이스:
+  - Aluminum Base
+  - 알루미늄 베이스
+  알루미늄 삽:
+  - Aluminum Shovel
+  - 알루미늄 삽
+  알루미늄 신발:
+  - Aluminum Boots
+  - 알루미늄 신발
+  알루미늄 주괴:
+  - Aluminum Ingot
+  - 알루미늄 주괴
+  알루미늄 칼:
+  - Aluminum Sword
+  - 알루미늄 칼
+  알루미늄 판:
+  - Aluminum Plate
+  - 알루미늄 판
+  알루미늄 해머:
+  - Aluminum Hammer
+  - 알루미늄 해머
+  - Platinum Hammer
+  알루미늄 헬멧:
+  - Aluminum Helmet
+  - 알루미늄 헬멧
+  알칼로이드:
+  - Carbos
+  - 알칼로이드
+  암석플레이트:
+  - Stone Plate
+  - 암석플레이트
+  암석향로:
+  - Rock Incense
+  - 암석향로
+  애슈열매:
+  - Custap Berry
+  - 애슈열매
+  애터열매:
+  - Rowap Berry
+  - 애터열매
+  애호메일:
+  - Favored Mail
+  - 애호메일
+  액세서리상자:
+  - Fashion Case
+  - 액세서리상자
+  앱솔나이트:
+  - Absolite
+  - 앱솔나이트
+  야도란나이트:
+  - Slowbronite
+  - 야도란나이트
+  야자밀크:
+  - Coconut Milk
+  - 야자밀크
+  야타비열매:
+  - Petaya Berry
+  - 야타비열매
+  야파열매:
+  - Payapa Berry
+  - 야파열매
+  약점보험:
+  - Weakness Policy
+  - 약점보험
+  약한 강철 루어:
+  - Weak Steel Lure
+  - 약한 강철 루어
+  약한 격투 루어:
+  - Weak Fighting Lure
+  - 약한 격투 루어
+  약한 고스트 루어:
+  - Weak Ghost Lure
+  - 약한 고스트 루어
+  약한 노말 루어:
+  - Weak Normal Lure
+  - 약한 노말 루어
+  약한 독 루어:
+  - Weak Poison Lure
+  - 약한 독 루어
+  약한 드래곤 루어:
+  - Weak Dragon Lure
+  - 약한 드래곤 루어
+  약한 땅 루어:
+  - Weak Ground Lure
+  - 약한 땅 루어
+  약한 물 루어:
+  - Weak Water Lure
+  - 약한 물 루어
+  약한 바위 루어:
+  - Weak Rock Lure
+  - 약한 바위 루어
+  약한 벌레 루어:
+  - Weak Bug Lure
+  - 약한 벌레 루어
+  약한 불 루어:
+  - Weak Fire Lure
+  - 약한 불 루어
+  약한 비행 루어:
+  - Weak Flying Lure
+  - 약한 비행 루어
+  약한 숨겨진 특성 루어:
+  - Weak Hidden Ability Lure
+  - 약한 숨겨진 특성 루어
+  약한 악 루어:
+  - Weak Dark Lure
+  - 약한 악 루어
+  약한 얼음 루어:
+  - Weak Ice Lure
+  - 약한 얼음 루어
+  약한 에스퍼 루어:
+  - Weak Psychic Lure
+  - 약한 에스퍼 루어
+  약한 이로치 루어:
+  - Weak Shiny Lure
+  - 약한 이로치 루어
+  약한 전기 루어:
+  - Weak Electric Lure
+  - 약한 전기 루어
+  약한 페어리 루어:
+  - Weak Fairy Lure
+  - 약한 페어리 루어
+  약한 풀 루어:
+  - Weak Grass Lure
+  - 약한 풀 루어
+  얌전 민트:
+  - Gentle Mint
+  - 얌전 민트
+  어둠의 돌:
+  - Dusk Stone
+  - 어둠의 돌
+  어둠의 돌 각반:
+  - Dusk Stone Leggings
+  - 어둠의 돌 각반
+  어둠의 돌 검:
+  - Dusk Stone Sword
+  - 어둠의 돌 검
+  어둠의 돌 곡괭이:
+  - Dusk Stone Pickaxe
+  - 어둠의 돌 곡괭이
+  어둠의 돌 괭이:
+  - Dusk Stone Hoe
+  - 어둠의 돌 괭이
+  어둠의 돌 도끼:
+  - Dusk Stone Axe
+  - 어둠의 돌 도끼
+  어둠의 돌 부츠:
+  - Dusk Stone Boots
+  - 어둠의 돌 부츠
+  어둠의 돌 삽:
+  - Dusk Stone Shovel
+  - 어둠의 돌 삽
+  어둠의 돌 조각:
+  - Dusk Stone Shard
+  - 어둠의 돌 조각
+  어둠의 돌 투구:
+  - Dusk Stone Helmet
+  - 어둠의 돌 투구
+  어둠의 돌 해머:
+  - Dusk Stone Hammer
+  - 어둠의 돌 해머
+  어둠의 돌 흉갑:
+  - Dusk Stone Chestplate
+  - 어둠의 돌 흉갑
+  어흥염Z:
+  - Incinium Z
+  - 어흥염Z
+  얼어 붙은 영혼의 보주:
+  - Orb of Frozen Souls
+  - 얼어 붙은 영혼의 보주
+  얼음Z:
+  - Icium Z
+  - 얼음Z
+  얼음귀신나이트:
+  - Glalitite
+  - 얼음귀신나이트
+  얼음배지:
+  - Aisu Badge
+  - 얼음배지
+  - Ice Badge
+  얼음의 돌:
+  - Ice Stone
+  - 얼음의 돌
+  얼음의 돌 조각:
+  - Ice Stone Shard
+  - 얼음의 돌 조각
+  얼음주얼:
+  - Ice Gem
+  - 얼음주얼
+  업그레이드:
+  - Up-Grade
+  - 업그레이드
+  에나비 스무디:
+  - Skitty Smoothie
+  - 에나비 스무디
+  에나비꼬리:
+  - Fluffy Tail
+  - 에나비꼬리
+  에나코코아:
+  - Tapu Cocoa
+  - 에나코코아
+  에레키부스터:
+  - Electirizer
+  - 에레키부스터
+  에스퍼Z:
+  - Psychium Z
+  - 에스퍼Z
+  에스퍼주얼:
+  - Psychic Gem
+  - 에스퍼주얼
+  에어메일:
+  - Air Mail
+  - 에어메일
+  엘레이드나이트:
+  - Galladite
+  - 엘레이드나이트
+  엘리베이터키:
+  - Flare Card Key
+  - 엘리베이터키
+  여울소금:
+  - Shoal Salt
+  - 여울소금
+  여울조개껍질:
+  - Shoal Shell
+  - 여울조개껍질
+  연두색 포켓 가방:
+  - Lime Poké Bag
+  - 연두색 포켓 가방
+  연둣빛구슬:
+  - Jade Orb
+  - 연둣빛구슬
+  연막탄:
+  - Smoke Ball
+  - 연막탄
+  연분홍꿀:
+  - Pink Nectar
+  - 연분홍꿀
+  열대메일:
+  - Tropic Mail
+  - 열대메일
+  열매 가방:
+  - Berry Bag
+  - 열매 가방
+  영계의천:
+  - Reaper Cloth
+  - 영계의천
+  영리한 모찌:
+  - Clever Mochi
+  - 영리한 모찌
+  영혼배지:
+  - Yosei Badge
+  - 영혼배지
+  예리한 손톱:
+  - Razor Claw
+  - 예리한 손톱
+  예리한부리:
+  - Sharp Beak
+  - 예리한부리
+  예리한이빨:
+  - Razor Fang
+  - 예리한이빨
+  옐로쥬스:
+  - Yellow Juice
+  - 옐로쥬스
+  오래된 러닝슈즈:
+  - Old Running Boots
+  - 오래된 러닝슈즈
+  오래된해도:
+  - Old Sea Map
+  - 오래된해도
+  오래오래비료:
+  - Stable Mulch
+  - 오래오래비료
+  오랭열매:
+  - Oran Berry
+  - 오랭열매
+  오렌지메일:
+  - Orange Mail
+  - 오렌지메일
+  오렌지배지:
+  - Thunder Badge
+  - 오렌지배지
+  오로라 티켓:
+  - Aurora Ticket
+  - 오로라 티켓
+  오리진볼:
+  - Origin Ball
+  - 오리진볼
+  오리진볼 뚜껑:
+  - Origin Ball Lid
+  - 오리진볼 뚜껑
+  오박사의 편지:
+  - Oak's Letteer
+  - 오박사의 편지
+  오박열매:
+  - Pumkin Berry
+  - 오박열매
+  오카열매:
+  - Occa Berry
+  - 오카열매
+  온순 민트:
+  - Docile Mint
+  - 온순 민트
+  왕관패스:
+  - Crown Pass
+  - 왕관패스
+  왕의징표석:
+  - King's Rock
+  - 왕의징표석
+  외로운 민트:
+  - Lonely Mint
+  - 외로운 민트
+  요가램나이트:
+  - Medichamite
+  - 요가램나이트
+  요정의깃털:
+  - Fairy Feather
+  - 요정의깃털
+  용감 민트:
+  - Brave Mint
+  - 용감 민트
+  용감배지:
+  - Seishin Badge
+  - 용감배지
+  용배지:
+  - Doragon Badge
+  - 용배지
+  용아열매:
+  - Ganlon Berry
+  - 용아열매
+  용암전병:
+  - Lava Cookie
+  - 용암전병
+  용의비늘:
+  - Dragon Scale
+  - 용의비늘
+  용의이빨:
+  - Dragon Fang
+  - 용의이빨
+  용의플레이트:
+  - Draco Plate
+  - 용의플레이트
+  우뢰플레이트:
+  - Zap Plate
+  - 우뢰플레이트
+  운석:
+  - Meteorite
+  - 운석
+  울퉁불퉁멧:
+  - Rocky Helmet
+  - 울퉁불퉁멧
+  울트라 느릅나무 보트:
+  - Ultra Elm Boat
+  - 울트라 느릅나무 보트
+  울트라 느릅나무 상자 보트:
+  - Ultra Elm Boat with Chest
+  - 울트라 느릅나무 상자 보트
+  울트라 스페이스 음악 디스크 설명:
+  - Ultra Space Music Disc Description
+  - 울트라 스페이스 음악 디스크 설명
+  울트라 스페이스 텔레포터:
+  - Ultra Space Teleporter
+  - 울트라 스페이스 텔레포터
+  울트라 은행나무 보트:
+  - Ultra Ginkgo Boat
+  - 울트라 은행나무 보트
+  울트라 은행나무 상자 보트:
+  - Ultra Ginkgo Boat with Chest
+  - 울트라 은행나무 상자 보트
+  울트라 정글 나무 보트:
+  - Ultra Jungle Boat
+  - 울트라 정글 나무 보트
+  울트라 정글 상자 보트:
+  - Ultra Jungle Boat with Chest
+  - 울트라 정글 상자 보트
+  울트라네크로Z:
+  - Ultranecrozium Z
+  - 울트라네크로Z
+  울트라딥시열쇠:
+  - Ultra Deep Sea Key
+  - 울트라딥시열쇠
+  울트라볼:
+  - ultra ball
+  - 울트라 볼
+  - Beast Ball
+  울트라볼 뚜껑:
+  - Beast Ball Lid
+  - 울트라볼 뚜껑
+  울트라빌딩열쇠:
+  - Ultra Ruin Key
+  - 울트라빌딩열쇠
+  울트라포레스트열쇠:
+  - Ultra Forest Key
+  - 울트라포레스트열쇠
+  워터메모리:
+  - Water Memory
+  - 워터메모리
+  원더풀사이다:
+  - Ultra Rare Soda
+  - 원더풀사이다
+  원령플레이트:
+  - Spooky Plate
+  - 원령플레이트
+  원석 백금:
+  - Raw Platinum
+  - 원석 백금
+  원석 철반석:
+  - Raw Bauxite
+  - 원석 철반석
+  원시 실리콘:
+  - Raw Silicon
+  - 원시 실리콘
+  원시 은:
+  - Raw Silver
+  - 원시 은
+  월배지:
+  - Cliff Badge
+  - 월배지
+  웨이브배지:
+  - Wave Badge
+  - 웨이브배지
+  위키열매:
+  - Wiki Berry
+  - 위키열매
+  윙배지:
+  - Zephyr Badge
+  - 윙배지
+  윙볼:
+  - Wing Ball
+  - 윙볼
+  윙볼 뚜껑:
+  - Wing Ball Lid
+  - 윙볼 뚜껑
+  유대의고삐:
+  - Reins of Unity
+  - 유대의고삐
+  유루열매:
+  - Chesto Berry
+  - 유루열매
+  유석열매:
+  - Pomeg Berry
+  - 유석열매
+  유전자쐐기:
+  - DNA Splicers
+  - 유전자쐐기
+  으름열매:
+  - Kebia Berry
+  - 으름열매
+  은 검:
+  - Silver Sword
+  - 은 검
+  은 곡괭이:
+  - Silver Pickaxe
+  - 은 곡괭이
+  은 괭이:
+  - Silver Hoe
+  - 은 괭이
+  은 날개:
+  - Silver Wing
+  - 은 날개
+  은 도끼:
+  - Silver Axe
+  - 은 도끼
+  은 레깅스:
+  - Silver Leggings
+  - 은 레깅스
+  은 베이스:
+  - Silver Base
+  - 은 베이스
+  은 부츠:
+  - Silver Boots
+  - 은 부츠
+  은 삽:
+  - Silver Shovel
+  - 은 삽
+  은 잎:
+  - Silver Leaf
+  - 은 잎
+  은 주괴:
+  - Silver Ingot
+  - 은 주괴
+  은 투구:
+  - Silver Helmet
+  - 은 투구
+  은 해머:
+  - Silver Hammer
+  - 은 해머
+  은 흉갑:
+  - Silver Chestplate
+  - 은 흉갑
+  은밀망토:
+  - Covert Cloak
+  - 은밀망토
+  은빛 근성의 증표:
+  - Silver Guts Symbol
+  - 은빛 근성의 증표
+  은빛 능력의 증표:
+  - Silver Ability Symbol
+  - 은빛 능력의 증표
+  은빛 용기의 증표:
+  - Silver Brave Symbol
+  - 은빛 용기의 증표
+  은빛 전술의 증표:
+  - Silver Tactics Symbol
+  - 은빛 전술의 증표
+  은빛 정신력의 증표:
+  - Silver Spirits Symbol
+  - 은빛 정신력의 증표
+  은빛 지식의 증표:
+  - Silver Knowledge Symbol
+  - 은빛 지식의 증표
+  은빛 행운의 증표:
+  - Silver Luck Symbol
+  - 은빛 행운의 증표
+  은빛가루:
+  - Silver Powder
+  - 은빛가루
+  은왕관:
+  - Silver Bottle Cap
+  - 은왕관
+  은혈 스포너:
+  - Grotto Spawner
+  - 은혈 스포너
+  음악 디스크:
+  - Music Disc
+  - 음악 디스크
+  의문열매:
+  - Enigma Berry
+  - 의문열매
+  의젓 민트:
+  - Mild Mint
+  - 의젓 민트
+  의지의 루비:
+  - Ruby of Willpower
+  - 의지의 루비
+  이 포켓몬의 노력치는 더 이상 올릴 수 없습니다!:
+  - You cannot increase the EVs on this Pokémon any further!
+  - 이 포켓몬의 노력치는 더 이상 올릴 수 없습니다!
+  이브이Z:
+  - Eevium Z
+  - 이브이Z
+  이빠진포트:
+  - Chipped Pot
+  - 이빠진포트
+  이상한사탕:
+  - Rare Candy
+  - 이상한사탕
+  이상한장식품:
+  - Strange Souvenier
+  - 이상한장식품
+  - Strange Souvenir
+  이상한플레이트:
+  - Mind Plate
+  - 이상한플레이트
+  이상한향로:
+  - Odd Incense
+  - 이상한향로
+  이상해꽃나이트:
+  - Venusaurite
+  - 이상해꽃나이트
+  이어롭나이트:
+  - Lopunnite
+  - 이어롭나이트
+  이펙트가드:
+  - Guard Spec.
+  - 이펙트가드
+  익사 월드 텔레포터:
+  - Drowned World Teleporter
+  - 익사 월드 텔레포터
+  익은 검은 규토리:
+  - Cooked Black Apricorn
+  - 익은 검은 규토리
+  익은 노랑 규토리:
+  - Cooked Yellow Apricorn
+  - 익은 노랑 규토리
+  익은 담홍 규토리:
+  - Cooked Pink Apricorn
+  - 익은 담홍 규토리
+  익은 빨간 규토리:
+  - Cooked Red Apricorn
+  - 익은 빨간 규토리
+  익은 초록 규토리:
+  - Cooked Green Apricorn
+  - 익은 초록 규토리
+  익은 파란 규토리:
+  - Cooked Blue Apricorn
+  - 익은 파란 규토리
+  익은 하얀 규토리:
+  - Cooked White Apricorn
+  - 익은 하얀 규토리
+  인섹트배지:
+  - Hive Badge
+  - 인섹트배지
+  일렉트릭메모리:
+  - Electric Memory
+  - 일렉트릭메모리
+  일렉트릭시드:
+  - Electric Seed
+  - 일렉트릭시드
+  일반 낡은 낚싯대:
+  - Standard Old Rod
+  - 일반 낡은 낚싯대
+  일반 대단한 낚싯대:
+  - Standard Super Rod
+  - 일반 대단한 낚싯대
+  일반 돌:
+  - Common Stone
+  - 일반 돌
+  일반 좋은 낚싯대:
+  - Standard Good Rod
+  - 일반 좋은 낚싯대
+  입치트나이트:
+  - Mawilite
+  - 입치트나이트
+  자뭉열매:
+  - Sitrus Berry
+  - 자뭉열매
+  자보열매:
+  - Jaboca Berry
+  - 자보열매
+  자석:
+  - Magnet
+  - 자석
+  자수정:
+  - Amethyst
+  - 자수정
+  자수정 검:
+  - Amethyst Sword
+  - 자수정 검
+  자수정 곡괭이:
+  - Amethyst Pickaxe
+  - 자수정 곡괭이
+  자수정 괭이:
+  - Amethyst Hoe
+  - 자수정 괭이
+  자수정 도끼:
+  - Amethyst Axe
+  - 자수정 도끼
+  자수정 삽:
+  - Amethyst Shovel
+  - 자수정 삽
+  자수정 해머:
+  - Amethyst Hammer
+  - 자수정 해머
+  자야열매:
+  - Pamtre Berry
+  - 자야열매
+  자전거 상품권:
+  - Bike Voucher
+  - 자전거 상품권
+  자홍색 포켓 가방:
+  - Magenta Poké Bag
+  - 자홍색 포켓 가방
+  작은버섯:
+  - Tiny Mushroom
+  - 작은버섯
+  잔디메일:
+  - Grass Mail
+  - 잔디메일
+  잔물결향로:
+  - Wave Incense
+  - 잔물결향로
+  잘-맞히기:
+  - X Accuracy
+  - 잘-맞히기
+  잠깨는 약:
+  - Awakening
+  - 잠깨는 약
+  잠만보Z:
+  - Snorlium Z
+  - 잠만보Z
+  장난꾸러기 민트:
+  - Impish Mint
+  - 장난꾸러기 민트
+  재료주머니:
+  - Forage Bag
+  - 재료주머니
+  저주받은갑옷:
+  - Malicious Armor
+  - 저주받은갑옷
+  저주의부적:
+  - Spell Tag
+  - 저주의부적
+  저항 모치:
+  - Resist Mochi
+  - 저항 모치
+  저항력 날개:
+  - Resist Wing
+  - 저항력 날개
+  저항력날개:
+  - Resist Feather
+  - 저항력날개
+  전기Z:
+  - Electrium Z
+  - 전기Z
+  전기구슬:
+  - Light Ball
+  - 전기구슬
+  전기주얼:
+  - Electric Gem
+  - 전기주얼
+  전룡나이트:
+  - Ampharosite
+  - 전룡나이트
+  전문가의 낡은 낚싯대:
+  - Pro's Old Rod
+  - 전문가의 낡은 낚싯대
+  전문가의 대단한 낚싯대:
+  - Pro's Super Rod
+  - 전문가의 대단한 낚싯대
+  전문가의 좋은 낚싯대:
+  - Pro's Good Rod
+  - 전문가의 좋은 낚싯대
+  전설의메모:
+  - Legendary Clues
+  - 전설의메모
+  전해줄물건:
+  - Oak's Parcel
+  - 전해줄물건
+  정령플레이트:
+  - Pixie Plate
+  - 정령플레이트
+  정신력 날개:
+  - Clever Wing
+  - 정신력 날개
+  정신력날개:
+  - Clever Feather
+  - 정신력날개
+  정적의 영혼의 보주:
+  - Orb of Static Souls
+  - 정적의 영혼의 보주
+  제이드스타배지:
+  - Jadestar Badge
+  - 제이드스타배지
+  제트배지:
+  - Jet Badge
+  - 제트배지
+  제트볼:
+  - Jet Ball
+  - 제트볼
+  제트볼 뚜껑:
+  - Jet Ball Lid
+  - 제트볼 뚜껑
+  조각칼:
+  - Statue Editor
+  - 조각칼
+  조개껍질방울:
+  - Shell Bell
+  - 조개껍질방울
+  조개화석:
+  - Helix Fossil
+  - 조개화석
+  조심 민트:
+  - Modest Mint
+  - 조심 민트
+  조임밴드:
+  - Binding Band
+  - 조임밴드
+  좋은 낚싯대:
+  - Good Rod
+  - 좋은 낚싯대
+  좋은 낡은 낚싯대:
+  - Good Old Rod
+  - 좋은 낡은 낚싯대
+  좋은 대단한 낚싯대:
+  - Good Super Rod
+  - 좋은 대단한 낚싯대
+  좋은 상처약:
+  - Super Potion
+  - 좋은 상처약
+  좋은 좋은 낚싯대:
+  - Good Good Rod
+  - 좋은 좋은 낚싯대
+  주눅구슬:
+  - Adrenaline Orb
+  - 주눅구슬
+  주먹플레이트:
+  - Fist Plate
+  - 주먹플레이트
+  주여열매:
+  - Kuo Berry
+  - 주여열매
+  - Yago Berry
+  주홍구슬:
+  - Red Orb
+  - 주홍구슬
+  주황꽃잎:
+  - Orange Petal
+  - 주황꽃잎
+  주황색 탱크:
+  - Orange Tank
+  - 주황색 탱크
+  주황색 포켓 가방:
+  - Orange Poké Bag
+  - 주황색 포켓 가방
+  증표의부적:
+  - Mark Charm
+  - 증표의부적
+  지가르데 큐브:
+  - Zygarde Cube
+  - 지가르데 큐브
+  지느러미화석:
+  - Sail Fossil
+  - 지느러미화석
+  지력 날개:
+  - Genius Wing
+  - 지력 날개
+  지력날개:
+  - Genius Feather
+  - 지력날개
+  지식의 루비:
+  - Ruby of Knowledge
+  - 지식의 루비
+  지우피카Z:
+  - Pikashunium Z
+  - 지우피카Z
+  지하 열쇠:
+  - Basement Key
+  - 지하 열쇠
+  진노랑꿀:
+  - Yellow Nectar
+  - 진노랑꿀
+  진주:
+  - Pearl
+  - 진주
+  진홍색배지:
+  - Volcano Badge
+  - 진홍색배지
+  진화의휘석:
+  - Eviolite
+  - 진화의휘석
+  질문메일:
+  - Inquiry Mail
+  - 질문메일
+  짜랑고우거Z:
+  - Kommonium Z
+  - 짜랑고우거Z
+  쪽빛구슬:
+  - Blue Orb
+  - 쪽빛구슬
+  차가운당근:
+  - Ice Root Carrot
+  - 차가운당근
+  차가운바위:
+  - Icy Rock
+  - 차가운바위
+  차분 민트:
+  - Calm Mint
+  - 차분 민트
+  채소팩:
+  - Salad
+  - 채소팩
+  천계의피리:
+  - Azure Flute
+  - 천계의피리
+  천둥의 돌:
+  - Thunder Stone
+  - 천둥의 돌
+  천둥의 돌 각반:
+  - Thunder Stone Leggings
+  - 천둥의 돌 각반
+  천둥의 돌 검:
+  - Thunder Stone Sword
+  - 천둥의 돌 검
+  천둥의 돌 곡괭이:
+  - Thunder Stone Pickaxe
+  - 천둥의 돌 곡괭이
+  천둥의 돌 괭이:
+  - Thunder Stone Hoe
+  - 천둥의 돌 괭이
+  천둥의 돌 도끼:
+  - Thunder Stone Axe
+  - 천둥의 돌 도끼
+  천둥의 돌 부츠:
+  - Thunder Stone Boots
+  - 천둥의 돌 부츠
+  천둥의 돌 삽:
+  - Thunder Stone Shovel
+  - 천둥의 돌 삽
+  천둥의 돌 조각:
+  - Thunder Stone Shard
+  - 천둥의 돌 조각
+  천둥의 돌 투구:
+  - Thunder Stone Helmet
+  - 천둥의 돌 투구
+  천둥의 돌 해머:
+  - Thunder Stone Hammer
+  - 천둥의 돌 해머
+  천둥의 돌 흉갑:
+  - Thunder Stone Chestplate
+  - 천둥의 돌 흉갑
+  천재 모치:
+  - Genius Mochi
+  - 천재 모치
+  천진난만 민트:
+  - Naive Mint
+  - 천진난만 민트
+  철 디스크:
+  - Iron Disc
+  - 철 디스크
+  철 루어 케이스:
+  - Silver Lure Casing
+  - 철 루어 케이스
+  철 베이스:
+  - Iron Base
+  - 철 베이스
+  철 해머:
+  - Iron Hammer
+  - 철 해머
+  첫메일:
+  - Greet Mail
+  - 첫메일
+  청록색 포켓 가방:
+  - Cyan Poké Bag
+  - 청록색 포켓 가방
+  체력 날개:
+  - Health Wing
+  - 체력 날개
+  체력 모치:
+  - Health Mochi
+  - 체력 모치
+  체력날개:
+  - Health Feather
+  - 체력날개
+  초나열매:
+  - Wacan Berry
+  - 초나열매
+  초록 규토리:
+  - Green Apricorn
+  - 초록 규토리
+  초록꽃잎:
+  - Green Petal
+  - 초록꽃잎
+  초록비드로:
+  - Green Flute
+  - 초록비드로
+  초록색 배지케이스:
+  - Green Badgecase
+  - 초록색 배지케이스
+  초록색 포켓 가방:
+  - Green Poké Bag
+  - 초록색 포켓 가방
+  초록열매 나무 보트:
+  - Green Berry Boat
+  - 초록열매 나무 보트
+  초록조각:
+  - Delta Shard
+  - 초록조각
+  - Green Shard
+  초록플레이트:
+  - Meadow Plate
+  - 초록플레이트
+  초승달날개:
+  - Lunar Wing
+  - 초승달날개
+  초점렌즈:
+  - Scope Lens
+  - 초점렌즈
+  촐랑 민트:
+  - Lax Mint
+  - 촐랑 민트
+  최고의 낡은 낚싯대:
+  - Supreme Old Rod
+  - 최고의 낡은 낚싯대
+  최고의 대단한 낚싯대:
+  - Supreme Super Rod
+  - 최고의 대단한 낚싯대
+  최고의 좋은 낚싯대:
+  - Supreme Good Rod
+  - 최고의 좋은 낚싯대
+  추천메일:
+  - Like Mail
+  - 추천메일
+  추천장:
+  - Endorsement
+  - 추천장
+  축복받은갑옷:
+  - Auspicious Armor
+  - 축복받은갑옷
+  축축이비료:
+  - Damp Mulch
+  - 축축이비료
+  축축한바위:
+  - Damp Rock
+  - 축축한바위
+  충전지:
+  - Cell Battery
+  - 충전지
+  치리열매:
+  - Liechi Berry
+  - 치리열매
+  카드키:
+  - Card Key
+  - 카드키
+  카레도감:
+  - Curry Dex
+  - 카레도감
+  카리열매:
+  - Chilan Berry
+  - 카리열매
+  카메라:
+  - Camera
+  - 카메라
+  카푸Z:
+  - Tapunium Z
+  - 카푸Z
+  '칼로스 기술머신100: 비밀이야기':
+  - 'Kalos TM100: Confide'
+  - '칼로스 기술머신100: 비밀이야기'
+  '칼로스 기술머신101: 비밀의힘':
+  - 'Kalos TM101: Secret Power'
+  - '칼로스 기술머신101: 비밀의힘'
+  '칼로스 기술머신10: 잠재파워':
+  - 'Kalos TM10: Hidden Power'
+  - '칼로스 기술머신10: 잠재파워'
+  '칼로스 기술머신11: 쾌청':
+  - 'Kalos TM11: Sunny Day'
+  - '칼로스 기술머신11: 쾌청'
+  '칼로스 기술머신12: 도발':
+  - 'Kalos TM12: Taunt'
+  - '칼로스 기술머신12: 도발'
+  '칼로스 기술머신13: 냉동빔':
+  - 'Kalos TM13: Ice Beam'
+  - '칼로스 기술머신13: 냉동빔'
+  '칼로스 기술머신14: 눈보라':
+  - 'Kalos TM14: Blizzard'
+  - '칼로스 기술머신14: 눈보라'
+  '칼로스 기술머신15: 파괴광선':
+  - 'Kalos TM15: Hyper Beam'
+  - '칼로스 기술머신15: 파괴광선'
+  '칼로스 기술머신16: 빛의장막':
+  - 'Kalos TM16: Light Screen'
+  - '칼로스 기술머신16: 빛의장막'
+  '칼로스 기술머신17: 방어':
+  - 'Kalos TM17: Protect'
+  - '칼로스 기술머신17: 방어'
+  '칼로스 기술머신18: 비바라기':
+  - 'Kalos TM18: Rain Dance'
+  - '칼로스 기술머신18: 비바라기'
+  '칼로스 기술머신19: 날개쉬기':
+  - 'Kalos TM19: Roost'
+  - '칼로스 기술머신19: 날개쉬기'
+  '칼로스 기술머신1: 손톱갈기':
+  - 'Kalos TM1: Hone Claws'
+  - '칼로스 기술머신1: 손톱갈기'
+  '칼로스 기술머신20: 신비의부적':
+  - 'Kalos TM20: Safeguard'
+  - '칼로스 기술머신20: 신비의부적'
+  '칼로스 기술머신21: 화풀이':
+  - 'Kalos TM21: Frustration'
+  - '칼로스 기술머신21: 화풀이'
+  '칼로스 기술머신22: 솔라빔':
+  - 'Kalos TM22: Solar Beam'
+  - '칼로스 기술머신22: 솔라빔'
+  '칼로스 기술머신23: 떨어뜨리기':
+  - 'Kalos TM23: Smack Down'
+  - '칼로스 기술머신23: 떨어뜨리기'
+  '칼로스 기술머신24: 10만볼트':
+  - 'Kalos TM24: Thunderbolt'
+  - '칼로스 기술머신24: 10만볼트'
+  '칼로스 기술머신25: 번개':
+  - 'Kalos TM25: Thunder'
+  - '칼로스 기술머신25: 번개'
+  '칼로스 기술머신26: 지진':
+  - 'Kalos TM26: Earthquake'
+  - '칼로스 기술머신26: 지진'
+  '칼로스 기술머신27: 은혜갚기':
+  - 'Kalos TM27: Return'
+  - '칼로스 기술머신27: 은혜갚기'
+  '칼로스 기술머신28: 구멍파기':
+  - 'Kalos TM28: Dig'
+  - '칼로스 기술머신28: 구멍파기'
+  '칼로스 기술머신29: 사이코키네시스':
+  - 'Kalos TM29: Psychic'
+  - '칼로스 기술머신29: 사이코키네시스'
+  '칼로스 기술머신2: 드래곤크루':
+  - 'Kalos TM2: Dragon Claw'
+  - '칼로스 기술머신2: 드래곤크루'
+  '칼로스 기술머신30: 섀도볼':
+  - 'Kalos TM30: Shadow Ball'
+  - '칼로스 기술머신30: 섀도볼'
+  '칼로스 기술머신31: 깨트리다':
+  - 'Kalos TM31: Brick Break'
+  - '칼로스 기술머신31: 깨트리다'
+  '칼로스 기술머신32: 그림자분신':
+  - 'Kalos TM32: Double Team'
+  - '칼로스 기술머신32: 그림자분신'
+  '칼로스 기술머신33: 리플렉터':
+  - 'Kalos TM33: Reflect'
+  - '칼로스 기술머신33: 리플렉터'
+  '칼로스 기술머신34: 오물웨이브':
+  - 'Kalos TM34: Sludge Wave'
+  - '칼로스 기술머신34: 오물웨이브'
+  '칼로스 기술머신35: 화염방사':
+  - 'Kalos TM35: Flamethrower'
+  - '칼로스 기술머신35: 화염방사'
+  '칼로스 기술머신36: 오물폭탄':
+  - 'Kalos TM36: Sludge Bomb'
+  - '칼로스 기술머신36: 오물폭탄'
+  '칼로스 기술머신37: 모래바람':
+  - 'Kalos TM37: Sandstorm'
+  - '칼로스 기술머신37: 모래바람'
+  '칼로스 기술머신38: 불대문자':
+  - 'Kalos TM38: Fire Blast'
+  - '칼로스 기술머신38: 불대문자'
+  '칼로스 기술머신39: 암석봉인':
+  - 'Kalos TM39: Rock Tomb'
+  - '칼로스 기술머신39: 암석봉인'
+  '칼로스 기술머신3: 사이코쇼크':
+  - 'Kalos TM3: Psyshock'
+  - '칼로스 기술머신3: 사이코쇼크'
+  '칼로스 기술머신40: 제비반환':
+  - 'Kalos TM40: Aerial Ace'
+  - '칼로스 기술머신40: 제비반환'
+  '칼로스 기술머신41: 트집':
+  - 'Kalos TM41: Torment'
+  - '칼로스 기술머신41: 트집'
+  '칼로스 기술머신42: 객기':
+  - 'Kalos TM42: Facade'
+  - '칼로스 기술머신42: 객기'
+  '칼로스 기술머신43: 니트로차지':
+  - 'Kalos TM43: Flame Charge'
+  - '칼로스 기술머신43: 니트로차지'
+  '칼로스 기술머신44: 잠자기':
+  - 'Kalos TM44: Rest'
+  - '칼로스 기술머신44: 잠자기'
+  '칼로스 기술머신45: 헤롱헤롱':
+  - 'Kalos TM45: Attract'
+  - '칼로스 기술머신45: 헤롱헤롱'
+  '칼로스 기술머신46: 도둑질':
+  - 'Kalos TM46: Thief'
+  - '칼로스 기술머신46: 도둑질'
+  '칼로스 기술머신47: 로킥':
+  - 'Kalos TM47: Low Sweep'
+  - '칼로스 기술머신47: 로킥'
+  '칼로스 기술머신48: 돌림노래':
+  - 'Kalos TM48: Round'
+  - '칼로스 기술머신48: 돌림노래'
+  '칼로스 기술머신49: 에코보이스':
+  - 'Kalos TM49: Echoed Voice'
+  - '칼로스 기술머신49: 에코보이스'
+  '칼로스 기술머신4: 명상':
+  - 'Kalos TM4: Calm Mind'
+  - '칼로스 기술머신4: 명상'
+  '칼로스 기술머신50: 오버히트':
+  - 'Kalos TM50: Overheat'
+  - '칼로스 기술머신50: 오버히트'
+  '칼로스 기술머신51: 강철날개':
+  - 'Kalos TM51: Steel Wing'
+  - '칼로스 기술머신51: 강철날개'
+  '칼로스 기술머신52: 기합구슬':
+  - 'Kalos TM52: Focus Blast'
+  - '칼로스 기술머신52: 기합구슬'
+  '칼로스 기술머신53: 에너지볼':
+  - 'Kalos TM53: Energy Ball'
+  - '칼로스 기술머신53: 에너지볼'
+  '칼로스 기술머신54: 칼등치기':
+  - 'Kalos TM54: False Swipe'
+  - '칼로스 기술머신54: 칼등치기'
+  '칼로스 기술머신55: 열탕':
+  - 'Kalos TM55: Scald'
+  - '칼로스 기술머신55: 열탕'
+  '칼로스 기술머신56: 내던지기':
+  - 'Kalos TM56: Fling'
+  - '칼로스 기술머신56: 내던지기'
+  '칼로스 기술머신57: 차지빔':
+  - 'Kalos TM57: Charge Beam'
+  - '칼로스 기술머신57: 차지빔'
+  '칼로스 기술머신58: 프리폴':
+  - 'Kalos TM58: Sky Drop'
+  - '칼로스 기술머신58: 프리폴'
+  '칼로스 기술머신59: 불태우기':
+  - 'Kalos TM59: Incinerate'
+  - '칼로스 기술머신59: 불태우기'
+  '칼로스 기술머신5: 울부짖기':
+  - 'Kalos TM5: Roar'
+  - '칼로스 기술머신5: 울부짖기'
+  '칼로스 기술머신60: 순서미루기':
+  - 'Kalos TM60: Quash'
+  - '칼로스 기술머신60: 순서미루기'
+  '칼로스 기술머신61: 도깨비불':
+  - 'Kalos TM61: Will-O-Wisp'
+  - '칼로스 기술머신61: 도깨비불'
+  '칼로스 기술머신62: 애크러뱃':
+  - 'Kalos TM62: Acrobatics'
+  - '칼로스 기술머신62: 애크러뱃'
+  '칼로스 기술머신63: 금제':
+  - 'Kalos TM63: Embargo'
+  - '칼로스 기술머신63: 금제'
+  '칼로스 기술머신64: 대폭발':
+  - 'Kalos TM64: Explosion'
+  - '칼로스 기술머신64: 대폭발'
+  '칼로스 기술머신65: 섀도크루':
+  - 'Kalos TM65: Shadow Claw'
+  - '칼로스 기술머신65: 섀도크루'
+  '칼로스 기술머신66: 보복':
+  - 'Kalos TM66: Payback'
+  - '칼로스 기술머신66: 보복'
+  '칼로스 기술머신67: 원수갚기':
+  - 'Kalos TM67: Retaliate'
+  - '칼로스 기술머신67: 원수갚기'
+  '칼로스 기술머신68: 기가임팩트':
+  - 'Kalos TM68: Giga Impact'
+  - '칼로스 기술머신68: 기가임팩트'
+  '칼로스 기술머신69: 록커트':
+  - 'Kalos TM69: Rock Polish'
+  - '칼로스 기술머신69: 록커트'
+  '칼로스 기술머신6: 맹독':
+  - 'Kalos TM6: Toxic'
+  - '칼로스 기술머신6: 맹독'
+  '칼로스 기술머신70: 플래시':
+  - 'Kalos TM70: Flash'
+  - '칼로스 기술머신70: 플래시'
+  '칼로스 기술머신71: 스톤에지':
+  - 'Kalos TM71: Stone Edge'
+  - '칼로스 기술머신71: 스톤에지'
+  '칼로스 기술머신72: 볼트체인지':
+  - 'Kalos TM72: Volt Switch'
+  - '칼로스 기술머신72: 볼트체인지'
+  '칼로스 기술머신73: 전기자석파':
+  - 'Kalos TM73: Thunder Wave'
+  - '칼로스 기술머신73: 전기자석파'
+  '칼로스 기술머신74: 자이로볼':
+  - 'Kalos TM74: Gyro Ball'
+  - '칼로스 기술머신74: 자이로볼'
+  '칼로스 기술머신75: 칼춤':
+  - 'Kalos TM75: Swords Dance'
+  - '칼로스 기술머신75: 칼춤'
+  '칼로스 기술머신76: 벌레의저항':
+  - 'Kalos TM76: Struggle Bug'
+  - '칼로스 기술머신76: 벌레의저항'
+  '칼로스 기술머신77: 자기암시':
+  - 'Kalos TM77: Psych Up'
+  - '칼로스 기술머신77: 자기암시'
+  '칼로스 기술머신78: 땅고르기':
+  - 'Kalos TM78: Bulldoze'
+  - '칼로스 기술머신78: 땅고르기'
+  '칼로스 기술머신79: 얼음숨결':
+  - 'Kalos TM79: Frost Breath'
+  - '칼로스 기술머신79: 얼음숨결'
+  '칼로스 기술머신7: 싸라기눈':
+  - 'Kalos TM7: Hail'
+  - '칼로스 기술머신7: 싸라기눈'
+  '칼로스 기술머신80: 스톤샤워':
+  - 'Kalos TM80: Rock Slide'
+  - '칼로스 기술머신80: 스톤샤워'
+  '칼로스 기술머신81: 시저크로스':
+  - 'Kalos TM81: X-Scissor'
+  - '칼로스 기술머신81: 시저크로스'
+  '칼로스 기술머신82: 드래곤테일':
+  - 'Kalos TM82: Dragon Tail'
+  - '칼로스 기술머신82: 드래곤테일'
+  '칼로스 기술머신83: 엉겨붙기':
+  - 'Kalos TM83: Infestation'
+  - '칼로스 기술머신83: 엉겨붙기'
+  '칼로스 기술머신84: 독찌르기':
+  - 'Kalos TM84: Poison Jab'
+  - '칼로스 기술머신84: 독찌르기'
+  '칼로스 기술머신85: 꿈먹기':
+  - 'Kalos TM85: Dream Eater'
+  - '칼로스 기술머신85: 꿈먹기'
+  '칼로스 기술머신86: 풀묶기':
+  - 'Kalos TM86: Grass Knot'
+  - '칼로스 기술머신86: 풀묶기'
+  '칼로스 기술머신87: 뽐내기':
+  - 'Kalos TM87: Swagger'
+  - '칼로스 기술머신87: 뽐내기'
+  '칼로스 기술머신88: 잠꼬대':
+  - 'Kalos TM88: Sleep Talk'
+  - '칼로스 기술머신88: 잠꼬대'
+  '칼로스 기술머신89: 유턴':
+  - 'Kalos TM89: U-turn'
+  - '칼로스 기술머신89: 유턴'
+  '칼로스 기술머신8: 벌크업':
+  - 'Kalos TM8: Bulk Up'
+  - '칼로스 기술머신8: 벌크업'
+  '칼로스 기술머신90: 대타출동':
+  - 'Kalos TM90: Substitute'
+  - '칼로스 기술머신90: 대타출동'
+  '칼로스 기술머신91: 러스터캐논':
+  - 'Kalos TM91: Flash Cannon'
+  - '칼로스 기술머신91: 러스터캐논'
+  '칼로스 기술머신92: 트릭룸':
+  - 'Kalos TM92: Trick Room'
+  - '칼로스 기술머신92: 트릭룸'
+  '칼로스 기술머신93: 와일드볼트':
+  - 'Kalos TM93: Wild Charge'
+  - '칼로스 기술머신93: 와일드볼트'
+  '칼로스 기술머신94: 바위깨기':
+  - 'Kalos TM94: Rock Smash'
+  - '칼로스 기술머신94: 바위깨기'
+  '칼로스 기술머신95: 바크아웃':
+  - 'Kalos TM95: Snarl'
+  - '칼로스 기술머신95: 바크아웃'
+  '칼로스 기술머신96: 자연의힘':
+  - 'Kalos TM96: Nature Power'
+  - '칼로스 기술머신96: 자연의힘'
+  '칼로스 기술머신97: 악의파동':
+  - 'Kalos TM97: Dark Pulse'
+  - '칼로스 기술머신97: 악의파동'
+  '칼로스 기술머신98: 그로우펀치':
+  - 'Kalos TM98: Power-Up Punch'
+  - '칼로스 기술머신98: 그로우펀치'
+  '칼로스 기술머신99: 매지컬샤인':
+  - 'Kalos TM99: Dazzling Gleam'
+  - '칼로스 기술머신99: 매지컬샤인'
+  '칼로스 기술머신9: 베놈쇼크':
+  - 'Kalos TM9: Venoshock'
+  - '칼로스 기술머신9: 베놈쇼크'
+  캄라열매:
+  - Salac Berry
+  - 캄라열매
+  캠프세트:
+  - Camping Gear
+  - 캠프세트
+  캥카나이트:
+  - Kangaskhanite
+  - 캥카나이트
+  컬러풀셰이크:
+  - Colorful Shake
+  - 컬러풀셰이크
+  코블배지:
+  - Cobble Badge
+  - 코블배지
+  콜배지:
+  - Coal Badge
+  - 콜배지
+  콤페볼:
+  - Sport Ball
+  - 콤페볼
+  콤페볼 뚜껑:
+  - Sport Ball Lid
+  - 콤페볼 뚜껑
+  콩 통조림:
+  - Tin of Beans
+  - 콩 통조림
+  콩땅열매:
+  - Nutpea Berry
+  - 콩땅열매
+  퀘스트 에디터:
+  - Exclamation Mark
+  - 퀘스트 에디터
+  퀘이크배지:
+  - Quake Badge
+  - 퀘이크배지
+  퀵볼:
+  - Quick Ball
+  - 퀵볼
+  퀵볼 뚜껑:
+  - Quick Ball Lid
+  - 퀵볼 뚜껑
+  크리스 게디스 - 보스 배틀:
+  - Chris Geddes - Boss Battle
+  - 크리스 게디스 - 보스 배틀
+  크리스 게디스 - 울트라스페이스:
+  - Chris Geddes - Ultraspace
+  - 크리스 게디스 - 울트라스페이스
+  크리스 게디스 - 전설의 배틀:
+  - Chris Geddes - Legendary Battle
+  - 크리스 게디스 - 전설의 배틀
+  크리스 게디스 - 커스텀 배틀:
+  - Chris Geddes - Custom Battle
+  - 크리스 게디스 - 커스텀 배틀
+  크리스 게디스 - 트레이너 배틀:
+  - Chris Geddes - Trainer Battle
+  - 크리스 게디스 - 트레이너 배틀
+  크리스 게디스 - 플레이어 배틀:
+  - Chris Geddes - Player Battle
+  - 크리스 게디스 - 플레이어 배틀
+  크리스마스 볼 뚜껑:
+  - Christmas Poké Ball Lid
+  - 크리스마스 볼 뚜껑
+  크리스마스볼:
+  - Christmas Poké Ball
+  - 크리스마스볼
+  크리스탈:
+  - Crystal
+  - 크리스탈
+  크리스탈 검:
+  - Crystal Sword
+  - 크리스탈 검
+  크리스탈 곡괭이:
+  - Crystal Pickaxe
+  - 크리스탈 곡괭이
+  크리스탈 괭이:
+  - Crystal Hoe
+  - 크리스탈 괭이
+  크리스탈 도끼:
+  - Crystal Axe
+  - 크리스탈 도끼
+  크리스탈 삽:
+  - Crystal Shovel
+  - 크리스탈 삽
+  크리스탈 해머:
+  - Crystal Hammer
+  - 크리스탈 해머
+  크리티컬커터:
+  - Dire Hit
+  - 크리티컬커터
+  큰 말라사다:
+  - Big Malasada
+  - 큰 말라사다
+  큰 배너:
+  - Big Banner
+  - 큰 배너
+  큰금강옥:
+  - Adamant Crystal
+  - 큰금강옥
+  큰금구슬:
+  - Big Nugget
+  - 큰금구슬
+  큰백금옥:
+  - Griseous Core
+  - 큰백금옥
+  큰백옥:
+  - Lustrous Globe
+  - 큰백옥
+  큰버섯:
+  - Big Mushroom
+  - 큰버섯
+  큰뿌리:
+  - Big Root
+  - 큰뿌리
+  큰진주:
+  - Big Pearl
+  - 큰진주
+  클리어참:
+  - Clear Amulet
+  - 클리어참
+  키스톤:
+  - Key Stone
+  - 키스톤
+  키토산:
+  - Zinc
+  - 키토산
+  타라프열매:
+  - Maranga Berry
+  - 타라프열매
+  타버린 향로:
+  - Incense Burner
+  - 타버린 향로
+  타우린:
+  - Protein
+  - 타우린
+  타이마볼:
+  - Timer Ball
+  - 타이마볼
+  타이마볼 뚜껑:
+  - Timer Ball Lid
+  - 타이마볼 뚜껑
+  탈출버튼:
+  - Eject Button
+  - 탈출버튼
+  탈출팩:
+  - Eject Pack
+  - 탈출팩
+  태양의 돌:
+  - Sun Stone
+  - 태양의 돌
+  태양의 돌 각반:
+  - Sun Stone Leggings
+  - 태양의 돌 각반
+  태양의 돌 검:
+  - Sun Stone Sword
+  - 태양의 돌 검
+  태양의 돌 곡괭이:
+  - Sun Stone Pickaxe
+  - 태양의 돌 곡괭이
+  태양의 돌 괭이:
+  - Sun Stone Hoe
+  - 태양의 돌 괭이
+  태양의 돌 도끼:
+  - Sun Stone Axe
+  - 태양의 돌 도끼
+  태양의 돌 부츠:
+  - Sun Stone Boots
+  - 태양의 돌 부츠
+  태양의 돌 삽:
+  - Sun Stone Shovel
+  - 태양의 돌 삽
+  태양의 돌 조각:
+  - Sun Stone Shard
+  - 태양의 돌 조각
+  태양의 돌 투구:
+  - Sun Stone Helmet
+  - 태양의 돌 투구
+  태양의 돌 해머:
+  - Sun Stone Hammer
+  - 태양의 돌 해머
+  태양의 돌 흉갑:
+  - Sun Stone Chestplate
+  - 태양의 돌 흉갑
+  태양의피리:
+  - Sun Flute
+  - 태양의피리
+  탱글탱글 부어스트:
+  - Sausages
+  - 탱글탱글 부어스트
+  터널메일:
+  - Tunnel Mail
+  - 터널메일
+  턱화석:
+  - Jaw Fossil
+  - 턱화석
+  텀블스톤:
+  - Tumblestone
+  - 텀블스톤
+  토망열매:
+  - Tamato Berry
+  - 토망열매
+  토포열매:
+  - Topo Berry
+  - 토포열매
+  톡식배지:
+  - Toxic Badge
+  - 톡식배지
+  통굽부츠:
+  - Heavy-Duty Boots
+  - 통굽부츠
+  트라이배지:
+  - Trio Badge
+  - 트라이배지
+  트라이패스:
+  - Tri-Pass
+  - 트라이패스
+  트레이너 편집기:
+  - NPC Editor
+  - 트레이너 편집기
+  특선사과:
+  - Fancy Apple
+  - 특선사과
+  특성가드:
+  - Ability Shield
+  - 특성가드
+  특성캡슐:
+  - Ability Capsule
+  - 특성캡슐
+  특성패치:
+  - Ability Patch
+  - 특성패치
+  튼튼밀크:
+  - Moomoo Milk
+  - 튼튼밀크
+  튼튼치즈:
+  - Moomoo Cheese
+  - 튼튼치즈
+  파도메일:
+  - Wave Mail
+  - 파도메일
+  파란 규토리:
+  - Blue Apricorn
+  - 파란 규토리
+  파란색 배지케이스:
+  - Blue Badgecase
+  - 파란색 배지케이스
+  파란색 포켓 가방:
+  - Blue Poké Bag
+  - 파란색 포켓 가방
+  파란열매 나무 보트:
+  - Blue Berry Boat
+  - 파란열매 나무 보트
+  파랑꽃잎:
+  - Blue Petal
+  - 파랑꽃잎
+  파랑비드로:
+  - Blue Flute
+  - 파랑비드로
+  파랑조각:
+  - Alpha Shard
+  - 파랑조각
+  - Blue Shard
+  파비열매:
+  - Qualot Berry
+  - 파비열매
+  파비코리나이트:
+  - Altarianite
+  - 파비코리나이트
+  파스타:
+  - Pasta
+  - 파스타
+  파야열매:
+  - Iapapa Berry
+  - 파야열매
+  파양열매:
+  - Ginema Berry
+  - 파양열매
+  파워렌즈:
+  - Power Lens
+  - 파워렌즈
+  파워리스트:
+  - Power Bracer
+  - 파워리스트
+  파워밴드:
+  - Power Band
+  - 파워밴드
+  파워벨트:
+  - Power Belt
+  - 파워벨트
+  파워앵클릿:
+  - Power Anklet
+  - 파워앵클릿
+  파워웨이트:
+  - Power Weight
+  - 파워웨이트
+  파워풀허브:
+  - Power Herb
+  - 파워풀허브
+  파이어메모리:
+  - Fire Memory
+  - 파이어메모리
+  파이트배지:
+  - Rumble Badge
+  - 파이트배지
+  파이팅메모리:
+  - Fighting Memory
+  - 파이팅메모리
+  파인열매:
+  - Pinap Berry
+  - 파인열매
+  파인쥬스:
+  - Pinap Juice
+  - 파인쥬스
+  파크볼:
+  - Park Ball
+  - 파크볼
+  파크볼 뚜껑:
+  - Park Ball Lid
+  - 파크볼 뚜껑
+  '팔데아 기술머신01: 돌진':
+  - Paldean TM01 Take Down
+  - '팔데아 기술머신01: 돌진'
+  '팔데아 기술머신02: 애교부리기':
+  - Paldean TM02 Charm
+  - '팔데아 기술머신02: 애교부리기'
+  '팔데아 기술머신03: 거짓울음':
+  - Paldean TM03 Fake Tears
+  - '팔데아 기술머신03: 거짓울음'
+  '팔데아 기술머신04: 고속이동':
+  - Paldean TM04 Agility
+  - '팔데아 기술머신04: 고속이동'
+  '팔데아 기술머신05: 진흙뿌리기':
+  - Paldean TM05 Mud-Slap
+  - '팔데아 기술머신05: 진흙뿌리기'
+  '팔데아 기술머신06: 겁나는얼굴':
+  - Paldean TM06 Scary Face
+  - '팔데아 기술머신06: 겁나는얼굴'
+  '팔데아 기술머신07: 방어':
+  - Paldean TM07 Protect
+  - '팔데아 기술머신07: 방어'
+  '팔데아 기술머신08: 불꽃엄니':
+  - Paldean TM08 Fire Fang
+  - '팔데아 기술머신08: 불꽃엄니'
+  '팔데아 기술머신09: 번개엄니':
+  - Paldean TM09 Thunder Fang
+  - '팔데아 기술머신09: 번개엄니'
+  '팔데아 기술머신100: 용의춤':
+  - Paldean TM100 Dragon Dance
+  - '팔데아 기술머신100: 용의춤'
+  '팔데아 기술머신101: 파워젬':
+  - Paldean TM101 Power Gem
+  - '팔데아 기술머신101: 파워젬'
+  '팔데아 기술머신102: 더스트슈트':
+  - Paldean TM102 Gunk Shot
+  - '팔데아 기술머신102: 더스트슈트'
+  '팔데아 기술머신103: 대타출동':
+  - Paldean TM103 Substitute
+  - '팔데아 기술머신103: 대타출동'
+  '팔데아 기술머신104: 철벽':
+  - Paldean TM104 Iron Defense
+  - '팔데아 기술머신104: 철벽'
+  '팔데아 기술머신105: 시저크로스':
+  - Paldean TM105 X-Scissor
+  - '팔데아 기술머신105: 시저크로스'
+  '팔데아 기술머신106: 드릴라이너':
+  - Paldean TM106 Drill Run
+  - '팔데아 기술머신106: 드릴라이너'
+  '팔데아 기술머신107: 도깨비불':
+  - Paldean TM107 Will-O-Wisp
+  - '팔데아 기술머신107: 도깨비불'
+  '팔데아 기술머신108: 깨물어부수기':
+  - Paldean TM108 Crunch
+  - '팔데아 기술머신108: 깨물어부수기'
+  '팔데아 기술머신109: 트릭':
+  - Paldean TM109 Trick
+  - '팔데아 기술머신109: 트릭'
+  '팔데아 기술머신10: 얼음엄니':
+  - Paldean TM10 Ice Fang
+  - '팔데아 기술머신10: 얼음엄니'
+  '팔데아 기술머신110: 아쿠아브레이크':
+  - Paldean TM110 Liquidation
+  - '팔데아 기술머신110: 아쿠아브레이크'
+  '팔데아 기술머신111: 기가드레인':
+  - Paldean TM111 Giga Drain
+  - '팔데아 기술머신111: 기가드레인'
+  '팔데아 기술머신112: 파동탄':
+  - Paldean TM112 Aura Sphere
+  - '팔데아 기술머신112: 파동탄'
+  '팔데아 기술머신113: 순풍':
+  - Paldean TM113 Tailwind
+  - '팔데아 기술머신113: 순풍'
+  '팔데아 기술머신114: 섀도볼':
+  - Paldean TM114 Shadow Ball
+  - '팔데아 기술머신114: 섀도볼'
+  '팔데아 기술머신115: 용의파동':
+  - Paldean TM115 Dragon Pulse
+  - '팔데아 기술머신115: 용의파동'
+  '팔데아 기술머신116: 스텔스록':
+  - Paldean TM116 Stealth Rock
+  - '팔데아 기술머신116: 스텔스록'
+  '팔데아 기술머신117: 하이퍼보이스':
+  - Paldean TM117 Hyper Voice
+  - '팔데아 기술머신117: 하이퍼보이스'
+  '팔데아 기술머신118: 열풍':
+  - Paldean TM118 Heat Wave
+  - '팔데아 기술머신118: 열풍'
+  '팔데아 기술머신119: 에너지볼':
+  - Paldean TM119 Energy Ball
+  - '팔데아 기술머신119: 에너지볼'
+  '팔데아 기술머신11: 물의파동':
+  - Paldean TM11 Water Pulse
+  - '팔데아 기술머신11: 물의파동'
+  '팔데아 기술머신120: 사이코키네시스':
+  - Paldean TM120 Psychic
+  - '팔데아 기술머신120: 사이코키네시스'
+  '팔데아 기술머신121: 헤비봄버':
+  - Paldean TM121 Heavy Slam
+  - '팔데아 기술머신121: 헤비봄버'
+  '팔데아 기술머신122: 앙코르':
+  - Paldean TM122 Encore
+  - '팔데아 기술머신122: 앙코르'
+  '팔데아 기술머신123: 파도타기':
+  - Paldean TM123 Surf
+  - '팔데아 기술머신123: 파도타기'
+  '팔데아 기술머신124: 아이스스피너':
+  - Paldean TM124 Ice Spinner
+  - '팔데아 기술머신124: 아이스스피너'
+  '팔데아 기술머신125: 화염방사':
+  - Paldean TM125 Flamethrower
+  - '팔데아 기술머신125: 화염방사'
+  '팔데아 기술머신126: 10만볼트':
+  - Paldean TM126 Thunderbolt
+  - '팔데아 기술머신126: 10만볼트'
+  '팔데아 기술머신127: 치근거리기':
+  - Paldean TM127 Play Rough
+  - '팔데아 기술머신127: 치근거리기'
+  '팔데아 기술머신128: 망각술':
+  - Paldean TM128 Amnesia
+  - '팔데아 기술머신128: 망각술'
+  '팔데아 기술머신129: 명상':
+  - Paldean TM129 Calm Mind
+  - '팔데아 기술머신129: 명상'
+  '팔데아 기술머신12: 안다리걸기':
+  - Paldean TM12 Low Kick
+  - '팔데아 기술머신12: 안다리걸기'
+  '팔데아 기술머신130: 도우미':
+  - Paldean TM130 Helping Hand
+  - '팔데아 기술머신130: 도우미'
+  '팔데아 기술머신131: 꽃가루경단':
+  - Paldean TM131 Pollen Puff
+  - '팔데아 기술머신131: 꽃가루경단'
+  '팔데아 기술머신132: 바톤터치':
+  - Paldean TM132 Baton Pass
+  - '팔데아 기술머신132: 바톤터치'
+  '팔데아 기술머신133: 대지의힘':
+  - Paldean TM133 Earth Power
+  - '팔데아 기술머신133: 대지의힘'
+  '팔데아 기술머신134: 기사회생':
+  - Paldean TM134 Reversal
+  - '팔데아 기술머신134: 기사회생'
+  '팔데아 기술머신135: 냉동빔':
+  - Paldean TM135 Ice Beam
+  - '팔데아 기술머신135: 냉동빔'
+  '팔데아 기술머신136: 일렉트릭필드':
+  - Paldean TM136 Electric Terrain
+  - '팔데아 기술머신136: 일렉트릭필드'
+  '팔데아 기술머신137: 그래스필드':
+  - Paldean TM137 Grassy Terrain
+  - '팔데아 기술머신137: 그래스필드'
+  '팔데아 기술머신138: 사이코필드':
+  - Paldean TM138 Psychic Terrain
+  - '팔데아 기술머신138: 사이코필드'
+  '팔데아 기술머신139: 미스트필드':
+  - Paldean TM139 Misty Terrain
+  - '팔데아 기술머신139: 미스트필드'
+  '팔데아 기술머신13: 애시드봄':
+  - Paldean TM13 Acid Spray
+  - '팔데아 기술머신13: 애시드봄'
+  '팔데아 기술머신140: 나쁜음모':
+  - Paldean TM140 Nasty Plot
+  - '팔데아 기술머신140: 나쁜음모'
+  '팔데아 기술머신141: 불대문자':
+  - Paldean TM141 Fire Blast
+  - '팔데아 기술머신141: 불대문자'
+  '팔데아 기술머신142: 하이드로펌프':
+  - Paldean TM142 Hydro Pump
+  - '팔데아 기술머신142: 하이드로펌프'
+  '팔데아 기술머신143: 눈보라':
+  - Paldean TM143 Blizzard
+  - '팔데아 기술머신143: 눈보라'
+  '팔데아 기술머신144: 불꽃의맹세':
+  - Paldean TM144 Fire Pledge
+  - '팔데아 기술머신144: 불꽃의맹세'
+  '팔데아 기술머신145: 물의맹세':
+  - Paldean TM145 Water Pledge
+  - '팔데아 기술머신145: 물의맹세'
+  '팔데아 기술머신146: 풀의맹세':
+  - Paldean TM146 Grass Pledge
+  - '팔데아 기술머신146: 풀의맹세'
+  '팔데아 기술머신147: 와일드볼트':
+  - Paldean TM147 Wild Charge
+  - '팔데아 기술머신147: 와일드볼트'
+  '팔데아 기술머신148: 오물폭탄':
+  - Paldean TM148 Sludge Bomb
+  - '팔데아 기술머신148: 오물폭탄'
+  '팔데아 기술머신149: 지진':
+  - Paldean TM149 Earthquake
+  - '팔데아 기술머신149: 지진'
+  '팔데아 기술머신14: 애크러뱃':
+  - Paldean TM14 Acrobatics
+  - '팔데아 기술머신14: 애크러뱃'
+  '팔데아 기술머신150: 스톤에지':
+  - Paldean TM150 Stone Edge
+  - '팔데아 기술머신150: 스톤에지'
+  '팔데아 기술머신151: 고스트다이브':
+  - Paldean TM151 Phantom Force
+  - '팔데아 기술머신151: 고스트다이브'
+  '팔데아 기술머신152: 기가임팩트':
+  - Paldean TM152 Giga Impact
+  - '팔데아 기술머신152: 기가임팩트'
+  '팔데아 기술머신153: 블라스트번':
+  - Paldean TM153 Blast Burn
+  - '팔데아 기술머신153: 블라스트번'
+  '팔데아 기술머신154: 하이드로캐논':
+  - Paldean TM154 Hydro Cannon
+  - '팔데아 기술머신154: 하이드로캐논'
+  '팔데아 기술머신155: 하드플랜트':
+  - Paldean TM155 Frenzy Plant
+  - '팔데아 기술머신155: 하드플랜트'
+  '팔데아 기술머신156: 역린':
+  - Paldean TM156 Outrage
+  - '팔데아 기술머신156: 역린'
+  '팔데아 기술머신157: 오버히트':
+  - Paldean TM157 Overheat
+  - '팔데아 기술머신157: 오버히트'
+  '팔데아 기술머신158: 기합구슬':
+  - Paldean TM158 Focus Blast
+  - '팔데아 기술머신158: 기합구슬'
+  '팔데아 기술머신159: 리프스톰':
+  - Paldean TM159 Leaf Storm
+  - '팔데아 기술머신159: 리프스톰'
+  '팔데아 기술머신15: 벌레의저항':
+  - Paldean TM15 Struggle Bug
+  - '팔데아 기술머신15: 벌레의저항'
+  '팔데아 기술머신160: 폭풍':
+  - Paldean TM160 Hurricane
+  - '팔데아 기술머신160: 폭풍'
+  '팔데아 기술머신161: 트릭룸':
+  - Paldean TM161 Trick Room
+  - '팔데아 기술머신161: 트릭룸'
+  '팔데아 기술머신162: 벌레의야단법석':
+  - Paldean TM162 Bug Buzz
+  - '팔데아 기술머신162: 벌레의야단법석'
+  '팔데아 기술머신163: 파괴광선':
+  - Paldean TM163 Hyper Beam
+  - '팔데아 기술머신163: 파괴광선'
+  '팔데아 기술머신164: 브레이브버드':
+  - Paldean TM164 Brave Bird
+  - '팔데아 기술머신164: 브레이브버드'
+  '팔데아 기술머신165: 플레어드라이브':
+  - Paldean TM165 Flare Blitz
+  - '팔데아 기술머신165: 플레어드라이브'
+  '팔데아 기술머신166: 번개':
+  - Paldean TM166 Thunder
+  - '팔데아 기술머신166: 번개'
+  '팔데아 기술머신167: 인파이트':
+  - Paldean TM167 Close Combat
+  - '팔데아 기술머신167: 인파이트'
+  '팔데아 기술머신168: 솔라빔':
+  - Paldean TM168 Solar Beam
+  - '팔데아 기술머신168: 솔라빔'
+  '팔데아 기술머신169: 용성군':
+  - Paldean TM169 Draco Meteor
+  - '팔데아 기술머신169: 용성군'
+  '팔데아 기술머신16: 환상빔':
+  - Paldean TM16 Psybeam
+  - '팔데아 기술머신16: 환상빔'
+  '팔데아 기술머신170: 철제광선':
+  - Paldean TM170 Steel Beam
+  - '팔데아 기술머신170: 철제광선'
+  '팔데아 기술머신171: 테라버스트':
+  - Paldean TM171 Tera Blast
+  - '팔데아 기술머신171: 테라버스트'
+  '팔데아 기술머신172: 울부짖기':
+  - Paldean TM172 Roar
+  - '팔데아 기술머신172: 울부짖기'
+  '팔데아 기술머신173: 충전':
+  - Paldean TM173 Charge
+  - '팔데아 기술머신173: 충전'
+  '팔데아 기술머신174: 흑안개':
+  - Paldean TM174 Haze
+  - '팔데아 기술머신174: 흑안개'
+  '팔데아 기술머신175: 맹독':
+  - Paldean TM175 Toxic
+  - '팔데아 기술머신175: 맹독'
+  '팔데아 기술머신176: 모래지옥':
+  - Paldean TM176 Sand Tomb
+  - '팔데아 기술머신176: 모래지옥'
+  '팔데아 기술머신177: 원한':
+  - Paldean TM177 Spite
+  - '팔데아 기술머신177: 원한'
+  '팔데아 기술머신178: 중력':
+  - Paldean TM178 Gravity
+  - '팔데아 기술머신178: 중력'
+  '팔데아 기술머신179: 떨어뜨리기':
+  - Paldean TM179 Smack Down
+  - '팔데아 기술머신179: 떨어뜨리기'
+  '팔데아 기술머신17: 이상한빛':
+  - Paldean TM17 Confuse Ray
+  - '팔데아 기술머신17: 이상한빛'
+  '팔데아 기술머신180: 자이로볼':
+  - Paldean TM180 Gyro Ball
+  - '팔데아 기술머신180: 자이로볼'
+  '팔데아 기술머신181: 탁쳐서떨구기':
+  - Paldean TM181 Knock Off
+  - '팔데아 기술머신181: 탁쳐서떨구기'
+  '팔데아 기술머신182: 벌레먹음':
+  - Paldean TM182 Bug Bite
+  - '팔데아 기술머신182: 벌레먹음'
+  '팔데아 기술머신183: 분노의앞니':
+  - Paldean TM183 Super Fang
+  - '팔데아 기술머신183: 분노의앞니'
+  '팔데아 기술머신184: 진공파':
+  - Paldean TM184 Vacuum Wave
+  - '팔데아 기술머신184: 진공파'
+  '팔데아 기술머신185: 덤벼들기':
+  - Paldean TM185 Lunge
+  - '팔데아 기술머신185: 덤벼들기'
+  '팔데아 기술머신186: 10만마력':
+  - Paldean TM186 High Horsepower
+  - '팔데아 기술머신186: 10만마력'
+  '팔데아 기술머신187: 고드름침':
+  - Paldean TM187 Icicle Spear
+  - '팔데아 기술머신187: 고드름침'
+  '팔데아 기술머신188: 열탕':
+  - Paldean TM188 Scald
+  - '팔데아 기술머신188: 열탕'
+  '팔데아 기술머신189: 히트스탬프':
+  - Paldean TM189 Heat Crash
+  - '팔데아 기술머신189: 히트스탬프'
+  '팔데아 기술머신18: 도둑질':
+  - Paldean TM18 Thief
+  - '팔데아 기술머신18: 도둑질'
+  '팔데아 기술머신190: 솔라블레이드':
+  - Paldean TM190 Solar Blade
+  - '팔데아 기술머신190: 솔라블레이드'
+  '팔데아 기술머신191: 소란피기':
+  - Paldean TM191 Uproar
+  - '팔데아 기술머신191: 소란피기'
+  '팔데아 기술머신192: 힘껏펀치':
+  - Paldean TM192 Focus Punch
+  - '팔데아 기술머신192: 힘껏펀치'
+  '팔데아 기술머신193: 웨더볼':
+  - Paldean TM193 Weather Ball
+  - '팔데아 기술머신193: 웨더볼'
+  '팔데아 기술머신194: 그래스슬라이더':
+  - Paldean TM194 Grassy Glide
+  - '팔데아 기술머신194: 그래스슬라이더'
+  '팔데아 기술머신195: 질투의불꽃':
+  - Paldean TM195 Burning Jealousy
+  - '팔데아 기술머신195: 질투의불꽃'
+  '팔데아 기술머신196: 퀵턴':
+  - Paldean TM196 Flip Turn
+  - '팔데아 기술머신196: 퀵턴'
+  '팔데아 기술머신197: 더블윙':
+  - Paldean TM197 Dual Wingbeat
+  - '팔데아 기술머신197: 더블윙'
+  '팔데아 기술머신198: 폴터가이스트':
+  - Paldean TM198 Poltergeist
+  - '팔데아 기술머신198: 폴터가이스트'
+  '팔데아 기술머신199: 분풀이':
+  - Paldean TM199 Lash Out
+  - '팔데아 기술머신199: 분풀이'
+  '팔데아 기술머신19: 차밍보이스':
+  - Paldean TM19 Disarming Voice
+  - '팔데아 기술머신19: 차밍보이스'
+  '팔데아 기술머신200: 스케일샷':
+  - Paldean TM200 Scale Shot
+  - '팔데아 기술머신200: 스케일샷'
+  '팔데아 기술머신201: 미스트버스트':
+  - Paldean TM201 Misty Explosion
+  - '팔데아 기술머신201: 미스트버스트'
+  '팔데아 기술머신202: 아픔나누기':
+  - Paldean TM202 Pain Split
+  - '팔데아 기술머신202: 아픔나누기'
+  '팔데아 기술머신203: 자기암시':
+  - Paldean TM203 Psych Up
+  - '팔데아 기술머신203: 자기암시'
+  '팔데아 기술머신204: 이판사판태클':
+  - Paldean TM204 Double-Edge
+  - '팔데아 기술머신204: 이판사판태클'
+  '팔데아 기술머신205: 죽기살기':
+  - Paldean TM205 Endeavor
+  - '팔데아 기술머신205: 죽기살기'
+  '팔데아 기술머신206: 꽃보라':
+  - Paldean TM206 Petal Blizzard
+  - '팔데아 기술머신206: 꽃보라'
+  '팔데아 기술머신207: 열불내기':
+  - Paldean TM207 Temper Flare
+  - '팔데아 기술머신207: 열불내기'
+  '팔데아 기술머신208: 바다회오리':
+  - Paldean TM208 Whirlpool
+  - '팔데아 기술머신208: 바다회오리'
+  '팔데아 기술머신209: 탁류':
+  - Paldean TM209 Muddy Water
+  - '팔데아 기술머신209: 탁류'
+  '팔데아 기술머신20: 개척하기':
+  - Paldean TM20 Trailblaze
+  - '팔데아 기술머신20: 개척하기'
+  '팔데아 기술머신210: 썬더다이브':
+  - Paldean TM210 Supercell Slam
+  - '팔데아 기술머신210: 썬더다이브'
+  '팔데아 기술머신211: 일렉트릭네트':
+  - Paldean TM211 Electroweb
+  - '팔데아 기술머신211: 일렉트릭네트'
+  '팔데아 기술머신212: 트리플악셀':
+  - Paldean TM212 Triple Axel
+  - '팔데아 기술머신212: 트리플악셀'
+  '팔데아 기술머신213: 코칭':
+  - Paldean TM213 Coaching
+  - '팔데아 기술머신213: 코칭'
+  '팔데아 기술머신214: 오물웨이브':
+  - Paldean TM214 Sludge Wave
+  - '팔데아 기술머신214: 오물웨이브'
+  '팔데아 기술머신215: 열사의대지':
+  - Paldean TM215 Scorching Sands
+  - '팔데아 기술머신215: 열사의대지'
+  '팔데아 기술머신216: 깃털댄스':
+  - Paldean TM216 Feather Dance
+  - '팔데아 기술머신216: 깃털댄스'
+  '팔데아 기술머신217: 미래예지':
+  - Paldean TM217 Future Sight
+  - '팔데아 기술머신217: 미래예지'
+  '팔데아 기술머신218: 와이드포스':
+  - Paldean TM218 Expanding Force
+  - '팔데아 기술머신218: 와이드포스'
+  '팔데아 기술머신219: 엄습하는일격':
+  - Paldean TM219 Skitter Smack
+  - '팔데아 기술머신219: 엄습하는일격'
+  '팔데아 기술머신21: 달려달기':
+  - Paldean TM21 Pounce
+  - '팔데아 기술머신21: 달려달기'
+  '팔데아 기술머신220: 메테오빔':
+  - Paldean TM220 Meteor Beam
+  - '팔데아 기술머신220: 메테오빔'
+  '팔데아 기술머신221: 지옥찌르기':
+  - Paldean TM221 Throat Chop
+  - '팔데아 기술머신221: 지옥찌르기'
+  '팔데아 기술머신222: 와이드브레이커':
+  - Paldean TM222 Breaking Swipe
+  - '팔데아 기술머신222: 와이드브레이커'
+  '팔데아 기술머신223: 금속음':
+  - Paldean TM223 Metal Sound
+  - '팔데아 기술머신223: 금속음'
+  '팔데아 기술머신224: 저주':
+  - Paldean TM224 Curse
+  - '팔데아 기술머신224: 저주'
+  '팔데아 기술머신225: 하드프레스':
+  - Paldean TM225 Hard Press
+  - '팔데아 기술머신225: 하드프레스'
+  '팔데아 기술머신226: 드래곤옐':
+  - Paldean TM226 Dragon Cheer
+  - '팔데아 기술머신226: 드래곤옐'
+  '팔데아 기술머신227: 매혹의보이스':
+  - Paldean TM227 Alluring Voice
+  - '팔데아 기술머신227: 매혹의보이스'
+  '팔데아 기술머신228: 사이코노이즈':
+  - Paldean TM228 Psychic Noise
+  - '팔데아 기술머신228: 사이코노이즈'
+  '팔데아 기술머신229: 기선제압':
+  - Paldean TM229 Upper Hand
+  - '팔데아 기술머신229: 기선제압'
+  '팔데아 기술머신22: 찬물끼얹기':
+  - Paldean TM22 Chilling Water
+  - '팔데아 기술머신22: 찬물끼얹기'
+  '팔데아 기술머신23: 차지빔':
+  - Paldean TM23 Charge Beam
+  - '팔데아 기술머신23: 차지빔'
+  '팔데아 기술머신24: 회오리불꽃':
+  - Paldean TM24 Fire Spin
+  - '팔데아 기술머신24: 회오리불꽃'
+  '팔데아 기술머신25: 객기':
+  - Paldean TM25 Facade
+  - '팔데아 기술머신25: 객기'
+  '팔데아 기술머신26: 포이즌테일':
+  - Paldean TM26 Poison Tail
+  - '팔데아 기술머신26: 포이즌테일'
+  '팔데아 기술머신27: 제비반환':
+  - Paldean TM27 Aerial Ace
+  - '팔데아 기술머신27: 제비반환'
+  '팔데아 기술머신28: 땅고르기':
+  - Paldean TM28 Bulldoze
+  - '팔데아 기술머신28: 땅고르기'
+  '팔데아 기술머신29: 병상첨병':
+  - Paldean TM29 Hex
+  - '팔데아 기술머신29: 병상첨병'
+  '팔데아 기술머신30: 바크아웃':
+  - Paldean TM30 Snarl
+  - '팔데아 기술머신30: 바크아웃'
+  '팔데아 기술머신31: 메탈클로':
+  - Paldean TM31 Metal Claw
+  - '팔데아 기술머신31: 메탈클로'
+  '팔데아 기술머신32: 스피드스타':
+  - Paldean TM32 Swift
+  - '팔데아 기술머신32: 스피드스타'
+  '팔데아 기술머신33: 매지컬리프':
+  - Paldean TM33 Magical Leaf
+  - '팔데아 기술머신33: 매지컬리프'
+  '팔데아 기술머신34: 얼어붙은바람':
+  - Paldean TM34 Icy Wind
+  - '팔데아 기술머신34: 얼어붙은바람'
+  '팔데아 기술머신35: 머드샷':
+  - Paldean TM35 Mud Shot
+  - '팔데아 기술머신35: 머드샷'
+  '팔데아 기술머신36: 암석봉인':
+  - Paldean TM36 Rock Tomb
+  - '팔데아 기술머신36: 암석봉인'
+  '팔데아 기술머신37: 드레인키스':
+  - Paldean TM37 Draining Kiss
+  - '팔데아 기술머신37: 드레인키스'
+  '팔데아 기술머신38: 니트로차지':
+  - Paldean TM38 Flame Charge
+  - '팔데아 기술머신38: 니트로차지'
+  '팔데아 기술머신39: 로킥':
+  - Paldean TM39 Low Sweep
+  - '팔데아 기술머신39: 로킥'
+  '팔데아 기술머신40: 에어커터':
+  - Paldean TM40 Air Cutter
+  - '팔데아 기술머신40: 에어커터'
+  '팔데아 기술머신41: 어시스트파워':
+  - Paldean TM41 Stored Power
+  - '팔데아 기술머신41: 어시스트파워'
+  '팔데아 기술머신42: 나이트헤드':
+  - Paldean TM42 Night Shade
+  - '팔데아 기술머신42: 나이트헤드'
+  '팔데아 기술머신43: 내던지기':
+  - Paldean TM43 Fling
+  - '팔데아 기술머신43: 내던지기'
+  '팔데아 기술머신44: 드래곤테일':
+  - Paldean TM44 Dragon Tail
+  - '팔데아 기술머신44: 드래곤테일'
+  '팔데아 기술머신45: 베놈쇼크':
+  - Paldean TM45 Venoshock
+  - '팔데아 기술머신45: 베놈쇼크'
+  '팔데아 기술머신46: 눈사태':
+  - Paldean TM46 Avalanche
+  - '팔데아 기술머신46: 눈사태'
+  '팔데아 기술머신47: 버티기':
+  - Paldean TM47 Endure
+  - '팔데아 기술머신47: 버티기'
+  '팔데아 기술머신48: 볼트체인지':
+  - Paldean TM48 Volt Switch
+  - '팔데아 기술머신48: 볼트체인지'
+  '팔데아 기술머신49: 쾌청':
+  - Paldean TM49 Sunny Day
+  - '팔데아 기술머신49: 쾌청'
+  '팔데아 기술머신50: 비바라기':
+  - Paldean TM50 Rain Dance
+  - '팔데아 기술머신50: 비바라기'
+  '팔데아 기술머신51: 모래바람':
+  - Paldean TM51 Sandstorm
+  - '팔데아 기술머신51: 모래바람'
+  '팔데아 기술머신52: 설경':
+  - Paldean TM52 Snowscape
+  - '팔데아 기술머신52: 설경'
+  '팔데아 기술머신53: 스마트호른':
+  - Paldean TM53 Smart Strike
+  - '팔데아 기술머신53: 스마트호른'
+  '팔데아 기술머신54: 사이코쇼크':
+  - Paldean TM54 Psyshock
+  - '팔데아 기술머신54: 사이코쇼크'
+  '팔데아 기술머신55: 구멍파기':
+  - Paldean TM55 Dig
+  - '팔데아 기술머신55: 구멍파기'
+  '팔데아 기술머신56: 씨기관총':
+  - Paldean TM56 Bullet Seed
+  - '팔데아 기술머신56: 씨기관총'
+  '팔데아 기술머신57: 칼등치기':
+  - Paldean TM57 False Swipe
+  - '팔데아 기술머신57: 칼등치기'
+  '팔데아 기술머신58: 깨트리기':
+  - Paldean TM58 Brick Break
+  - '팔데아 기술머신58: 깨트리기'
+  '팔데아 기술머신59: 사념의박치기':
+  - Paldean TM59 Zen Headbutt
+  - '팔데아 기술머신59: 사념의박치기'
+  '팔데아 기술머신60: 유턴':
+  - Paldean TM60 U-turn
+  - '팔데아 기술머신60: 유턴'
+  '팔데아 기술머신61: 섀도클로':
+  - Paldean TM61 Shadow Claw
+  - '팔데아 기술머신61: 섀도클로'
+  '팔데아 기술머신62: 속임수':
+  - Paldean TM62 Foul Play
+  - '팔데아 기술머신62: 속임수'
+  '팔데아 기술머신63: 사이코팽':
+  - Paldean TM63 Psychic Fangs
+  - '팔데아 기술머신63: 사이코팽'
+  '팔데아 기술머신64: 벌크업':
+  - Paldean TM64 Bulk Up
+  - '팔데아 기술머신64: 벌크업'
+  '팔데아 기술머신65: 에어슬래시':
+  - Paldean TM65 Air Slash
+  - '팔데아 기술머신65: 에어슬래시'
+  '팔데아 기술머신66: 누르기':
+  - Paldean TM66 Body Slam
+  - '팔데아 기술머신66: 누르기'
+  '팔데아 기술머신67: 불꽃펀치':
+  - Paldean TM67 Fire Punch
+  - '팔데아 기술머신67: 불꽃펀치'
+  '팔데아 기술머신68: 번개펀치':
+  - Paldean TM68 Thunder Punch
+  - '팔데아 기술머신68: 번개펀치'
+  '팔데아 기술머신69: 냉동펀치':
+  - Paldean TM69 Ice Punch
+  - '팔데아 기술머신69: 냉동펀치'
+  '팔데아 기술머신70: 잠꼬대':
+  - Paldean TM70 Sleep Talk
+  - '팔데아 기술머신70: 잠꼬대'
+  '팔데아 기술머신71: 씨폭탄':
+  - Paldean TM71 Seed Bomb
+  - '팔데아 기술머신71: 씨폭탄'
+  '팔데아 기술머신72: 일렉트릭볼':
+  - Paldean TM72 Electro Ball
+  - '팔데아 기술머신72: 일렉트릭볼'
+  '팔데아 기술머신73: 드레인펀치':
+  - Paldean TM73 Drain Punch
+  - '팔데아 기술머신73: 드레인펀치'
+  '팔데아 기술머신74: 리플렉터':
+  - Paldean TM74 Reflect
+  - '팔데아 기술머신74: 리플렉터'
+  '팔데아 기술머신75: 빛의장막':
+  - Paldean TM75 Light Screen
+  - '팔데아 기술머신75: 빛의장막'
+  '팔데아 기술머신76: 록블라스트':
+  - Paldean TM76 Rock Blast
+  - '팔데아 기술머신76: 록블라스트'
+  '팔데아 기술머신77: 폭포오르기':
+  - Paldean TM77 Waterfall
+  - '팔데아 기술머신77: 폭포오르기'
+  '팔데아 기술머신78: 드래곤크루':
+  - Paldean TM78 Dragon Claw
+  - '팔데아 기술머신78: 드래곤크루'
+  '팔데아 기술머신79: 매지컬샤인':
+  - Paldean TM79 Dazzling Gleam
+  - '팔데아 기술머신79: 매지컬샤인'
+  '팔데아 기술머신80: 손가락흔들기':
+  - Paldean TM80 Metronome
+  - '팔데아 기술머신80: 손가락흔들기'
+  '팔데아 기술머신81: 풀묶기':
+  - Paldean TM81 Grass Knot
+  - '팔데아 기술머신81: 풀묶기'
+  '팔데아 기술머신82: 전기자석파':
+  - Paldean TM82 Thunder Wave
+  - '팔데아 기술머신82: 전기자석파'
+  '팔데아 기술머신83: 독찌르기':
+  - Paldean TM83 Poison Jab
+  - '팔데아 기술머신83: 독찌르기'
+  '팔데아 기술머신84: 분함의발구르기':
+  - Paldean TM84 Stomping Tantrum
+  - '팔데아 기술머신84: 분함의발구르기'
+  '팔데아 기술머신85: 잠자기':
+  - Paldean TM85 Rest
+  - '팔데아 기술머신85: 잠자기'
+  '팔데아 기술머신86: 스톤샤워':
+  - Paldean TM86 Rock Slide
+  - '팔데아 기술머신86: 스톤샤워'
+  '팔데아 기술머신87: 도발':
+  - Paldean TM87 Taunt
+  - '팔데아 기술머신87: 도발'
+  '팔데아 기술머신88: 칼춤':
+  - Paldean TM88 Swords Dance
+  - '팔데아 기술머신88: 칼춤'
+  '팔데아 기술머신89: 바디프레스':
+  - Paldean TM89 Body Press
+  - '팔데아 기술머신89: 바디프레스'
+  '팔데아 기술머신90: 압정뿌리기':
+  - Paldean TM90 Spikes
+  - '팔데아 기술머신90: 압정뿌리기'
+  '팔데아 기술머신91: 독압정':
+  - Paldean TM91 Toxic Spikes
+  - '팔데아 기술머신91: 독압정'
+  '팔데아 기술머신92: 봉인':
+  - Paldean TM92 Imprison
+  - '팔데아 기술머신92: 봉인'
+  '팔데아 기술머신93: 러스터캐논':
+  - Paldean TM93 Flash Cannon
+  - '팔데아 기술머신93: 러스터캐논'
+  '팔데아 기술머신94: 악의파동':
+  - Paldean TM94 Dark Pulse
+  - '팔데아 기술머신94: 악의파동'
+  '팔데아 기술머신95: 흡혈':
+  - Paldean TM95 Leech Life
+  - '팔데아 기술머신95: 흡혈'
+  '팔데아 기술머신96: 괴전파':
+  - Paldean TM96 Eerie Impluse
+  - '팔데아 기술머신96: 괴전파'
+  '팔데아 기술머신97: 공중날기':
+  - Paldean TM97 Fly
+  - '팔데아 기술머신97: 공중날기'
+  '팔데아 기술머신98: 스킬스왑':
+  - Paldean TM98 Skill Swap
+  - '팔데아 기술머신98: 스킬스왑'
+  '팔데아 기술머신99: 아이언헤드':
+  - Paldean TM99 Iron Head
+  - '팔데아 기술머신99: 아이언헤드'
+  팬텀나이트:
+  - Gengarite
+  - 팬텀나이트
+  팬텀배지:
+  - Fog Badge
+  - 팬텀배지
+  퍼플 베리 상자 보트:
+  - Purple Berry Boat with Chest
+  - 퍼플 베리 상자 보트
+  퍼플쥬스:
+  - Purple Juice
+  - 퍼플쥬스
+  펀치글러브:
+  - Punching Glove
+  - 펀치글러브
+  페더배지:
+  - Feather Badge
+  - 페더배지
+  페더볼:
+  - Feather Ball
+  - 페더볼
+  페더볼 뚜껑:
+  - Feather Ball Lid
+  - 페더볼 뚜껑
+  페어리 완드:
+  - Fairy Wand
+  - 페어리 완드
+  페어리Z:
+  - Fairium Z
+  - 페어리Z
+  페어리메모리:
+  - Fairy Memory
+  - 페어리메모리
+  페어리배지:
+  - Fairy Badge
+  - 페어리배지
+  페어리주얼:
+  - Fairy Gem
+  - 페어리주얼
+  펜배지:
+  - Fen Badge
+  - 펜배지
+  평온의 방울:
+  - Soothe Bell
+  - 평온의 방울
+  포레스트배지:
+  - Forest Badge
+  - 포레스트배지
+  포이즌메모리:
+  - Poison Memory
+  - 포이즌메모리
+  포인트 맥스:
+  - PP Max
+  - 포인트 맥스
+  포커스렌즈:
+  - Zoom Lens
+  - 포커스렌즈
+  포켓 기프트:
+  - Poké Gift
+  - 포켓 기프트
+  포켓몬 액자:
+  - Pokémon Item Frame
+  - 포켓몬 액자
+  포켓몬 에디터:
+  - Pokémon Editor
+  - 포켓몬 에디터
+  포켓몬도감:
+  - Pokédex
+  - 포켓몬도감
+  포켓몬볼 뚜껑:
+  - Poké Ball Lid
+  - 포켓몬볼 뚜껑
+  포켓몬스넥케이스:
+  - Pokeblock Case
+  - 포켓몬스넥케이스
+  포켓몬피리:
+  - Poké Flute
+  - 포켓몬피리
+  포켓센터 뮤직 디스크 설명:
+  - Poke Center Music Disc Description
+  - 포켓센터 뮤직 디스크 설명
+  포켓치 B:
+  - Pokétch B
+  - 포켓치 B
+  포켓치 R:
+  - Pokétch R
+  - 포켓치 R
+  포켓트레:
+  - Pokéradar
+  - 포켓트레
+  포테이토팩:
+  - Pack of Potatoes
+  - 포테이토팩
+  포핀케이스:
+  - Poffin Case
+  - 포핀케이스
+  폭타나이트:
+  - Cameruptite
+  - 폭타나이트
+  폴리곤:
+  - Porygon
+  - 폴리곤
+  폴리곤 꼬리:
+  - Porygon Tail
+  - 폴리곤 꼬리
+  폴리곤 다리:
+  - Porygon Leg
+  - 폴리곤 다리
+  폴리곤 머리:
+  - Porygon Head
+  - 폴리곤 머리
+  폴리곤 몸통:
+  - Porygon Body
+  - 폴리곤 몸통
+  푸른하늘플레이트:
+  - Sky Plate
+  - 푸른하늘플레이트
+  풀 회복약:
+  - Max Potion
+  - 풀 회복약
+  풀Z:
+  - Grassium Z
+  - 풀Z
+  풀배지:
+  - Grass Badge
+  - 풀배지
+  - Kusa Badge
+  풀주얼:
+  - Grass Gem
+  - 풀주얼
+  풍선:
+  - Air Balloon
+  - 풍선
+  프레미어볼:
+  - Premier Ball
+  - 프레미어볼
+  프레미어볼 뚜껑:
+  - Premier Ball Lid
+  - 프레미어볼 뚜껑
+  프레셔스볼:
+  - Cherish Ball
+  - 프레셔스볼
+  프레셔스볼 뚜껑:
+  - Cherish Ball Lid
+  - 프레셔스볼 뚜껑
+  프렌드볼:
+  - Friend Ball
+  - 프렌드볼
+  프렌드볼 뚜껑:
+  - Friend Ball Lid
+  - 프렌드볼 뚜껑
+  프로텍터:
+  - Protector
+  - 프로텍터
+  프리즈카세트:
+  - Chill Drive
+  - 프리즈카세트
+  프테라나이트:
+  - Aerodactylite
+  - 프테라나이트
+  플라스마단 모자:
+  - Plasma Helmet
+  - 플라스마단 모자
+  플라스마단 바지:
+  - Plasma Leggings
+  - 플라스마단 바지
+  플라스마단 장화:
+  - Plasma Boots
+  - 플라스마단 장화
+  플라스마단 조끼:
+  - Plasma Chestplate
+  - 플라스마단 조끼
+  플라잉메모리:
+  - Flying Memory
+  - 플라잉메모리
+  플라즈마단 배지:
+  - Team Plasma Badge
+  - 플라즈마단 배지
+  플랜트배지:
+  - Plant Badge
+  - 플랜트배지
+  플러스파워:
+  - X Attack
+  - 플러스파워
+  플레임메일:
+  - Flame Mail
+  - 플레임메일
+  플카열매:
+  - Yache Berry
+  - 플카열매
+  피죤투나이트:
+  - Pidgeotite
+  - 피죤투나이트
+  피카츄Z:
+  - Pikanium Z
+  - 피카츄Z
+  피트블록:
+  - Peat Block
+  - 피트블록
+  필름:
+  - Film
+  - 필름
+  핑크 베리 보트 상자:
+  - Pink Berry Boat with Chest
+  - 핑크 베리 보트 상자
+  핑크배지:
+  - Soul Badge
+  - 핑크배지
+  핑크쥬스:
+  - Pink Juice
+  - 핑크쥬스
+  '하나 기술머신10: 잠재파워':
+  - 'Unova TM10: Hidden Power'
+  - '하나 기술머신10: 잠재파워'
+  '하나 기술머신11: 쾌청':
+  - 'Unova TM11: Sunny Day'
+  - '하나 기술머신11: 쾌청'
+  '하나 기술머신12: 도발':
+  - 'Unova TM12: Taunt'
+  - '하나 기술머신12: 도발'
+  '하나 기술머신13: 냉동빔':
+  - 'Unova TM13: Ice Beam'
+  - '하나 기술머신13: 냉동빔'
+  '하나 기술머신14: 눈보라':
+  - 'Unova TM14: Blizzard'
+  - '하나 기술머신14: 눈보라'
+  '하나 기술머신15: 파괴광선':
+  - 'Unova TM15: Hyper Beam'
+  - '하나 기술머신15: 파괴광선'
+  '하나 기술머신16: 빛의장막':
+  - 'Unova TM16: Light Screen'
+  - '하나 기술머신16: 빛의장막'
+  '하나 기술머신17: 방어':
+  - 'Unova TM17: Protect'
+  - '하나 기술머신17: 방어'
+  '하나 기술머신18: 비바라기':
+  - 'Unova TM18: Rain Dance'
+  - '하나 기술머신18: 비바라기'
+  '하나 기술머신19: 텔레키네시스':
+  - 'Unova TM19: Telekinesis'
+  - '하나 기술머신19: 텔레키네시스'
+  '하나 기술머신1: 손톱갈기':
+  - 'Unova TM1: Hone Claws'
+  - '하나 기술머신1: 손톱갈기'
+  '하나 기술머신20: 신비의부적':
+  - 'Unova TM20: Safeguard'
+  - '하나 기술머신20: 신비의부적'
+  '하나 기술머신21: 화풀이':
+  - 'Unova TM21: Frustration'
+  - '하나 기술머신21: 화풀이'
+  '하나 기술머신22: 솔라빔':
+  - 'Unova TM22: Solar Beam'
+  - '하나 기술머신22: 솔라빔'
+  '하나 기술머신23: 떨어뜨리기':
+  - 'Unova TM23: Smack Down'
+  - '하나 기술머신23: 떨어뜨리기'
+  '하나 기술머신24: 10만볼트':
+  - 'Unova TM24: Thunderbolt'
+  - '하나 기술머신24: 10만볼트'
+  '하나 기술머신25: 번개':
+  - 'Unova TM25: Thunder'
+  - '하나 기술머신25: 번개'
+  '하나 기술머신26: 지진':
+  - 'Unova TM26: Earthquake'
+  - '하나 기술머신26: 지진'
+  '하나 기술머신27: 은혜갚기':
+  - 'Unova TM27: Return'
+  - '하나 기술머신27: 은혜갚기'
+  '하나 기술머신28: 구멍파기':
+  - 'Unova TM28: Dig'
+  - '하나 기술머신28: 구멍파기'
+  '하나 기술머신29: 사이코키네시스':
+  - 'Unova TM29: Psychic'
+  - '하나 기술머신29: 사이코키네시스'
+  '하나 기술머신2: 드래곤크루':
+  - 'Unova TM2: Dragon Claw'
+  - '하나 기술머신2: 드래곤크루'
+  '하나 기술머신30: 섀도볼':
+  - 'Unova TM30: Shadow Ball'
+  - '하나 기술머신30: 섀도볼'
+  '하나 기술머신31: 깨트리다':
+  - 'Unova TM31: Brick Break'
+  - '하나 기술머신31: 깨트리다'
+  '하나 기술머신32: 그림자분신':
+  - 'Unova TM32: Double Team'
+  - '하나 기술머신32: 그림자분신'
+  '하나 기술머신33: 리플렉터':
+  - 'Unova TM33: Reflect'
+  - '하나 기술머신33: 리플렉터'
+  '하나 기술머신34: 오물웨이브':
+  - 'Unova TM34: Sludge Wave'
+  - '하나 기술머신34: 오물웨이브'
+  '하나 기술머신35: 화염방사':
+  - 'Unova TM35: Flamethrower'
+  - '하나 기술머신35: 화염방사'
+  '하나 기술머신36: 오물폭탄':
+  - 'Unova TM36: Sludge Bomb'
+  - '하나 기술머신36: 오물폭탄'
+  '하나 기술머신37: 모래바람':
+  - 'Unova TM37: Sandstorm'
+  - '하나 기술머신37: 모래바람'
+  '하나 기술머신38: 불대문자':
+  - 'Unova TM38: Fire Blast'
+  - '하나 기술머신38: 불대문자'
+  '하나 기술머신39: 암석봉인':
+  - 'Unova TM39: Rock Tomb'
+  - '하나 기술머신39: 암석봉인'
+  '하나 기술머신3: 사이코쇼크':
+  - 'Unova TM3: Psyshock'
+  - '하나 기술머신3: 사이코쇼크'
+  '하나 기술머신40: 제비반환':
+  - 'Unova TM40: Aerial Ace'
+  - '하나 기술머신40: 제비반환'
+  '하나 기술머신41: 트집':
+  - 'Unova TM41: Torment'
+  - '하나 기술머신41: 트집'
+  '하나 기술머신42: 객기':
+  - 'Unova TM42: Facade'
+  - '하나 기술머신42: 객기'
+  '하나 기술머신43: 니트로차지':
+  - 'Unova TM43: Flame Charge'
+  - '하나 기술머신43: 니트로차지'
+  '하나 기술머신44: 잠자기':
+  - 'Unova TM44: Rest'
+  - '하나 기술머신44: 잠자기'
+  '하나 기술머신45: 헤롱헤롱':
+  - 'Unova TM45: Attract'
+  - '하나 기술머신45: 헤롱헤롱'
+  '하나 기술머신46: 도둑질':
+  - 'Unova TM46: Thief'
+  - '하나 기술머신46: 도둑질'
+  '하나 기술머신47: 로킥':
+  - 'Unova TM47: Low Sweep'
+  - '하나 기술머신47: 로킥'
+  '하나 기술머신48: 돌림노래':
+  - 'Unova TM48: Round'
+  - '하나 기술머신48: 돌림노래'
+  '하나 기술머신49: 에코보이스':
+  - 'Unova TM49: Echoed Voice'
+  - '하나 기술머신49: 에코보이스'
+  '하나 기술머신4: 명상':
+  - 'Unova TM4: Calm Mind'
+  - '하나 기술머신4: 명상'
+  '하나 기술머신50: 오버히트':
+  - 'Unova TM50: Overheat'
+  - '하나 기술머신50: 오버히트'
+  '하나 기술머신51: 사이드체인지':
+  - 'Unova TM51: Ally Switch'
+  - '하나 기술머신51: 사이드체인지'
+  '하나 기술머신52: 기합구슬':
+  - 'Unova TM52: Focus Blast'
+  - '하나 기술머신52: 기합구슬'
+  '하나 기술머신53: 에너지볼':
+  - 'Unova TM53: Energy Ball'
+  - '하나 기술머신53: 에너지볼'
+  '하나 기술머신54: 칼등치기':
+  - 'Unova TM54: False Swipe'
+  - '하나 기술머신54: 칼등치기'
+  '하나 기술머신55: 열탕':
+  - 'Unova TM55: Scald'
+  - '하나 기술머신55: 열탕'
+  '하나 기술머신56: 내던지기':
+  - 'Unova TM56: Fling'
+  - '하나 기술머신56: 내던지기'
+  '하나 기술머신57: 차지빔':
+  - 'Unova TM57: Charge Beam'
+  - '하나 기술머신57: 차지빔'
+  '하나 기술머신58: 프리폴':
+  - 'Unova TM58: Sky Drop'
+  - '하나 기술머신58: 프리폴'
+  '하나 기술머신59: 불태우기':
+  - 'Unova TM59: Incinerate'
+  - '하나 기술머신59: 불태우기'
+  '하나 기술머신5: 울부짖기':
+  - 'Unova TM5: Roar'
+  - '하나 기술머신5: 울부짖기'
+  '하나 기술머신60: 순서미루기':
+  - 'Unova TM60: Quash'
+  - '하나 기술머신60: 순서미루기'
+  '하나 기술머신61: 도깨비불':
+  - 'Unova TM61: Will-O-Wisp'
+  - '하나 기술머신61: 도깨비불'
+  '하나 기술머신62: 애크러뱃':
+  - 'Unova TM62: Acrobatics'
+  - '하나 기술머신62: 애크러뱃'
+  '하나 기술머신63: 금제':
+  - 'Unova TM63: Embargo'
+  - '하나 기술머신63: 금제'
+  '하나 기술머신64: 대폭발':
+  - 'Unova TM64: Explosion'
+  - '하나 기술머신64: 대폭발'
+  '하나 기술머신65: 섀도크루':
+  - 'Unova TM65: Shadow Claw'
+  - '하나 기술머신65: 섀도크루'
+  '하나 기술머신66: 보복':
+  - 'Unova TM66: Payback'
+  - '하나 기술머신66: 보복'
+  '하나 기술머신67: 원수갚기':
+  - 'Unova TM67: Retaliate'
+  - '하나 기술머신67: 원수갚기'
+  '하나 기술머신68: 기가임팩트':
+  - 'Unova TM68: Giga Impact'
+  - '하나 기술머신68: 기가임팩트'
+  '하나 기술머신69: 록커트':
+  - 'Unova TM69: Rock Polish'
+  - '하나 기술머신69: 록커트'
+  '하나 기술머신6: 맹독':
+  - 'Unova TM6: Toxic'
+  - '하나 기술머신6: 맹독'
+  '하나 기술머신70: 플래시':
+  - 'Unova TM70: Flash'
+  - '하나 기술머신70: 플래시'
+  '하나 기술머신71: 스톤에지':
+  - 'Unova TM71: Stone Edge'
+  - '하나 기술머신71: 스톤에지'
+  '하나 기술머신72: 볼트체인지':
+  - 'Unova TM72: Volt Switch'
+  - '하나 기술머신72: 볼트체인지'
+  '하나 기술머신73: 전기자석파':
+  - 'Unova TM73: Thunder Wave'
+  - '하나 기술머신73: 전기자석파'
+  '하나 기술머신74: 자이로볼':
+  - 'Unova TM74: Gyro Ball'
+  - '하나 기술머신74: 자이로볼'
+  '하나 기술머신75: 칼춤':
+  - 'Unova TM75: Swords Dance'
+  - '하나 기술머신75: 칼춤'
+  '하나 기술머신76: 벌레의저항':
+  - 'Unova TM76: Struggle Bug'
+  - '하나 기술머신76: 벌레의저항'
+  '하나 기술머신77: 자기암시':
+  - 'Unova TM77: Psych Up'
+  - '하나 기술머신77: 자기암시'
+  '하나 기술머신78: 땅고르기':
+  - 'Unova TM78: Bulldoze'
+  - '하나 기술머신78: 땅고르기'
+  '하나 기술머신79: 얼음숨결':
+  - 'Unova TM79: Frost Breath'
+  - '하나 기술머신79: 얼음숨결'
+  '하나 기술머신7: 싸라기눈':
+  - 'Unova TM7: Hail'
+  - '하나 기술머신7: 싸라기눈'
+  '하나 기술머신80: 스톤샤워':
+  - 'Unova TM80: Rock Slide'
+  - '하나 기술머신80: 스톤샤워'
+  '하나 기술머신81: 시저크로스':
+  - 'Unova TM81: X-Scissor'
+  - '하나 기술머신81: 시저크로스'
+  '하나 기술머신82: 드래곤테일':
+  - 'Unova TM82: Dragon Tail'
+  - '하나 기술머신82: 드래곤테일'
+  '하나 기술머신83: 분발':
+  - 'Unova TM83: Work Up'
+  - '하나 기술머신83: 분발'
+  '하나 기술머신84: 독찌르기':
+  - 'Unova TM84: Poison Jab'
+  - '하나 기술머신84: 독찌르기'
+  '하나 기술머신85: 꿈먹기':
+  - 'Unova TM85: Dream Eater'
+  - '하나 기술머신85: 꿈먹기'
+  '하나 기술머신86: 풀묶기':
+  - 'Unova TM86: Grass Knot'
+  - '하나 기술머신86: 풀묶기'
+  '하나 기술머신87: 뽐내기':
+  - 'Unova TM87: Swagger'
+  - '하나 기술머신87: 뽐내기'
+  '하나 기술머신88: 쪼아대기':
+  - 'Unova TM88: Pluck'
+  - '하나 기술머신88: 쪼아대기'
+  '하나 기술머신89: 유턴':
+  - 'Unova TM89: U-turn'
+  - '하나 기술머신89: 유턴'
+  '하나 기술머신8: 벌크업':
+  - 'Unova TM8: Bulk Up'
+  - '하나 기술머신8: 벌크업'
+  '하나 기술머신90: 대타출동':
+  - 'Unova TM90: Substitute'
+  - '하나 기술머신90: 대타출동'
+  '하나 기술머신91: 러스터캐논':
+  - 'Unova TM91: Flash Cannon'
+  - '하나 기술머신91: 러스터캐논'
+  '하나 기술머신92: 트릭룸':
+  - 'Unova TM92: Trick Room'
+  - '하나 기술머신92: 트릭룸'
+  '하나 기술머신93: 와일드볼트':
+  - 'Unova TM93: Wild Charge'
+  - '하나 기술머신93: 와일드볼트'
+  '하나 기술머신94: 바위깨기':
+  - 'Unova TM94: Rock Smash'
+  - '하나 기술머신94: 바위깨기'
+  '하나 기술머신95: 바크아웃':
+  - 'Unova TM95: Snarl'
+  - '하나 기술머신95: 바크아웃'
+  '하나 기술머신9: 베놈쇼크':
+  - 'Unova TM9: Venoshock'
+  - '하나 기술머신9: 베놈쇼크'
+  하늘 텀블스톤:
+  - Sky Tumblestone
+  - 하늘 텀블스톤
+  하늘색 포켓 가방:
+  - Light Blue Poké Bag
+  - 하늘색 포켓 가방
+  하반열매:
+  - Haban Berry
+  - 하반열매
+  하얀 규토리:
+  - White Apricorn
+  - 하얀 규토리
+  하얀갈기:
+  - White Mane Hair
+  - 하얀갈기
+  하얀색 배지케이스:
+  - White Badgecase
+  - 하얀색 배지케이스
+  하얀색 포켓 가방:
+  - White Poké Bag
+  - 하얀색 포켓 가방
+  하양비드로:
+  - White Flute
+  - 하양비드로
+  하양조각:
+  - White Shard
+  - 하양조각
+  하양허브:
+  - White Herb
+  - 하양허브
+  하이퍼볼:
+  - Ancient Ultra Ball
+  - 하이퍼볼
+  - Ultra Ball
+  하이퍼볼 뚜껑:
+  - Ultra Ball Lid
+  - 하이퍼볼 뚜껑
+  하트비늘:
+  - Heart Scale
+  - 하트비늘
+  하트사탕공예:
+  - Love Sweet
+  - 하트사탕공예
+  하트스위트:
+  - Sweet Heart
+  - 하트스위트
+  학습장치:
+  - Exp. Share
+  - 학습장치
+  한카리아스나이트:
+  - Garchompite
+  - 한카리아스나이트
+  핫삼나이트:
+  - Scizorite
+  - 핫삼나이트
+  항구메일:
+  - Harbor Mail
+  - 항구메일
+  해독제:
+  - Antidote
+  - 해독제
+  핸들:
+  - Handles
+  - 핸들
+  행복의 알:
+  - Lucky Egg
+  - 행복의 알
+  행운의향로:
+  - Luck Incense
+  - 행운의향로
+  향기버섯:
+  - Balm Mushroom
+  - 향기버섯
+  향기주머니:
+  - Sachet
+  - 향기주머니
+  허탕보험:
+  - Blunder Policy
+  - 허탕보험
+  헤라크로스나이트:
+  - Heracronite
+  - 헤라크로스나이트
+  헤비볼:
+  - Heavy Ball
+  - 헤비볼
+  헤비볼 뚜껑:
+  - Heavy Ball Lid
+  - 헤비볼 뚜껑
+  헬가나이트:
+  - Houndoominite
+  - 헬가나이트
+  혜성조각:
+  - Comet Shard
+  - 혜성조각
+  '호연 기술머신10: 잠재파워':
+  - 'Hoenn TM10: Hidden Power'
+  - '호연 기술머신10: 잠재파워'
+  '호연 기술머신11: 쾌청':
+  - 'Hoenn TM11: Sunny Day'
+  - '호연 기술머신11: 쾌청'
+  '호연 기술머신12: 도발':
+  - 'Hoenn TM12: Taunt'
+  - '호연 기술머신12: 도발'
+  '호연 기술머신13: 냉동빔':
+  - 'Hoenn TM13: Ice Beam'
+  - '호연 기술머신13: 냉동빔'
+  '호연 기술머신14: 눈보라':
+  - 'Hoenn TM14: Blizzard'
+  - '호연 기술머신14: 눈보라'
+  '호연 기술머신15: 파괴광선':
+  - 'Hoenn TM15: Hyper Beam'
+  - '호연 기술머신15: 파괴광선'
+  '호연 기술머신16: 빛의장막':
+  - 'Hoenn TM16: Light Screen'
+  - '호연 기술머신16: 빛의장막'
+  '호연 기술머신17: 방어':
+  - 'Hoenn TM17: Protect'
+  - '호연 기술머신17: 방어'
+  '호연 기술머신18: 비바라기':
+  - 'Hoenn TM18: Rain Dance'
+  - '호연 기술머신18: 비바라기'
+  '호연 기술머신19: 기가드레인':
+  - 'Hoenn TM19: Giga Drain'
+  - '호연 기술머신19: 기가드레인'
+  '호연 기술머신1: 힘껏펀치':
+  - 'Hoenn TM1: Focus Punch'
+  - '호연 기술머신1: 힘껏펀치'
+  '호연 기술머신20: 신비의부적':
+  - 'Hoenn TM20: Safeguard'
+  - '호연 기술머신20: 신비의부적'
+  '호연 기술머신21: 화풀이':
+  - 'Hoenn TM21: Frustration'
+  - '호연 기술머신21: 화풀이'
+  '호연 기술머신22: 솔라빔':
+  - 'Hoenn TM22: Solar Beam'
+  - '호연 기술머신22: 솔라빔'
+  '호연 기술머신23: 아이언테일':
+  - 'Hoenn TM23: Iron Tail'
+  - '호연 기술머신23: 아이언테일'
+  '호연 기술머신24: 10만볼트':
+  - 'Hoenn TM24: Thunderbolt'
+  - '호연 기술머신24: 10만볼트'
+  '호연 기술머신25: 번개':
+  - 'Hoenn TM25: Thunder'
+  - '호연 기술머신25: 번개'
+  '호연 기술머신26: 지진':
+  - 'Hoenn TM26: Earthquake'
+  - '호연 기술머신26: 지진'
+  '호연 기술머신27: 은혜갚기':
+  - 'Hoenn TM27: Return'
+  - '호연 기술머신27: 은혜갚기'
+  '호연 기술머신28: 구멍파기':
+  - 'Hoenn TM28: Dig'
+  - '호연 기술머신28: 구멍파기'
+  '호연 기술머신29: 사이코키네시스':
+  - 'Hoenn TM29: Psychic'
+  - '호연 기술머신29: 사이코키네시스'
+  '호연 기술머신2: 드래곤크루':
+  - 'Hoenn TM2: Dragon Claw'
+  - '호연 기술머신2: 드래곤크루'
+  '호연 기술머신30: 섀도볼':
+  - 'Hoenn TM30: Shadow Ball'
+  - '호연 기술머신30: 섀도볼'
+  '호연 기술머신31: 깨트리다':
+  - 'Hoenn TM31: Brick Break'
+  - '호연 기술머신31: 깨트리다'
+  '호연 기술머신32: 그림자분신':
+  - 'Hoenn TM32: Double Team'
+  - '호연 기술머신32: 그림자분신'
+  '호연 기술머신33: 리플렉터':
+  - 'Hoenn TM33: Reflect'
+  - '호연 기술머신33: 리플렉터'
+  '호연 기술머신34: 전격파':
+  - 'Hoenn TM34: Shock Wave'
+  - '호연 기술머신34: 전격파'
+  '호연 기술머신35: 화염방사':
+  - 'Hoenn TM35: Flamethrower'
+  - '호연 기술머신35: 화염방사'
+  '호연 기술머신36: 오물폭탄':
+  - 'Hoenn TM36: Sludge Bomb'
+  - '호연 기술머신36: 오물폭탄'
+  '호연 기술머신37: 모래바람':
+  - 'Hoenn TM37: Sandstorm'
+  - '호연 기술머신37: 모래바람'
+  '호연 기술머신38: 불대문자':
+  - 'Hoenn TM38: Fire Blast'
+  - '호연 기술머신38: 불대문자'
+  '호연 기술머신39: 암석봉인':
+  - 'Hoenn TM39: Rock Tomb'
+  - '호연 기술머신39: 암석봉인'
+  '호연 기술머신3: 물의파동':
+  - 'Hoenn TM3: Water Pulse'
+  - '호연 기술머신3: 물의파동'
+  '호연 기술머신40: 제비반환':
+  - 'Hoenn TM40: Aerial Ace'
+  - '호연 기술머신40: 제비반환'
+  '호연 기술머신41: 트집':
+  - 'Hoenn TM41: Torment'
+  - '호연 기술머신41: 트집'
+  '호연 기술머신42: 객기':
+  - 'Hoenn TM42: Facade'
+  - '호연 기술머신42: 객기'
+  '호연 기술머신43: 비밀의힘':
+  - 'Hoenn TM43: Secret Power'
+  - '호연 기술머신43: 비밀의힘'
+  '호연 기술머신44: 잠자기':
+  - 'Hoenn TM44: Rest'
+  - '호연 기술머신44: 잠자기'
+  '호연 기술머신45: 헤롱헤롱':
+  - 'Hoenn TM45: Attract'
+  - '호연 기술머신45: 헤롱헤롱'
+  '호연 기술머신46: 도둑질':
+  - 'Hoenn TM46: Thief'
+  - '호연 기술머신46: 도둑질'
+  '호연 기술머신47: 강철날개':
+  - 'Hoenn TM47: Steel Wing'
+  - '호연 기술머신47: 강철날개'
+  '호연 기술머신48: 스킬스웹':
+  - 'Hoenn TM48: Skill Swap'
+  - '호연 기술머신48: 스킬스웹'
+  '호연 기술머신49: 가로챔':
+  - 'Hoenn TM49: Snatch'
+  - '호연 기술머신49: 가로챔'
+  '호연 기술머신4: 명상':
+  - 'Hoenn TM4: Calm Mind'
+  - '호연 기술머신4: 명상'
+  '호연 기술머신50: 오버히트':
+  - 'Hoenn TM50: Overheat'
+  - '호연 기술머신50: 오버히트'
+  '호연 기술머신5: 울부짖기':
+  - 'Hoenn TM5: Roar'
+  - '호연 기술머신5: 울부짖기'
+  '호연 기술머신6: 맹독':
+  - 'Hoenn TM6: Toxic'
+  - '호연 기술머신6: 맹독'
+  '호연 기술머신7: 싸라기눈':
+  - 'Hoenn TM7: Hail'
+  - '호연 기술머신7: 싸라기눈'
+  '호연 기술머신8: 벌크업':
+  - 'Hoenn TM8: Bulk Up'
+  - '호연 기술머신8: 벌크업'
+  '호연 기술머신9: 기관총':
+  - 'Hoenn TM9: Bullet Seed'
+  - '호연 기술머신9: 기관총'
+  홀로캐시터:
+  - Holo Caster
+  - 홀로캐시터
+  화산의 돌:
+  - Magma Stone
+  - 화산의 돌
+  화상 치료제:
+  - Burn Heal
+  - 화상 치료제
+  화석 복원기 뚜껑:
+  - Fossil Machine Top
+  - 화석 복원기 뚜껑
+  화석 복원기 모니터:
+  - Fossil Machine Display
+  - 화석 복원기 모니터
+  화석 복원기 본체:
+  - Fossil Machine Base
+  - 화석 복원기 본체
+  화석 복원기 탱크:
+  - Fossil Machine Tank
+  - 화석 복원기 탱크
+  화석긴목:
+  - Dino Fossil
+  - 화석긴목
+  화석물고기:
+  - Fish Fossil
+  - 화석물고기
+  화석새:
+  - Bird Fossil
+  - 화석새
+  화석용:
+  - Drake Fossil
+  - 화석용
+  화염구슬:
+  - Flame Orb
+  - 화염구슬
+  회복약:
+  - Full Restore
+  - 회복약
+  회색 포켓 가방:
+  - Gray Poké Bag
+  - 회색 포켓 가방
+  회색배지:
+  - Boulder Badge
+  - 회색배지
+  후딘나이트:
+  - Alakazite
+  - 후딘나이트
+  후르츠밀크:
+  - Lemonade
+  - 후르츠밀크
+  휘어진스푼:
+  - Twisted Spoon
+  - 휘어진스푼
+  휘핑팝:
+  - Whipped Dream
+  - 휘핑팝
+  흉내허브:
+  - Mirror Herb
+  - 흉내허브
+  흔들림없는부적:
+  - Catching Charm
+  - 흔들림없는부적
+  희귀사탕:
+  - rare candy
+  - 희귀 사탕
+  - 레어 캔디
+  희귀한 낡은 낚싯대:
+  - Rare Old Rod
+  - 희귀한 낡은 낚싯대
+  희귀한 대단한 낚싯대:
+  - Rare Super Rod
+  - 희귀한 대단한 낚싯대
+  희귀한 좋은 낚싯대:
+  - Rare Good Rod
+  - 희귀한 좋은 낚싯대
+  히로쿠의 금빛 렌즈:
+  - Ras' Golden Lens
+  - 히로쿠의 금빛 렌즈
+  히로쿠의 은빛 렌즈:
+  - Ras' Silver Lens
+  - 히로쿠의 은빛 렌즈
+  히트배지:
+  - Heat Badge
+  - 히트배지
+  힐볼:
+  - Heal Ball
+  - 힐볼
+  힐볼 뚜껑:
+  - Heal Ball Lid
+  - 힐볼 뚜껑
+  힘의 가루:
+  - Energy Powder
+  - 힘의 가루
+  힘의 뿌리:
+  - Energy Root
+  - 힘의 뿌리
+  힘의머리띠:
+  - Muscle Band
+  - 힘의머리띠

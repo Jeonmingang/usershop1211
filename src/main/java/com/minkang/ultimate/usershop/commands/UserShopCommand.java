@@ -78,6 +78,24 @@ public class UserShopCommand implements CommandExecutor {
             new com.minkang.ultimate.usershop.gui.StorageGUI(plugin, p).open();
             return true;
         }
+
+        if ("아이템".equals(args[0])) {
+            // 오피/관리자 전용: 손에 든 아이템을 유저상점 전용 오픈 아이템으로 설정
+            if (!p.isOp() && !p.hasPermission("usershop.admin")) {
+                p.sendMessage(Main.color("&c권한이 없습니다."));
+                return true;
+            }
+            ItemStack inHand = p.getInventory().getItemInMainHand();
+            if (inHand == null || inHand.getType().name().equals("AIR")) {
+                p.sendMessage(plugin.msg("no-item-in-hand"));
+                return true;
+            }
+            String b64 = ItemSerializer.serializeToBase64(inHand);
+            plugin.getConfig().set("items.open-item", b64);
+            plugin.saveConfig();
+            p.sendMessage(plugin.msg("set-open-item"));
+            return true;
+        }
         if ("열기".equals(args[0])) {
             new MainShopsGUI(plugin, p).open(0);
             p.sendMessage(plugin.msg("open"));
@@ -343,6 +361,46 @@ public class UserShopCommand implements CommandExecutor {
                 .replace("{new}", String.valueOf(newSlots)));
             return true;
         }
+
+        if ("관심추가".equals(args[0])) {
+            if (args.length < 2) {
+                p.sendMessage(Main.color("&c사용법: /유저상점 관심추가 <키워드>"));
+                return true;
+            }
+            String keyword = String.join(" ", java.util.Arrays.copyOfRange(args, 1, args.length));
+            sm.addFavoriteKeyword(p.getUniqueId(), keyword);
+            p.sendMessage(Main.getInstance().msg("favorite-added").replace("{keyword}", keyword));
+            return true;
+        }
+
+        if ("관심삭제".equals(args[0])) {
+            if (args.length < 2) {
+                p.sendMessage(Main.color("&c사용법: /유저상점 관심삭제 <키워드>"));
+                return true;
+            }
+            String keyword = String.join(" ", java.util.Arrays.copyOfRange(args, 1, args.length));
+            boolean removed = sm.removeFavoriteKeyword(p.getUniqueId(), keyword);
+            if (removed) {
+                p.sendMessage(Main.getInstance().msg("favorite-removed").replace("{keyword}", keyword));
+            } else {
+                p.sendMessage(Main.getInstance().msg("favorite-not-found").replace("{keyword}", keyword));
+            }
+            return true;
+        }
+
+        if ("관심목록".equals(args[0])) {
+            java.util.List<String> list = sm.getFavoriteKeywords(p.getUniqueId());
+            if (list.isEmpty()) {
+                p.sendMessage(Main.getInstance().msg("favorite-list-empty"));
+            } else {
+                p.sendMessage(Main.getInstance().msg("favorite-list-header"));
+                for (String kw : list) {
+                    p.sendMessage(Main.getInstance().msg("favorite-list-entry").replace("{keyword}", kw));
+                }
+            }
+            return true;
+        }
+
 
         // fallback
         for (String line : plugin.getConfig().getStringList("messages.help")) {

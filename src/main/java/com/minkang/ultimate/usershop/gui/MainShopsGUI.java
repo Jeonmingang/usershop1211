@@ -86,6 +86,18 @@ public class MainShopsGUI implements InventoryHolder {
             if (meta != null && meta.hasLore()) lore.addAll(meta.getLore());
             lore.add(Main.color(plugin.getConfig().getString("format.price", "&6가격: &e{price}")
                     .replace("{price}", String.valueOf(r.listing.getPrice()))));
+
+            // 전국 평균 시세/최저가 표시
+            ShopManager.PriceStats stats = plugin.getShopManager().computePriceStats(it);
+            if (stats != null && stats.count > 1) {
+                String tmpl = plugin.getConfig().getString("format.price-stats", "&7전국 평균: &f{avg} &7(최저: &f{min}&7 / 등록수: &f{count}&7)");
+                lore.add(Main.color(tmpl
+                        .replace("{avg}", String.valueOf(stats.avg))
+                        .replace("{min}", String.valueOf(stats.min))
+                        .replace("{max}", String.valueOf(stats.max))
+                        .replace("{count}", String.valueOf(stats.count))));
+            }
+
             lore.add(Main.color(plugin.getConfig().getString("format.seller", "&7판매자: &f{seller}")
                     .replace("{seller}", op.getName()==null?op.getUniqueId().toString():op.getName())));
             lore.add(Main.color("&7남은시간: &f" + leftTime(r.listing.getCreatedAt())));

@@ -24,6 +24,10 @@ public class ShopManager {
     private final File dataDir;
     
     private final java.io.File storageFile;
+    private final java.io.File favoritesFile;
+    // 관심 상품 키워드 (즐겨찾기) 저장용
+    private final java.util.Map<java.util.UUID, java.util.List<String>> favorites = new java.util.concurrent.ConcurrentHashMap<>();
+    private boolean favoritesLoaded = false;
 private final Map<UUID, PlayerShop> shops = new ConcurrentHashMap<>();
     private final Set<UUID> searchWaiting = Collections.newSetFromMap(new ConcurrentHashMap<UUID, Boolean>());
 
@@ -32,6 +36,7 @@ private final Map<UUID, PlayerShop> shops = new ConcurrentHashMap<>();
         this.dataDir = new File(plugin.getDataFolder(), "shops");
         if (!dataDir.exists()) dataDir.mkdirs();
             this.storageFile = new java.io.File(plugin.getDataFolder(), "storage.yml");
+            this.favoritesFile = new java.io.File(plugin.getDataFolder(), "favorites.yml");
 }
 
     public void loadAll() {
@@ -193,6 +198,31 @@ if (prev != null) {
                     .replace("{amount}", String.valueOf(amount))
                     .replace("{price}", String.valueOf(price));
             notifyDiscord(msg);
+
+        // 관심 상품 즐겨찾기 알림
+        if (plugin.getConfig().getBoolean("favorites.enabled", true)) {
+            String baseName = com.minkang.ultimate.usershop.util.ItemUtils.getPrettyName(clone);
+            String normalized = com.minkang.ultimate.usershop.util.ItemUtils.normalize(baseName);
+            java.util.Map<java.util.UUID, java.util.List<String>> allFav = getAllFavorites();
+            for (java.util.Map.Entry<java.util.UUID, java.util.List<String>> entry : allFav.entrySet()) {
+                java.util.UUID uid = entry.getKey();
+                org.bukkit.entity.Player target = org.bukkit.Bukkit.getPlayer(uid);
+                if (target == null || !target.isOnline()) continue;
+                for (String kw : entry.getValue()) {
+                    if (kw == null || kw.trim().isEmpty()) continue;
+                    String normKw = com.minkang.ultimate.usershop.util.ItemUtils.normalize(kw);
+                    if (normalized.contains(normKw) || normKw.contains(normalized)) {
+                        String title = Main.getInstance().getConfig().getString("favorites.title", "&e[관심 상품 등록]");
+                        String subtitle = Main.getInstance().getConfig().getString("favorites.subtitle", "&f{item} &7새 상품이 상점에 등록되었습니다!");
+                        String msg = Main.getInstance().getConfig().getString("favorites.message", "&e[유저상점] &f{item} &7이(가) 당신의 &d관심 상품&7 키워드에 해당하는 새 상품입니다!");
+                        String coloredItem = baseName;
+                        target.sendTitle(Main.color(title), Main.color(subtitle.replace("{item}", coloredItem)), 10, 60, 10);
+                        target.sendMessage(Main.color(msg.replace("{item}", coloredItem)));
+                        break;
+                    }
+                }
+            }
+        }
         }
     }
 
@@ -319,7 +349,8 @@ buyer.sendMessage(Main.getInstance().msg("purchase-success")
                     .replace("{buyer}", buyer.getName())
                     .replace("{item}", itemName)
                     .replace("{amount}", String.valueOf(buyAmount))
-                    .replace("{paid}", String.valueOf(total)));
+                    .replace("{paid}", String.valueOf(total))
+                    .replace("{stock}", String.valueOf(listing.getStock())));
         }
     }
 
@@ -380,29 +411,193 @@ buyer.sendMessage(Main.getInstance().msg("purchase-success")
         int days = Main.getInstance().getConfig().getInt("expiry.days", 5);
         long ttl = days * 24L * 60L * 60L * 1000L;
         long now = System.currentTimeMillis();
+
+        org.bukkit.configuration.file.FileConfiguration cfg = Main.getInstance().getConfig();
+        boolean autoEnabled = cfg.getBoolean("auto-relist.enabled", false);
+        int maxCycles = cfg.getInt("auto-relist.max-cycles", 0);
+        double multiplier = cfg.getDouble("auto-relist.price-multiplier", 1.0D);
+        boolean notify = cfg.getBoolean("auto-relist.notify", true);
+
         java.util.List<PlayerShop> all = new java.util.ArrayList<>(shops.values());
         for (PlayerShop ps : all) {
             java.util.Map<Integer, com.minkang.ultimate.usershop.model.Listing> map = ps.getListings();
             java.util.List<Integer> toRemove = new java.util.ArrayList<>();
+            boolean changed = false;
             for (java.util.Map.Entry<Integer, com.minkang.ultimate.usershop.model.Listing> e : map.entrySet()) {
-                if (now - e.getValue().getCreatedAt() >= ttl) {
-                    addToStorage(ps.getOwner(), e.getValue().getItem());
-                    toRemove.add(e.getKey());
+                com.minkang.ultimate.usershop.model.Listing listing = e.getValue();
+                if (now - listing.getCreatedAt() >= ttl) {
+                    if (autoEnabled && listing.getStock() > 0 &&
+                            (maxCycles <= 0 || listing.getRelistCount() < maxCycles)) {
+                        // 자동 재등록: 시간 리셋 + 가격 조정
+                        listing.setCreatedAt(now);
+                        if (multiplier != 1.0D) {
+                            double newPrice = listing.getPrice() * multiplier;
+                            if (newPrice < 0.01D) newPrice = 0.01D;
+                            listing.setPrice(newPrice);
+                        }
+                        listing.setRelistCount(listing.getRelistCount() + 1);
+                        changed = true;
+
+                        if (notify) {
+                            org.bukkit.OfflinePlayer op = org.bukkit.Bukkit.getOfflinePlayer(ps.getOwner());
+                            if (op.isOnline()) {
+                                org.bukkit.entity.Player pl = (org.bukkit.entity.Player) op;
+                                pl.sendMessage(Main.getInstance().msg("auto-relisted")
+                                        .replace("{item}", com.minkang.ultimate.usershop.util.ItemUtils.getPrettyName(listing.getItem()))
+                                        .replace("{price}", String.valueOf(listing.getPrice()))
+                                        .replace("{count}", String.valueOf(listing.getRelistCount())));
+                            }
+                        }
+                    } else {
+                        // 기존 동작: 보관함으로 이동 후 제거
+                        addToStorage(ps.getOwner(), listing.getItem());
+                        toRemove.add(e.getKey());
+                    }
                 }
             }
-            for (Integer key : toRemove) map.remove(key);
-            if (!toRemove.isEmpty()) save(ps);
+            for (Integer key : toRemove) {
+                map.remove(key);
+            }
+            if (changed || !toRemove.isEmpty()) {
+                save(ps);
+            }
+        }
+    
+
+    // === 전국 평균 시세 계산용 DTO ===
+    public static class PriceStats {
+        public final double min;
+        public final double max;
+        public final double avg;
+        public final int count;
+
+        public PriceStats(double min, double max, double avg, int count) {
+            this.min = min;
+            this.max = max;
+            this.avg = avg;
+            this.count = count;
         }
     }
 
-
-    private void notifyDiscord(String text) {
-        org.bukkit.configuration.file.FileConfiguration cfg = plugin.getConfig();
-        boolean enabled = cfg.getBoolean("discord.enabled", false);
-        if (!enabled) return;
-        String url = cfg.getString("discord.webhook-url", "");
-        if (url == null || url.isEmpty()) return;
-        com.minkang.ultimate.usershop.util.DiscordWebhook.send(url, text);
+    /**
+     * 동일 아이템(유사 아이템) 기준으로 전국 평균 시세/최저가/등록 개수 계산.
+     * - ItemStack#isSimilar 를 사용하여 타입/메타가 같은지 비교합니다.
+     */
+    public PriceStats computePriceStats(org.bukkit.inventory.ItemStack target) {
+        if (target == null) return new PriceStats(0, 0, 0, 0);
+        double min = Double.MAX_VALUE;
+        double max = 0.0D;
+        double sum = 0.0D;
+        int count = 0;
+        for (PlayerShop ps : shops.values()) {
+            for (java.util.Map.Entry<Integer, Listing> e : ps.getListings().entrySet()) {
+                Listing l = e.getValue();
+                if (l == null || l.getItem() == null) continue;
+                org.bukkit.inventory.ItemStack base = l.getItem().clone();
+                org.bukkit.inventory.ItemStack cmp = target.clone();
+                base.setAmount(1);
+                cmp.setAmount(1);
+                if (base.isSimilar(cmp)) {
+                    double price = l.getPrice();
+                    if (price < 0) continue;
+                    if (price < min) min = price;
+                    if (price > max) max = price;
+                    sum += price;
+                    count++;
+                }
+            }
+        }
+        if (count == 0) {
+            return new PriceStats(0, 0, 0, 0);
+        }
+        double avg = sum / count;
+        return new PriceStats(min, max, avg, count);
     }
-    
+
+    // === 디스코드 웹훅 헬퍼 ===
+    private void notifyDiscord(String content) {
+        try {
+            String url = plugin.getConfig().getString("discord.webhook-url", "");
+            if (url == null || url.isEmpty()) return;
+            DiscordWebhook wh = new DiscordWebhook(url);
+            wh.setContent(content);
+            wh.execute();
+        } catch (Exception ex) {
+            plugin.getLogger().warning("Failed to send discord webhook: " + ex.getMessage());
+        }
+    }
+
+    // === 관심 상품 즐겨찾기 로직 ===
+    private void ensureFavoritesLoaded() {
+        if (favoritesLoaded) return;
+        favoritesLoaded = true;
+        favorites.clear();
+        if (favoritesFile == null || !favoritesFile.exists()) return;
+        try {
+            org.bukkit.configuration.file.YamlConfiguration yml =
+                    org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(favoritesFile);
+            if (yml.isConfigurationSection("favorites")) {
+                for (String key : yml.getConfigurationSection("favorites").getKeys(false)) {
+                    try {
+                        java.util.UUID id = java.util.UUID.fromString(key);
+                        java.util.List<String> list = yml.getStringList("favorites." + key);
+                        favorites.put(id, new java.util.ArrayList<>(list));
+                    } catch (IllegalArgumentException ignore) {}
+                }
+            }
+        } catch (Exception ex) {
+            plugin.getLogger().warning("Failed to load favorites.yml: " + ex.getMessage());
+        }
+    }
+
+    private void saveFavorites() {
+        if (favoritesFile == null) return;
+        try {
+            org.bukkit.configuration.file.YamlConfiguration yml = new org.bukkit.configuration.file.YamlConfiguration();
+            for (java.util.Map.Entry<java.util.UUID, java.util.List<String>> e : favorites.entrySet()) {
+                yml.set("favorites." + e.getKey().toString(), new java.util.ArrayList<>(e.getValue()));
+            }
+            yml.save(favoritesFile);
+        } catch (Exception ex) {
+            plugin.getLogger().warning("Failed to save favorites.yml: " + ex.getMessage());
+        }
+    }
+
+    public java.util.List<String> getFavoriteKeywords(java.util.UUID uuid) {
+        ensureFavoritesLoaded();
+        return favorites.computeIfAbsent(uuid, k -> new java.util.ArrayList<>());
+    }
+
+    public java.util.Map<java.util.UUID, java.util.List<String>> getAllFavorites() {
+        ensureFavoritesLoaded();
+        return favorites;
+    }
+
+    public void addFavoriteKeyword(java.util.UUID uuid, String keyword) {
+        if (keyword == null) return;
+        String trimmed = keyword.trim();
+        if (trimmed.isEmpty()) return;
+        int max = plugin.getConfig().getInt("favorites.max-per-player", 10);
+        java.util.List<String> list = getFavoriteKeywords(uuid);
+        if (list.contains(trimmed)) return;
+        if (max > 0 && list.size() >= max) {
+            return;
+        }
+        list.add(trimmed);
+        saveFavorites();
+    }
+
+    public boolean removeFavoriteKeyword(java.util.UUID uuid, String keyword) {
+        if (keyword == null) return false;
+        String trimmed = keyword.trim();
+        if (trimmed.isEmpty()) return false;
+        java.util.List<String> list = getFavoriteKeywords(uuid);
+        boolean removed = list.remove(trimmed);
+        if (removed) {
+            saveFavorites();
+        }
+        return removed;
+    }
+
+
 }

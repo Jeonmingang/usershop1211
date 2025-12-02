@@ -15,6 +15,7 @@ public class PlayerShop {
     public PlayerShop(UUID owner) { this.owner = owner; }
 
     public UUID getOwner() { return owner; }
+
     public int getSlots() { return slots; }
     public void setSlots(int slots) { this.slots = slots; }
     public Map<Integer, Listing> getListings() { return listings; }
@@ -30,8 +31,9 @@ public class PlayerShop {
                 double price = yml.getDouble("listings." + key + ".price");
                 int stock = yml.getInt("listings." + key + ".stock");
                 long created = yml.getLong("listings." + key + ".created", System.currentTimeMillis());
+                int relistCount = yml.getInt("listings." + key + ".relist-count", 0);
                 if (item != null) {
-                    ps.listings.put(slot, new Listing(item, price, stock, created));
+                    ps.listings.put(slot, new Listing(item, price, stock, created, relistCount));
                 }
             }
         }
@@ -44,10 +46,12 @@ public class PlayerShop {
         yml.createSection("listings");
         for (Map.Entry<Integer, Listing> e : listings.entrySet()) {
             String path = "listings." + e.getKey();
-            yml.set(path + ".item", e.getValue().getItem());
-            yml.set(path + ".price", e.getValue().getPrice());
-            yml.set(path + ".stock", e.getValue().getStock());
-            yml.set(path + ".created", e.getValue().getCreatedAt());
+            Listing listing = e.getValue();
+            yml.set(path + ".item", listing.getItem());
+            yml.set(path + ".price", listing.getPrice());
+            yml.set(path + ".stock", listing.getStock());
+            yml.set(path + ".created", listing.getCreatedAt());
+            yml.set(path + ".relist-count", listing.getRelistCount());
         }
     }
 }
