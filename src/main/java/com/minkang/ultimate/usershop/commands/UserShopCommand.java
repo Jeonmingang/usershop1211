@@ -86,23 +86,6 @@ public class UserShopCommand implements CommandExecutor {
                 return true;
             }
 
-            // 가격 보호 (최소/최대 가격) 체크
-            if (plugin.getConfig().getBoolean("price-protection.enabled", true)) {
-                double minPrice = plugin.getConfig().getDouble("price-protection.min-price", 1.0);
-                double maxPrice = plugin.getConfig().getDouble("price-protection.max-price", 0.0);
-                if (price < minPrice) {
-                    String msg = plugin.getConfig().getString("messages.price-too-low",
-                            "&c최소 가격 {min}원 이상만 등록할 수 있습니다.").replace("{min}", String.valueOf(minPrice));
-                    p.sendMessage(Main.color(msg));
-                    return true;
-                }
-                if (maxPrice > 0.0 && price > maxPrice) {
-                    String msg = plugin.getConfig().getString("messages.price-too-high",
-                            "&c최대 가격 {max}원 이하만 등록할 수 있습니다.").replace("{max}", String.valueOf(maxPrice));
-                    p.sendMessage(Main.color(msg));
-                    return true;
-                }
-            }
 
             ItemStack inHand = p.getInventory().getItemInMainHand();
             if (inHand == null || inHand.getType().name().equals("AIR")) {
