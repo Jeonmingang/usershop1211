@@ -146,6 +146,9 @@ public class SearchResultsGUI implements InventoryHolder {
             ItemMeta meta = it.getItemMeta();
             OfflinePlayer op = Bukkit.getOfflinePlayer(r.owner);
             String pretty = ItemUtils.getPrettyName(it);
+            if (meta != null) {
+                meta.setDisplayName(Main.color("&f" + pretty));
+            }
             List<String> lore = new ArrayList<>();
             lore.add(Main.color(plugin.getConfig().getString("format.price", "가격: {price}").replace("{price}", String.valueOf(r.listing.getPrice()))));
             lore.add(Main.color(plugin.getConfig().getString("format.seller", "판매자: {seller}")

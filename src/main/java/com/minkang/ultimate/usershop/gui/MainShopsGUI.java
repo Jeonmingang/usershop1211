@@ -282,7 +282,7 @@ public class MainShopsGUI implements InventoryHolder {
                     // recent mark
                     int recentH = plugin.getConfig().getInt("expiry.recent-hours", 24);
                     if (System.currentTimeMillis() - r.listing.getCreatedAt() <= recentH * 3600L * 1000L) {
-                        String dn = meta.hasDisplayName() ? meta.getDisplayName() : ItemUtils.getPrettyName(it);
+                        String dn = ItemUtils.getPrettyName(it);
                         meta.setDisplayName(Main.color("&a[NEW] &r" + dn));
                     }
                     it.setItemMeta(meta);

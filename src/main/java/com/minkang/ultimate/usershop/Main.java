@@ -6,6 +6,7 @@ import com.minkang.ultimate.usershop.listeners.ChatListener;
 import com.minkang.ultimate.usershop.listeners.GuiListener;
 import com.minkang.ultimate.usershop.listeners.InteractListener;
 import com.minkang.ultimate.usershop.util.VaultHook;
+import com.minkang.ultimate.usershop.util.ItemUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -23,6 +24,8 @@ public class Main extends JavaPlugin {
         // legacy translations file
         saveResource("translations.yml", false);
         saveResource("vanilla-translations.yml", false);
+        // load translation aliases into memory (한글/영문 매핑)
+        ItemUtils.initTranslations(this);
 
         this.vault = new VaultHook(this);
         this.vault.setup();

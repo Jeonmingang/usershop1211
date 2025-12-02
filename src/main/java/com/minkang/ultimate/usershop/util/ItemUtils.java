@@ -15,6 +15,8 @@ import java.text.Normalizer;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
+import java.util.HashMap;
+import java.util.Map;
 
 public class ItemUtils {
 
@@ -50,13 +52,77 @@ public class ItemUtils {
         return it;
     }
 
-    public static String getPrettyName(ItemStack item) {
-        if (item.hasItemMeta() && item.getItemMeta().hasDisplayName()) {
-            return item.getItemMeta().getDisplayName().replace("§", "&");
+    // === 아이템 이름 한글/별칭 변환용 맵 ===
+    private static final Map<String, String> TRANSLATION_MAP = new HashMap<>();
+
+    /**
+     * 플러그인 enable 시 호출해서 translations.yml / vanilla-translations.yml 의 aliases 섹션을
+     * 전부 읽어와서 한글 기반 이름 매핑을 구성한다.
+     *
+     * key = 보여줄 한글 이름
+     * value 목록 = 영어/한글/기타 별칭들
+     *
+     * normalize() 한 값을 키로 삼아서 어떤 형태로 검색/표시되어도 같은 한글 이름으로 통일한다.
+     */
+    public static void initTranslations(Main plugin) {
+        TRANSLATION_MAP.clear();
+        loadAliasesFile(plugin, "translations.yml");
+        loadAliasesFile(plugin, "vanilla-translations.yml");
+    }
+
+    private static void loadAliasesFile(Main plugin, String fileName) {
+        java.io.File f = new java.io.File(plugin.getDataFolder(), fileName);
+        if (!f.exists()) return;
+        org.bukkit.configuration.file.YamlConfiguration y = org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(f);
+        ConfigurationSection aliases = y.getConfigurationSection("aliases");
+        if (aliases == null) return;
+
+        for (String key : aliases.getKeys(false)) {
+            String display = key; // 실제로 보여줄 한글 이름
+            String keyNorm = normalize(display);
+            if (!keyNorm.isEmpty()) {
+                TRANSLATION_MAP.put(keyNorm, display);
+            }
+            for (String alt : aliases.getStringList(key)) {
+                if (alt == null) continue;
+                String n = normalize(alt);
+                if (!n.isEmpty()) {
+                    TRANSLATION_MAP.put(n, display);
+                }
+            }
         }
-        // fallback to material name
-        String mat = item.getType().name().toLowerCase(Locale.ROOT).replace("_", " ");
-        return mat;
+    }
+
+    /**
+     * 원래 이름을 받아서 translations 맵을 이용해 한글 이름으로 치환한다.
+     * 매핑이 없으면 원래 문자열을 그대로 반환.
+     */
+    public static String translateName(String original) {
+        if (original == null) return "";
+        String norm = normalize(original);
+        String mapped = TRANSLATION_MAP.get(norm);
+        return mapped != null ? mapped : original;
+    }
+
+    /**
+     * GUI 로어/검색 등에 사용할 "예쁜 이름" 생성
+     * - 우선 아이템의 디스플레이 이름/재질 이름을 가져오고
+     * - translations.yml / vanilla-translations.yml 에 등록된 별칭이 있으면 한글 이름으로 치환한다.
+     */
+    public static String getPrettyName(ItemStack item) {
+        if (item == null) return "알 수 없는 아이템";
+
+        String base;
+        ItemMeta meta = item.getItemMeta();
+        if (meta != null && meta.hasDisplayName()) {
+            // 색코드는 제거하고 내용만 사용해서 매핑
+            base = meta.getDisplayName().replace("§", "").replace("&", "");
+        } else {
+            base = item.getType().name().toLowerCase(Locale.ROOT).replace("_", " ");
+        }
+        String translated = translateName(base);
+        // 색코드는 여기서는 붙이지 않고, 호출하는 쪽(Main.color)에서 처리하게 둔다.
+        return translated;
     }
 
     public static boolean giveItem(Player p, ItemStack item) {
