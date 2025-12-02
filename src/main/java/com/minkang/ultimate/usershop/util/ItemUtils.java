@@ -105,6 +105,34 @@ public class ItemUtils {
     }
 
     /**
+     * 검색어에 대해 사용할 탐색 문자열 집합을 구성한다.
+     * - 원문(query)을 normalize 한 값
+     * - translations 맵에서 해당 query와 관련된 항목들(표시 이름/별칭)의 normalize 값
+     */
+    public static void buildSearchNeedles(String query, java.util.Set<String> needles) {
+        if (needles == null) return;
+        String q = normalize(query);
+        if (q != null && !q.isEmpty()) {
+            needles.add(q);
+        }
+        // translations 맵과 연동
+        for (Map.Entry<String, String> entry : TRANSLATION_MAP.entrySet()) {
+            String altNorm = entry.getKey();         // 별칭(영문/한글 등) normalize 값
+            String display = entry.getValue();      // 실제로 보여줄 한글 이름
+            String dispNorm = normalize(display);
+            boolean hit = false;
+            if (!q.isEmpty()) {
+                if (altNorm.contains(q) || q.contains(altNorm)) hit = true;
+                if (dispNorm.contains(q) || q.contains(dispNorm)) hit = true;
+            }
+            if (hit) {
+                needles.add(altNorm);
+                needles.add(dispNorm);
+            }
+        }
+    }
+
+    /**
      * GUI 로어/검색 등에 사용할 "예쁜 이름" 생성
      * - 우선 아이템의 디스플레이 이름/재질 이름을 가져오고
      * - translations.yml / vanilla-translations.yml 에 등록된 별칭이 있으면 한글 이름으로 치환한다.

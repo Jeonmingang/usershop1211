@@ -46,9 +46,9 @@ public class SearchResultsGUI implements InventoryHolder {
         this.viewer = viewer;
         this.rawQuery = query;
         // build results
-        String q = ItemUtils.normalize(query);
         java.util.Set<String> needles = new java.util.HashSet<>();
-        needles.add(q);
+        ItemUtils.buildSearchNeedles(query, needles);
+        String q = ItemUtils.normalize(query);
         // 1) translations.yml (포켓몬/기타 아이템 별칭)
         try {
             java.io.File f = new java.io.File(plugin.getDataFolder(), "translations.yml");
