@@ -65,6 +65,7 @@ messages:
   - '&e/유저상점 &7- 사용 가능한 명령어 보기'
   - '&e/유저상점 열기 &7- 유저상점 GUI 열기'
   - '&e/유저상점 등록 <가격> <갯수> <슬롯> &7- 손에 든 아이템 등록'
+  - '&e/유저상점 빠른등록 <가격> &7- 손에 든 아이템 전체를 빈 슬롯에 자동 등록'
   - '&e/유저상점 등록취소 <슬롯> &7- 내 상점 슬롯 등록 취소'
   - '&e/유저상점 확장 &7- 확장권 1개로 슬롯 +9 (최대 54)'
   not-player: '&c플레이어만 사용할 수 있습니다.'
@@ -98,6 +99,8 @@ messages:
   favorite-list-header: '&e[유저상점] &7당신의 관심 키워드:'
   favorite-list-empty: '&e[유저상점] &7등록된 관심 키워드가 없습니다.'
   favorite-list-entry: '&7- &f{keyword}'
+  price-too-low: '&c최소 가격 {min}원 이상만 등록할 수 있습니다.'
+  price-too-high: '&c최대 가격 {max}원 이하만 등록할 수 있습니다.'
 translations:
   rare candy: 희귀사탕
   ultra ball: 울트라볼
@@ -108,6 +111,10 @@ capacity:
   base: 9
   step: 9
   max: 54
+price-protection:
+  enabled: true
+  min-price: 10.0
+  max-price: 100000000.0
 fees:
   register: 500
 expiry:
@@ -118,6 +125,9 @@ discord:
   enabled: true
   on-register: true
   on-purchase: true
+  daily-summary-enabled: true
+  daily-summary-header: '📊 유저상점 일일 판매 요약 ({date})'
+  daily-summary-line: '- {item} | 평균 {avg}원 (최저 {min}, 최고 {max}, 거래 {trades}회, 판매수량 {amount}개)'
 expansion-ticket:
   material: PAPER
   name: '&a유저상점 확장권'

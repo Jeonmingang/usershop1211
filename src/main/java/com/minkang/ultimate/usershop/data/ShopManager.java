@@ -14,6 +14,8 @@ import org.bukkit.inventory.ItemStack;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.LocalDate;
+import java.time.ZoneId;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -30,6 +32,22 @@ public class ShopManager {
     private boolean favoritesLoaded = false;
 private final Map<UUID, PlayerShop> shops = new ConcurrentHashMap<>();
     private final Set<UUID> searchWaiting = Collections.newSetFromMap(new ConcurrentHashMap<UUID, Boolean>());
+
+
+    // === 일일 판매 집계 (디스코드 요약용) ===
+    private static class DailySaleStats {
+        double minPrice;
+        double maxPrice;
+        double totalPrice;
+        int totalTrades;
+        int totalAmount;
+        String displayName;
+    }
+
+    private final java.util.Map<String, DailySaleStats> dailySales = new java.util.HashMap<>();
+    private final ZoneId salesZoneId = ZoneId.systemDefault();
+    private LocalDate salesDate = LocalDate.now(salesZoneId);
+    private LocalDate lastSummaryDate = null;
 
     public ShopManager(Main plugin) {
         this.plugin = plugin;
@@ -327,6 +345,9 @@ addToStorage(buyer.getUniqueId(), give);
 
         String itemName = ItemUtils.getPrettyName(give);
         
+        // 일일 판매 집계에 반영
+        recordDailySale(itemName, priceEach, buyAmount);
+        
         if (plugin.getConfig().getBoolean("discord.on-purchase", true)) {
             String tmpl = plugin.getConfig().getString("discord.messages.purchase", "🛒 구매: **{buyer}** — {item} x{amount} | 지불: {paid} | 판매자: {seller}");
             String sellerName = seller.getName() == null ? seller.getUniqueId().toString() : seller.getName();
@@ -514,6 +535,104 @@ buyer.sendMessage(Main.getInstance().msg("purchase-success")
         double avg = sum / count;
         return new PriceStats(min, max, avg, count);
     }
+
+    // === 일일 판매 집계 업데이트 ===
+    private void recordDailySale(String displayName, double priceEach, int amount) {
+        try {
+            if (displayName == null || displayName.isEmpty()) {
+                displayName = "알 수 없는 아이템";
+            }
+            LocalDate now = LocalDate.now(salesZoneId);
+            // 날짜가 바뀌었으면 이전 날짜 요약을 한 번 보내고 초기화
+            if (!now.equals(salesDate)) {
+                if (lastSummaryDate == null || !lastSummaryDate.equals(salesDate)) {
+                    sendDailySalesSummaryInternal(salesDate);
+                }
+                dailySales.clear();
+                salesDate = now;
+            }
+            String key = ItemUtils.normalize(displayName);
+            DailySaleStats stats = dailySales.get(key);
+            if (stats == null) {
+                stats = new DailySaleStats();
+                stats.displayName = displayName;
+                stats.minPrice = priceEach;
+                stats.maxPrice = priceEach;
+                stats.totalPrice = priceEach;
+                stats.totalTrades = 1;
+                stats.totalAmount = amount;
+                dailySales.put(key, stats);
+            } else {
+                if (priceEach < stats.minPrice) stats.minPrice = priceEach;
+                if (priceEach > stats.maxPrice) stats.maxPrice = priceEach;
+                stats.totalPrice += priceEach;
+                stats.totalTrades += 1;
+                stats.totalAmount += amount;
+            }
+        } catch (Exception ignored) {
+        }
+    }
+
+    // === 일일 판매 요약 디스코드 전송 ===
+    private void sendDailySalesSummaryInternal(LocalDate date) {
+        try {
+            if (dailySales.isEmpty()) {
+                lastSummaryDate = date;
+                return;
+            }
+            if (!plugin.getConfig().getBoolean("discord.enabled", true)) {
+                lastSummaryDate = date;
+                return;
+            }
+            if (!plugin.getConfig().getBoolean("discord.daily-summary-enabled", true)) {
+                lastSummaryDate = date;
+                return;
+            }
+            String headerTmpl = plugin.getConfig().getString(
+                    "discord.daily-summary-header",
+                    "📊 유저상점 일일 판매 요약 ({date})"
+            );
+            String lineTmpl = plugin.getConfig().getString(
+                    "discord.daily-summary-line",
+                    "- {item} | 평균 {avg}원 (최저 {min}, 최고 {max}, 거래 {trades}회, 판매수량 {amount}개)"
+            );
+            StringBuilder sb = new StringBuilder();
+            sb.append(headerTmpl.replace("{date}", date.toString()));
+
+            java.util.List<java.util.Map.Entry<String, DailySaleStats>> entries =
+                    new java.util.ArrayList<>(dailySales.entrySet());
+            // 판매 수량 기준 내림차순 정렬
+            entries.sort((a, b) -> Integer.compare(
+                    b.getValue().totalAmount,
+                    a.getValue().totalAmount
+            ));
+            int index = 0;
+            for (java.util.Map.Entry<String, DailySaleStats> e : entries) {
+                DailySaleStats s = e.getValue();
+                if (s.totalTrades <= 0) continue;
+                double avg = s.totalPrice / s.totalTrades;
+                String line = lineTmpl
+                        .replace("{item}", s.displayName != null ? s.displayName : e.getKey())
+                        .replace("{avg}", String.format(java.util.Locale.KOREA, "%.1f", avg))
+                        .replace("{min}", String.format(java.util.Locale.KOREA, "%.1f", s.minPrice))
+                        .replace("{max}", String.format(java.util.Locale.KOREA, "%.1f", s.maxPrice))
+                        .replace("{trades}", String.valueOf(s.totalTrades))
+                        .replace("{amount}", String.valueOf(s.totalAmount));
+                if (sb.length() + line.length() + 1 > 1800) {
+                    sb.append("\n... 등 ").append(entries.size() - index).append("개 더");
+                    break;
+                }
+                sb.append("\n").append(line);
+                index++;
+            }
+            notifyDiscord(sb.toString());
+            lastSummaryDate = date;
+        } catch (Exception ex) {
+            plugin.getLogger().warning("Failed to build daily sales summary: " + ex.getMessage());
+            lastSummaryDate = date;
+        }
+    }
+
 
     // === 디스코드 웹훅 헬퍼 ===
     private void notifyDiscord(String content) {

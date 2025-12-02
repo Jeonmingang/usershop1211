@@ -85,6 +85,25 @@ public class UserShopCommand implements CommandExecutor {
                 p.sendMessage(Main.color("&c권한이 없습니다."));
                 return true;
             }
+
+            // 가격 보호 (최소/최대 가격) 체크
+            if (plugin.getConfig().getBoolean("price-protection.enabled", true)) {
+                double minPrice = plugin.getConfig().getDouble("price-protection.min-price", 1.0);
+                double maxPrice = plugin.getConfig().getDouble("price-protection.max-price", 0.0);
+                if (price < minPrice) {
+                    String msg = plugin.getConfig().getString("messages.price-too-low",
+                            "&c최소 가격 {min}원 이상만 등록할 수 있습니다.").replace("{min}", String.valueOf(minPrice));
+                    p.sendMessage(Main.color(msg));
+                    return true;
+                }
+                if (maxPrice > 0.0 && price > maxPrice) {
+                    String msg = plugin.getConfig().getString("messages.price-too-high",
+                            "&c최대 가격 {max}원 이하만 등록할 수 있습니다.").replace("{max}", String.valueOf(maxPrice));
+                    p.sendMessage(Main.color(msg));
+                    return true;
+                }
+            }
+
             ItemStack inHand = p.getInventory().getItemInMainHand();
             if (inHand == null || inHand.getType().name().equals("AIR")) {
                 p.sendMessage(plugin.msg("no-item-in-hand"));
@@ -118,7 +137,25 @@ public class UserShopCommand implements CommandExecutor {
                 p.sendMessage(plugin.msg("invalid-number"));
                 return true;
             }
-                        
+
+            // 가격 보호 (최소/최대 가격) 체크
+            if (plugin.getConfig().getBoolean("price-protection.enabled", true)) {
+                double minPrice = plugin.getConfig().getDouble("price-protection.min-price", 1.0);
+                double maxPrice = plugin.getConfig().getDouble("price-protection.max-price", 0.0);
+                if (price < minPrice) {
+                    String msg = plugin.getConfig().getString("messages.price-too-low",
+                            "&c최소 가격 {min}원 이상만 등록할 수 있습니다.").replace("{min}", String.valueOf(minPrice));
+                    p.sendMessage(Main.color(msg));
+                    return true;
+                }
+                if (maxPrice > 0.0 && price > maxPrice) {
+                    String msg = plugin.getConfig().getString("messages.price-too-high",
+                            "&c최대 가격 {max}원 이하만 등록할 수 있습니다.").replace("{max}", String.valueOf(maxPrice));
+                    p.sendMessage(Main.color(msg));
+                    return true;
+                }
+            }
+
             ItemStack inHand = p.getInventory().getItemInMainHand();
             if (inHand == null || inHand.getType().name().equals("AIR")) {
                 p.sendMessage(plugin.msg("no-item-in-hand"));return true;
@@ -159,6 +196,95 @@ public class UserShopCommand implements CommandExecutor {
                             .replace("{price}", String.valueOf(price))
                             .replace("{amount}", String.valueOf(amount))));
             // broadcast
+            String itemName = ItemUtils.getPrettyName(inHand);
+            Bukkit.broadcastMessage(Main.color(plugin.getConfig().getString("messages.prefix","") +
+                    plugin.getConfig().getString("messages.broadcast-registered")
+                            .replace("{player}", p.getName())
+                            .replace("{item}", itemName)
+                            .replace("{amount}", String.valueOf(amount))
+                            .replace("{price}", String.valueOf(price))));
+            return true;
+        }
+
+
+        if ("빠른등록".equals(args[0])) {
+            if (args.length < 2) {
+                p.sendMessage(Main.color("&c사용법: /유저상점 빠른등록 <가격>"));
+                return true;
+            }
+            double price;
+            try {
+                price = Double.parseDouble(args[1]);
+            } catch (Exception ex) {
+                p.sendMessage(plugin.msg("invalid-number"));
+                return true;
+            }
+
+            // 가격 보호 (최소/최대 가격) 체크
+            if (plugin.getConfig().getBoolean("price-protection.enabled", true)) {
+                double minPrice = plugin.getConfig().getDouble("price-protection.min-price", 1.0);
+                double maxPrice = plugin.getConfig().getDouble("price-protection.max-price", 0.0);
+                if (price < minPrice) {
+                    String msg = plugin.getConfig().getString("messages.price-too-low",
+                            "&c최소 가격 {min}원 이상만 등록할 수 있습니다.").replace("{min}", String.valueOf(minPrice));
+                    p.sendMessage(Main.color(msg));
+                    return true;
+                }
+                if (maxPrice > 0.0 && price > maxPrice) {
+                    String msg = plugin.getConfig().getString("messages.price-too-high",
+                            "&c최대 가격 {max}원 이하만 등록할 수 있습니다.").replace("{max}", String.valueOf(maxPrice));
+                    p.sendMessage(Main.color(msg));
+                    return true;
+                }
+            }
+
+            ItemStack inHand = p.getInventory().getItemInMainHand();
+            if (inHand == null || inHand.getType().name().equals("AIR")) {
+                p.sendMessage(plugin.msg("no-item-in-hand"));
+                return true;
+            }
+            int amount = inHand.getAmount();
+
+            PlayerShop shop = sm.getOrCreateShop(p.getUniqueId());
+            int cap = sm.getCapacity(p.getUniqueId());
+            if (shop.getListings().size() >= cap) {
+                p.sendMessage(Main.color("&c등록 가능 개수를 초과했습니다. 현재: " + cap));
+                return true;
+            }
+
+            double regFee = plugin.getConfig().getDouble("fees.register", 500.0);
+            if (regFee > 0) {
+                if (plugin.getVault() == null || !plugin.getVault().has(p, regFee) || !plugin.getVault().withdraw(p, regFee)) {
+                    p.sendMessage(Main.color("&c등록 수수료가 부족합니다. 필요: " + regFee));
+                    return true;
+                }
+                p.sendMessage(Main.color(plugin.getConfig().getString("messages.prefix","") +
+                        plugin.getConfig().getString("messages.register-fee-charged", "&7등록 수수료 &e{fee}&7원이 차감되었습니다.").replace("{fee}", String.valueOf(regFee))));
+            }
+
+            int maxSlot = 54;
+            int slot = -1;
+            for (int i = 0; i < maxSlot; i++) {
+                if (!shop.getListings().containsKey(i)) {
+                    slot = i;
+                    break;
+                }
+            }
+            if (slot == -1) {
+                p.sendMessage(plugin.msg("invalid-slot"));
+                return true;
+            }
+
+            sm.registerListing(p, shop, inHand, amount, price, slot);
+
+            // remove all items in hand
+            p.getInventory().setItemInMainHand(null);
+
+            p.sendMessage(Main.color(plugin.getConfig().getString("messages.prefix","") +
+                    plugin.getConfig().getString("messages.registered")
+                            .replace("{slot}", String.valueOf(slot))
+                            .replace("{price}", String.valueOf(price))
+                            .replace("{amount}", String.valueOf(amount))));
             String itemName = ItemUtils.getPrettyName(inHand);
             Bukkit.broadcastMessage(Main.color(plugin.getConfig().getString("messages.prefix","") +
                     plugin.getConfig().getString("messages.broadcast-registered")
