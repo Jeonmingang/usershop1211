@@ -214,10 +214,10 @@ if (prev != null) {
                     if (normalized.contains(normKw) || normKw.contains(normalized)) {
                         String title = Main.getInstance().getConfig().getString("favorites.title", "&e[관심 상품 등록]");
                         String subtitle = Main.getInstance().getConfig().getString("favorites.subtitle", "&f{item} &7새 상품이 상점에 등록되었습니다!");
-                        String msg = Main.getInstance().getConfig().getString("favorites.message", "&e[유저상점] &f{item} &7이(가) 당신의 &d관심 상품&7 키워드에 해당하는 새 상품입니다!");
+                        String favMsg = Main.getInstance().getConfig().getString("favorites.message", "&e[유저상점] &f{item} &7이(가) 당신의 &d관심 상품&7 키워드에 해당하는 새 상품입니다!");
                         String coloredItem = baseName;
                         target.sendTitle(Main.color(title), Main.color(subtitle.replace("{item}", coloredItem)), 10, 60, 10);
-                        target.sendMessage(Main.color(msg.replace("{item}", coloredItem)));
+                        target.sendMessage(Main.color(favMsg.replace("{item}", coloredItem)));
                         break;
                     }
                 }
@@ -520,9 +520,7 @@ buyer.sendMessage(Main.getInstance().msg("purchase-success")
         try {
             String url = plugin.getConfig().getString("discord.webhook-url", "");
             if (url == null || url.isEmpty()) return;
-            DiscordWebhook wh = new DiscordWebhook(url);
-            wh.setContent(content);
-            wh.execute();
+            DiscordWebhook.send(url, content);
         } catch (Exception ex) {
             plugin.getLogger().warning("Failed to send discord webhook: " + ex.getMessage());
         }
