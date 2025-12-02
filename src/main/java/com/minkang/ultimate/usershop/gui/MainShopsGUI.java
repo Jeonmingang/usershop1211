@@ -266,7 +266,7 @@ public class MainShopsGUI implements InventoryHolder {
                 // 전국 평균 시세/최저가 표시
                 ShopManager.PriceStats stats = plugin.getShopManager().computePriceStats(it);
                 if (stats != null && stats.count > 1) {
-                    String tmpl = plugin.getConfig().getString("format.stats", "&7전국 평균: &f{avg} &7(최저: &f{min}&7 / 등록수: &f{count}&7)");
+                    String tmpl = plugin.getConfig().getString("format.price-stats", "&7전국 평균: &f{avg} &7(최저: &f{min}&7 / 등록수: &f{count}&7)");
                     lore.add(Main.color(tmpl
                             .replace("{avg}", String.valueOf(stats.avg))
                             .replace("{min}", String.valueOf(stats.min))

@@ -37,11 +37,33 @@ settings:
       lore:
       - '&7메인 유저상점으로 돌아가기'
       slot: 49
+    sort:
+      material: COMPASS
+      name: '&e정렬 모드'
+      lore:
+      - '&7현재: &f모드'
+      - '&7클릭 시 정렬 순서를 변경합니다.'
+      slot: 46
+    filter:
+      material: HOPPER
+      name: '&e필터'
+      lore:
+      - '&7현재: &f모드'
+      - '&7클릭 시 필터를 변경합니다.'
+      slot: 47
+    group:
+      material: CHEST
+      name: '&e같은 아이템 묶기'
+      lore:
+      - '&7현재: &f모드'
+      - '&7클릭 시 같은 아이템을 묶어서 보여줍니다.'
+      slot: 50
 economy:
   enabled: true
 items:
   open-item: ''
   expand-ticket: ''
+  register-ticket: ''
 format:
   price: '&6가격: &e{price}'
   seller: '&7판매자: &f{seller}'
@@ -101,6 +123,15 @@ messages:
   favorite-list-entry: '&7- &f{keyword}'
   price-too-low: '&c최소 가격 {min}원 이상만 등록할 수 있습니다.'
   price-too-high: '&c최대 가격 {max}원 이하만 등록할 수 있습니다.'
+  auto-relisted: '&e[유저상점] &7자동 재등록: &f{item} &7가격: &6{price}&7, 재등록 횟수: &f{count}회'
+  expansion-over-max: '&c더 이상 확장할 수 없습니다. 최대 {max} 슬롯까지 확장 가능합니다.'
+  expansion-success: '&a확장권으로 &f{added}&a 슬롯을 확장했습니다! 현재 슬롯: &f{new}'
+  give-ticket: '&a확장권 &f{count}개&a 를 지급했습니다.'
+  not-ticket: '&c손에 들고 있는 아이템은 확장권이 아닙니다.'
+  reloaded: '&a유저상점 설정을 리로드했습니다.'
+  set-register-ticket: '&a등록권 아이템이 설정되었습니다.'
+  storage-collected: '&a보관함에서 &f{count}개&a 의 아이템을 수령했습니다.'
+  storage-empty: '&7보관함에 수령할 아이템이 없습니다.'
 capacity:
   base: 9
   step: 9
@@ -120,8 +151,12 @@ discord:
   on-register: true
   on-purchase: true
   daily-summary-enabled: true
-  daily-summary-header: '📊 유저상점 일일 판매 요약 ({date})'
-  daily-summary-line: '- {item} | 평균 {avg}원 (최저 {min}, 최고 {max}, 거래 {trades}회, 판매수량 {amount}개)'
+  daily-summary-header: 📊 유저상점 일일 판매 요약 ({date})
+  daily-summary-line: '- {item} | 평균 {avg}원 (최저 {min}, 최고 {max}, 거래 {trades}회, 판매수량
+    {amount}개)'
+  messages:
+    register: '📦 등록: **{seller}** — {item} x{amount} | 가격: {price}'
+    purchase: '💰 구매: **{buyer}** — {item} x{amount} | 지불: {paid} | 판매자: {seller}'
 expansion-ticket:
   material: PAPER
   name: '&a유저상점 확장권'
@@ -139,3 +174,7 @@ favorites:
   title: '&e[관심 상품 등록]'
   subtitle: '&f{item} &7새 상품이 상점에 등록되었습니다!'
   message: '&e[유저상점] &f{item} &7이(가) 당신의 &d관심 상품&7 키워드에 해당하는 새 상품입니다!'
+auto-reprice:
+  enabled: true
+  max-multiplier: 1.5
+  step-percent: 5.0

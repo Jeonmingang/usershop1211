@@ -447,6 +447,25 @@ buyer.sendMessage(Main.getInstance().msg("purchase-success")
             for (java.util.Map.Entry<Integer, com.minkang.ultimate.usershop.model.Listing> e : map.entrySet()) {
                 com.minkang.ultimate.usershop.model.Listing listing = e.getValue();
                 if (now - listing.getCreatedAt() >= ttl) {
+                    // === 자동 재가격(오토 리프라이싱) ===
+                    boolean autoRepriceEnabled = cfg.getBoolean("auto-reprice.enabled", false);
+                    double maxMultiplier = cfg.getDouble("auto-reprice.max-multiplier", 1.5D);
+                    double stepPercent = cfg.getDouble("auto-reprice.step-percent", 5.0D);
+                    if (autoRepriceEnabled && listing.getPrice() > 0) {
+                        PriceStats stats = computePriceStats(listing.getItem());
+                        if (stats != null && stats.count > 0 && stats.avg > 0) {
+                            double limit = stats.avg * maxMultiplier;
+                            double current = listing.getPrice();
+                            if (current > limit) {
+                                double factor = 1.0D - (stepPercent / 100.0D);
+                                if (factor < 0.0D) factor = 0.0D;
+                                double newPrice = current * factor;
+                                if (newPrice < 0.01D) newPrice = 0.01D;
+                                listing.setPrice(newPrice);
+                            }
+                        }
+                    }
+
                     if (autoEnabled && listing.getStock() > 0 &&
                             (maxCycles <= 0 || listing.getRelistCount() < maxCycles)) {
                         // 자동 재등록: 시간 리셋 + 가격 조정
