@@ -15,6 +15,7 @@ import org.bukkit.inventory.ItemStack;
 import java.io.File;
 import java.io.IOException;
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.time.ZoneId;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
@@ -48,6 +49,8 @@ private final Map<UUID, PlayerShop> shops = new ConcurrentHashMap<>();
     private final ZoneId salesZoneId = ZoneId.systemDefault();
     private LocalDate salesDate = LocalDate.now(salesZoneId);
     private LocalDate lastSummaryDate = null;
+    // 18시 요약이 이미 전송된 날짜 (하루 한 번만 전송)
+    private LocalDate lastEveningSummaryDate = null;
 
     public ShopManager(Main plugin) {
         this.plugin = plugin;
@@ -562,6 +565,7 @@ buyer.sendMessage(Main.getInstance().msg("purchase-success")
                 displayName = "알 수 없는 아이템";
             }
             LocalDate now = LocalDate.now(salesZoneId);
+            LocalTime nowTime = LocalTime.now(salesZoneId);
             // 날짜가 바뀌었으면 이전 날짜 요약을 한 번 보내고 초기화
             if (!now.equals(salesDate)) {
                 if (lastSummaryDate == null || !lastSummaryDate.equals(salesDate)) {
@@ -569,6 +573,15 @@ buyer.sendMessage(Main.getInstance().msg("purchase-success")
                 }
                 dailySales.clear();
                 salesDate = now;
+                // 새로운 날짜가 시작되면 18시 요약 플래그도 초기화
+                lastEveningSummaryDate = null;
+            }
+            // 18시 이후 첫 거래에 한 번 더 요약 전송
+            if (nowTime.getHour() >= 18) {
+                if (lastEveningSummaryDate == null || !lastEveningSummaryDate.equals(now)) {
+                    sendDailySalesSummaryInternal(now);
+                    lastEveningSummaryDate = now;
+                }
             }
             String key = ItemUtils.normalize(displayName);
             DailySaleStats stats = dailySales.get(key);
@@ -609,11 +622,11 @@ buyer.sendMessage(Main.getInstance().msg("purchase-success")
             }
             String headerTmpl = plugin.getConfig().getString(
                     "discord.daily-summary-header",
-                    "📊 유저상점 일일 판매 요약 ({date})"
+                    "📊 유저상점 아이템 평균 시세 요약 ({date})"
             );
             String lineTmpl = plugin.getConfig().getString(
                     "discord.daily-summary-line",
-                    "- {item} | 평균 {avg}원 (최저 {min}, 최고 {max}, 거래 {trades}회, 판매수량 {amount}개)"
+                    "- {item} | 오늘 평균 시세 {avg}원 (최저 {min}, 최고 {max}, 거래 {trades}회, 판매수량 {amount}개)"
             );
             StringBuilder sb = new StringBuilder();
             sb.append(headerTmpl.replace("{date}", date.toString()));

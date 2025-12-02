@@ -151,8 +151,8 @@ discord:
   on-register: true
   on-purchase: true
   daily-summary-enabled: true
-  daily-summary-header: 📊 유저상점 일일 판매 요약 ({date})
-  daily-summary-line: '- {item} | 평균 {avg}원 (최저 {min}, 최고 {max}, 거래 {trades}회, 판매수량
+  daily-summary-header: 📊 유저상점 아이템 평균 시세 요약 ({date})
+  daily-summary-line: '- {item} | 오늘 평균 시세 {avg}원 (최저 {min}, 최고 {max}, 거래 {trades}회, 판매수량
     {amount}개)'
   messages:
     register: '📦 등록: **{seller}** — {item} x{amount} | 가격: {price}'
