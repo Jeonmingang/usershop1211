@@ -3,6 +3,7 @@ package com.minkang.ultimate.usershop.gui;
 import com.minkang.ultimate.usershop.Main;
 import com.minkang.ultimate.usershop.util.ItemUtils;
 import org.bukkit.Bukkit;
+import org.bukkit.Sound;
 import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.Inventory;
@@ -18,6 +19,13 @@ public class StorageGUI implements InventoryHolder {
     private final Player viewer;
     private Inventory inv;
     private static final int COLLECT_SLOT = 49;
+
+
+    private void playClick(float pitch) {
+        try {
+            viewer.playSound(viewer.getLocation(), Sound.UI_BUTTON_CLICK, 1.0f, pitch);
+        } catch (Throwable ignored) {}
+    }
 
     public StorageGUI(Main plugin, Player viewer) {
         this.plugin = plugin;
@@ -48,8 +56,13 @@ public class StorageGUI implements InventoryHolder {
             lore.add(Main.color("&7보관함의 아이템을 인벤토리로 받습니다."));
             lore.add(Main.color("&7보관함에 남은 아이템: &f" + items.size() + "개"));
             im.setLore(lore);
+            // 수령 버튼 반짝이 효과
+            im.addItemFlags(org.bukkit.inventory.ItemFlag.HIDE_ENCHANTS);
             btn.setItemMeta(im);
         }
+        try {
+            btn.addUnsafeEnchantment(org.bukkit.enchantments.Enchantment.UNBREAKING, 1);
+        } catch (Throwable ignored) {}
         inv.setItem(COLLECT_SLOT, btn);
     }
 
@@ -64,6 +77,7 @@ public class StorageGUI implements InventoryHolder {
 
         // only handle collect button; block taking individual items
         if (raw == COLLECT_SLOT) {
+            playClick(1.0f);
             java.util.List<ItemStack> items = new java.util.ArrayList<>(plugin.getShopManager().getStorage(viewer.getUniqueId()));
             if (items.isEmpty()) {
                 viewer.sendMessage(Main.getInstance().msg("storage-empty"));

@@ -111,7 +111,7 @@ public class UserShopCommand implements CommandExecutor {
             }
             // 반짝이 효과를 위한 인챈트 하나 추가
             try {
-                inHand.addUnsafeEnchantment(org.bukkit.enchantments.Enchantment.DURABILITY, 1);
+                inHand.addUnsafeEnchantment(org.bukkit.enchantments.Enchantment.UNBREAKING, 1);
             } catch (Throwable ignored) {
             }
 

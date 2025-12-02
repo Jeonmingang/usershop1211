@@ -15,6 +15,9 @@ import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.InventoryHolder;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
+import org.bukkit.Sound;
+import org.bukkit.inventory.ItemFlag;
+import org.bukkit.enchantments.Enchantment;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -65,6 +68,13 @@ public class MainShopsGUI implements InventoryHolder {
         NORMAL_ONLY
     }
 
+
+    private void playClick(float pitch) {
+        try {
+            viewer.playSound(viewer.getLocation(), Sound.UI_BUTTON_CLICK, 1.0f, pitch);
+        } catch (Throwable ignored) {}
+    }
+
     public MainShopsGUI(Main plugin, Player viewer) {
         this.plugin = plugin;
         this.viewer = viewer;
@@ -107,8 +117,13 @@ public class MainShopsGUI implements InventoryHolder {
             lore.add(Main.color("&7현재: &f" + getSortLabel()));
             lore.add(Main.color("&7클릭 시 정렬 순서를 변경합니다."));
             meta.setLore(lore);
+            // 반짝이 효과 (항상 표시)
+            meta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
             it.setItemMeta(meta);
         }
+        try {
+            it.addUnsafeEnchantment(Enchantment.UNBREAKING, 1);
+        } catch (Throwable ignored) {}
         return it;
     }
 
@@ -131,7 +146,16 @@ public class MainShopsGUI implements InventoryHolder {
             lore.add(Main.color("&7현재: &f" + getFilterLabel()));
             lore.add(Main.color("&7클릭 시 포켓몬/일반 아이템을 전환합니다."));
             meta.setLore(lore);
+            if (filterMode != FilterMode.ALL) {
+                // 필터가 활성화된 상태일 때만 반짝이
+                meta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
+            }
             it.setItemMeta(meta);
+        }
+        if (filterMode != FilterMode.ALL) {
+            try {
+                it.addUnsafeEnchantment(Enchantment.UNBREAKING, 1);
+            } catch (Throwable ignored) {}
         }
         return it;
     }
@@ -154,7 +178,16 @@ public class MainShopsGUI implements InventoryHolder {
             lore.add(Main.color("&7현재: &f" + getGroupLabel()));
             lore.add(Main.color("&7클릭 시 같은 아이템을 하나로 묶어 보여줍니다."));
             meta.setLore(lore);
+            if (groupSameItems) {
+                // 묶기 기능이 켜져 있을 때만 반짝이
+                meta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
+            }
             it.setItemMeta(meta);
+        }
+        if (groupSameItems) {
+            try {
+                it.addUnsafeEnchantment(Enchantment.UNBREAKING, 1);
+            } catch (Throwable ignored) {}
         }
         return it;
     }
@@ -378,11 +411,13 @@ public class MainShopsGUI implements InventoryHolder {
             if (!groupSameItems) {
                 if (index >= refs.size()) return;
                 Ref r = refs.get(index);
+                playClick(1.1f);
                 new PlayerShopGUI(plugin, viewer, r.owner).open(0);
                 return;
             } else {
                 if (index >= groupRefs.size()) return;
                 GroupRef g = groupRefs.get(index);
+                playClick(1.05f);
                 viewer.closeInventory();
                 viewer.sendMessage(Main.color("&e[유저상점] &f'" + g.displayName + "' &7검색 결과를 엽니다."));
                 new SearchResultsGUI(plugin, viewer, g.displayName).open(0);
@@ -391,16 +426,21 @@ public class MainShopsGUI implements InventoryHolder {
         }
 
         if (raw == prevSlot) {
+            playClick(0.9f);
             open(Math.max(0, page - 1));
         } else if (raw == searchSlot) {
+            playClick(1.0f);
             viewer.closeInventory();
             viewer.sendMessage(plugin.msg("search-type"));
             plugin.getShopManager().setWaitingSearch(viewer.getUniqueId(), true);
         } else if (raw == nextSlot) {
+            playClick(1.0f);
             open(page + 1);
         } else if (raw == mySlot) {
+            playClick(1.05f);
             new PlayerShopGUI(plugin, viewer, viewer.getUniqueId()).open(0);
         } else if (raw == sortSlot) {
+            playClick(1.1f);
             switch (sortMode) {
                 case NEWEST:
                     sortMode = SortMode.PRICE_ASC;
@@ -418,6 +458,7 @@ public class MainShopsGUI implements InventoryHolder {
             }
             open(0);
         } else if (raw == filterSlot) {
+            playClick(1.1f);
             switch (filterMode) {
                 case ALL:
                     filterMode = FilterMode.POKEMON_ONLY;
@@ -432,6 +473,7 @@ public class MainShopsGUI implements InventoryHolder {
             }
             open(0);
         } else if (raw == groupSlot) {
+            playClick(1.15f);
             groupSameItems = !groupSameItems;
             open(0);
         }

@@ -11,6 +11,7 @@ import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.InventoryHolder;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.Sound;
 import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.ArrayList;
@@ -31,6 +32,13 @@ public class SearchResultsGUI implements InventoryHolder {
         public UUID owner;
         public int slot;
         public Listing listing;
+    }
+
+
+    private void playClick(float pitch) {
+        try {
+            viewer.playSound(viewer.getLocation(), Sound.UI_BUTTON_CLICK, 1.0f, pitch);
+        } catch (Throwable ignored) {}
     }
 
     public SearchResultsGUI(Main plugin, Player viewer, String query) {
@@ -163,10 +171,12 @@ public class SearchResultsGUI implements InventoryHolder {
         int prevSlot = plugin.getConfig().getInt("settings.icons.prev.slot",45);
         int nextSlot = plugin.getConfig().getInt("settings.icons.next.slot",53);
         if (raw == prevSlot) {
+            playClick(0.9f);
             open(Math.max(0, page - 1));
             return;
         }
         if (raw == nextSlot) {
+            playClick(1.0f);
             open(page + 1);
             return;
         }
@@ -174,6 +184,7 @@ public class SearchResultsGUI implements InventoryHolder {
         if (index >= results.size()) return;
         Result r = results.get(index);
         // open that player's shop directly
+        playClick(1.1f);
         new PlayerShopGUI(plugin, viewer, r.owner).open(0);
     }
 }
