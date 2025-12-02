@@ -462,6 +462,7 @@ buyer.sendMessage(Main.getInstance().msg("purchase-success")
                 save(ps);
             }
         }
+    }
     
 
     // === 전국 평균 시세 계산용 DTO ===
