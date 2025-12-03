@@ -73,7 +73,13 @@ public class ItemUtils {
     private static void loadAliasesFile(Main plugin, String fileName) {
         java.io.File f = new java.io.File(plugin.getDataFolder(), fileName);
         if (!f.exists()) return;
-        org.bukkit.configuration.file.YamlConfiguration y = org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(f);
+        org.bukkit.configuration.file.YamlConfiguration y;
+        try {
+            y = org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(f);
+        } catch (Exception ex) {
+            plugin.getLogger().warning("[UltimateUserShop] Failed to load aliases file " + fileName + ": " + ex.getMessage());
+            return;
+        }
         ConfigurationSection aliases = y.getConfigurationSection("aliases");
         if (aliases == null) return;
 
@@ -92,6 +98,7 @@ public class ItemUtils {
             }
         }
     }
+
 
     /**
      * 원래 이름을 받아서 translations 맵을 이용해 한글 이름으로 치환한다.
