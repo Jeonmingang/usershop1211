@@ -95,6 +95,11 @@ public class SearchResultsGUI implements InventoryHolder {
                         }
                     }
                 }
+                // also append pretty translated name so that Korean aliases are searchable
+                String prettyName = ItemUtils.getPrettyName(stack);
+                if (prettyName != null && !prettyName.isEmpty()) {
+                    sb.append(" ").append(prettyName);
+                }
                 String norm = ItemUtils.normalize(sb.toString());
                 if (needles.stream().anyMatch(n -> norm.contains(n) || n.contains(norm))) {
                     Result r = new Result();
